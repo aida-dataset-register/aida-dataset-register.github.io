@@ -16,6 +16,11 @@ The [AIDA data hub](https://medtech4health.se/aida/datahub/) is a place where
 researchers can collaboratively gather, annotate, share and enrich large volumes
 of research data for machine learning in medical imaging diagnostics.
 
+Links:
+
+* Website: [https://aida-dataset-register.github.io/](https://aida-dataset-register.github.io/).
+* Source code: [https://github.com/aida-dataset-register/aida-dataset-register.github.io](https://github.com/aida-dataset-register/aida-dataset-register.github.io).
+
 ## Adding dataset descriptions
 
 Datasets are added here: `[_datasets/10.23698/aida/](_datasets/10.23698/aida/)`.
@@ -35,9 +40,6 @@ datset list on the frontpage.
 # Acknowledements
 
 This site uses [GitHub pages](https://pages.github.com/).
-
-* Website: [https://aida-doi-repository.github.io/](https://aida-doi-repository.github.io/).
-* Source code: [https://github.com/aida-doi-repository/aida-doi-repository.github.io](https://github.com/aida-doi-repository/aida-doi-repository.github.io).
 
 AIDA issues [DataCite](https://datacite.org) DOIs using a prefix provided by the
 Swedish National Data Service ([SND](https://snd.gu.se/)).
