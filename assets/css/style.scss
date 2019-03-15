@@ -1,0 +1,89 @@
+---
+---
+// - All pages ----------------------------------------------------------------
+@import "{{ site.theme }}";
+.page-header {
+  background-color: #003f72;
+  background-image: url(https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg);
+  background-size: 200%;
+  background-position-y: center;
+}
+.project-tagline {
+    opacity: 0.9;
+}
+.page-header a {
+  color: inherit;
+  font-weight: bold;
+}
+
+.anchorjs-link {
+  color: #157878;
+}
+.anchorjs-link:hover {
+  text-decoration: none;
+}
+
+// - Frontpage ----------------------------------------------------------------
+.dataset-table table td,
+.dataset-table table th {
+  border: none;
+  vertical-align: top;
+}
+.dataset-table td:first-child {
+  text-align: center;
+}
+.dataset-table img {
+  max-height: 6em;
+}
+.dataset-table a.doi {
+  font-size: 1rem;
+  color: #606c71;
+}
+
+// - Dataset page -------------------------------------------------------------
+#example-images {
+  padding-left: 0;
+}
+#example-images:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+#example-images > li {
+    border: 1px solid transparent;
+    float: left;
+    height: calc(100% / 5);
+    margin: 0 -1px -1px 0;
+    overflow: hidden;
+    width: calc(100% / 5);
+}
+#example-images > li > img {
+  cursor: zoom-in;
+}
+.viewer-title {
+  padding-bottom: 5px; // FIXME: This is a workaround for viewerjs cropping the bottoms of letters sticking down.
+  color: white; // Readability
+  text-shadow: 0px 0px 3px black; // Readability
+  font-size: 15px;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.info-box th {
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: top;
+}
+.info-box ol.references {
+    counter-reset: list;
+    padding-left: 0;
+}
+.info-box ol.references > li {
+    list-style: none;
+}
+.info-box ol.references > li:before {
+    content: "[" counter(list) "] ";
+    counter-increment: list;
+}

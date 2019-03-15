@@ -1,0 +1,17 @@
+title: AIDA dataset register
+description: Information on datasets shared on the AIDA data hub
+
+theme: jekyll-theme-cayman
+
+collections:
+  datasets:
+    output: true
+    layout: dataset.html
+    permalink: /10.23698/aida/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "datasets"
+    values:
+      layout: dataset
