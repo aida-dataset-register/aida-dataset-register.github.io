@@ -23,12 +23,12 @@ Links:
 
 ## Adding dataset descriptions
 
-Datasets are added here: `[_datasets/10.23698/aida/](_datasets/10.23698/aida/)`.
+Datasets are added here: [`_datasets/10.23698/aida/`](_datasets/10.23698/aida/).
 Copy a dataset description similar to yours and edit to fit.
 
 ### Example Images
 
-Images are added here: `[assets/images/10.23698/aida/<projectid>/](assets/images/10.23698/aida/)`.
+Images are added here: [`assets/images/10.23698/aida/<projectid>/`](assets/images/10.23698/aida/).
 
 Please save a visually pleasing version of each example image at least 1000px
 wide, and a small  version cropped to 4:3 aspect ration and resized to exactly
