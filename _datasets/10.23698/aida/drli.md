@@ -50,7 +50,7 @@ datacite:
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
-  keywords: "radiology, whole slide imaging, annotated"
+  keywords: "Radiology, Liver, Cancer, Computed tomography, Annotated"
   version: "1.0"
   description: |
     77 CT abdomen (computed tomography) examinations taken with contrast in

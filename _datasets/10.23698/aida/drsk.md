@@ -47,7 +47,7 @@ datacite:
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
-  keywords: "pathology, skin, whole slide imaging, annotated"
+  keywords: "Pathology, Skin, Cancer, Whole slide imaging, Annotated"
   version: "1.0"
   description: |
     99 skin WSI (whole slide images): 49 abnormal cases and 50 normal benign.

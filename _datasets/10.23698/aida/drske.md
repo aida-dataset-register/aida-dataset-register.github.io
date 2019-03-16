@@ -57,7 +57,7 @@ datacite:
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
-  keywords: "bone metastasis, radiology, annotated"
+  keywords: "Radiology, Bone, Cancer, Metastasis, Computed tomography, Annotated"
   version: "1.0"
   description: |
     36 radiology cases showing lytic and lytic/sclerotic (blastic) metastases

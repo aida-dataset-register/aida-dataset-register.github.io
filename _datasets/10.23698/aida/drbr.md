@@ -57,7 +57,7 @@ datacite:
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
-  keywords: "pathology, whole slide imaging, annotated"
+  keywords: "Pathology, Breast, Cancer, Whole slide imaging, Annotated"
   version: "1.0"
   description: |
     This dataset consists of 337 whole slide images (WSI) - 272 malignant from

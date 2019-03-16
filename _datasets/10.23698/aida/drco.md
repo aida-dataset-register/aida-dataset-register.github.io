@@ -62,7 +62,7 @@ datacite:
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
-  keywords: "pathology, whole slide imaging, annotated"
+  keywords: "Pathology, Colon, Whole slide imaging, Annotated"
   version: "1.0"
   description: |
     The dataset consist of 101 colon whole slide images (WSI): 52 abnormal and
