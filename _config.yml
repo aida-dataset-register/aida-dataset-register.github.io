@@ -7,7 +7,7 @@ collections:
   datasets:
     output: true
     layout: dataset.html
-    permalink: /10.23698/aida/:title
+    permalink: :path
 
 defaults:
   - scope:

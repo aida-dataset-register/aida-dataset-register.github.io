@@ -34,7 +34,7 @@ phase within June 2019.*
         <td><a href="{{ d.url }}"><img src="{{ d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>
         <td>
           <a href="{{ d.url }}">{{ d.datacite.name }}</a><br/>
-          <a href="https://doi.org/{{ d.title }}" class="doi">doi:{{ d.title }}</a>
+          <a href="{{ d.datacite["@id"] }}" class="doi">doi:{{ d.datacite["@id"] | remove: "https://doi.org/" }}</a>
         </td>
         <td>{{ d.datacite.publicationYear }}</td>
       </tr>

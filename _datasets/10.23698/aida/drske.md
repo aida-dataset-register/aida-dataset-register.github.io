@@ -1,5 +1,4 @@
 ---
-title: "10.23698/aida/drske"
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
