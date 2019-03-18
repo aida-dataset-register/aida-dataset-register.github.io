@@ -98,7 +98,6 @@ other:
     and transverse colon.
   ethicsApproval: |
     The data collection and sharing is ethical approved.
-  license: "#license"
   download:
     links:
       - text: ""

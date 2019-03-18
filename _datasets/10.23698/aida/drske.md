@@ -79,7 +79,6 @@ other:
     annotations were confirmed by a second radiologist.
   ethicsApproval: |
     The data collection and sharing is ethical approved.
-  license: "#license"
   download:
     links:
       - text: ""

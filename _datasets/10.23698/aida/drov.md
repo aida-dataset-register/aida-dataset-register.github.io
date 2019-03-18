@@ -96,7 +96,6 @@ other:
     were annotated.
   ethicsApproval: |
     The data collection and sharing is ethical approved.
-  license: "#license"
   download:
     links:
       - text: ""
