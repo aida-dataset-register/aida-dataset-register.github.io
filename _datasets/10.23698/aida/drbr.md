@@ -68,6 +68,7 @@ datacite:
   license:
     - name: "Restricted access"
       url: "#license"
+      "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
