@@ -18,17 +18,17 @@ of research data for machine learning in medical imaging diagnostics.
 
 Links:
 
-* Website: [https://aida-dataset-register.github.io/](https://aida-dataset-register.github.io/).
+* Website: [https://datasets.aida.medtech4health.se/](https://datasets.aida.medtech4health.se/).
 * Source code: [https://github.com/aida-dataset-register/aida-dataset-register.github.io](https://github.com/aida-dataset-register/aida-dataset-register.github.io).
 
 ## Adding dataset descriptions
 
-Datasets are added here: [`_datasets/10.23698/aida/`](_datasets/10.23698/aida/).
+Datasets are added here: [`_datasets/10.23698/aida/`](https://github.com/aida-dataset-register/aida-dataset-register.github.io/tree/master/_datasets/10.23698/aida).
 Copy a dataset description similar to yours and edit to fit.
 
 ### Example Images
 
-Images are added here: [`assets/images/10.23698/aida/<projectid>/`](assets/images/10.23698/aida/).
+Images are added here: [`assets/images/10.23698/aida/<projectid>/`](https://github.com/aida-dataset-register/aida-dataset-register.github.io/tree/master/assets/images/10.23698/aida/).
 
 Please save a visually pleasing version of each example image at least 1000px
 wide, and a small  version cropped to 4:3 aspect ratio and resized to exactly

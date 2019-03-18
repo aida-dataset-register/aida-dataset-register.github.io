@@ -1,6 +1,8 @@
 ---
 image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg"
 ---
+**This site is under development. Do not expect information you find here to be accurate.**
+
 Analytic Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) is a
 Swedish arena for research and innovation on artificial intelligence, AI, for
 medical image analysis. Here, academia, healthcare and industry meet to
