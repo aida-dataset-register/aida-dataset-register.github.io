@@ -39,7 +39,7 @@ phase within June 2019.*
           <span class="keywords">Keywords: {{ d.datacite.keywords }}.</span><br/>
           <a href="{{ d.datacite["@id"] }}" class="doi">doi:{{ d.datacite["@id"] | remove: "https://doi.org/" }}</a>
         </td>
-        <td>{{ d.datacite.publicationYear }}</td>
+        <td>{{ page.datacite.datePublished | date: "%Y" }}</td>
       </tr>
     {% endfor %}
   </table>

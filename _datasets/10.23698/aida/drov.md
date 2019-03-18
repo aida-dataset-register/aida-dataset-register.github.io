@@ -4,7 +4,6 @@ datacite:
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/drov"
   name: "Ovary data from the Visual Sweden project DROID"
-  publicationYear: 2019
   about: "Pathology"
   url: "https://doi.aida.medtech4health.se/10.23698/aida/drov"
   author:
@@ -73,9 +72,9 @@ datacite:
     normal ovarian tissue were annotated. 11258 separate annotations were made.
     For the benign structures only the epithelial structures, stroma and support
     tissue were annotated.
-  rightsList:
-    - rights: "Restricted access"
-      rightsUri: "#license"
+  license:
+    - name: "Restricted access"
+      url: "#license"
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -116,21 +115,23 @@ other:
   stain: "H&E (hematoxylin and eosin)"
   phase:
   exampleImage:
-  - title: "Overview of whole slide imaging."
-    url: "/assets/images/10.23698/aida/drov/wsi.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drov/wsi-thumbnail.jpeg"
-  - title: "Overview of annotations."
-    url: "/assets/images/10.23698/aida/drov/annotations.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drov/annotations-thumbnail.jpeg"
-  - title: "Detail view of annotations."
-    url: "/assets/images/10.23698/aida/drov/detail.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drov/detail-thumbnail.jpeg"
-  - title: "To-scale view of pixel resolution in original whole slide imaging data."
-    url: "/assets/images/10.23698/aida/drov/to-scale.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drov/to-scale-thumbnail.jpeg"
+    - title: "Overview of whole slide imaging."
+      url: "/assets/images/10.23698/aida/drov/wsi.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drov/wsi-thumbnail.jpeg"
+    - title: "Overview of annotations."
+      url: "/assets/images/10.23698/aida/drov/annotations.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drov/annotations-thumbnail.jpeg"
+    - title: "Detail view of annotations."
+      url: "/assets/images/10.23698/aida/drov/detail.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drov/detail-thumbnail.jpeg"
+    - title: "To-scale view of pixel resolution in original whole slide imaging data."
+      url: "/assets/images/10.23698/aida/drov/to-scale.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drov/to-scale-thumbnail.jpeg"
 ---
 ## License
-Copyright {{ page.datacite.copyrightYear }} {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
+Copyright
+{{ page.datacite.copyrightYear }}
+{{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute this data within Analytic
 Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for any
@@ -138,7 +139,10 @@ purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies, and that publications
 resulting from the use of this data cite the following works:
 
-{{ page.datacite.author | map: "name" | array_to_sentence_string }} ({{ page.datacite.publicationYear }}) {{ page.datacite.name }} [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{{ page.datacite.author | map: "name" | array_to_sentence_string }}
+({{ page.datacite.datePublished | date: "%Y" }})
+{{ page.datacite.name }}
+[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN

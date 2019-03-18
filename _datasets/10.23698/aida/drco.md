@@ -4,7 +4,6 @@ datacite:
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/drco"
   name: "Colon data from the Visual Sweden project DROID"
-  publicationYear: 2019
   about: "Pathology"
   url: "https://doi.aida.medtech4health.se/10.23698/aida/drco"
   author:
@@ -67,9 +66,9 @@ datacite:
   description: |
     The dataset consist of 101 colon whole slide images (WSI): 52 abnormal and
     49 benign.
-  rightsList:
-    - rights: "Restricted access"
-      rightsUri: "#license"
+  license:
+    - name: "Restricted access"
+      url: "#license"
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -118,24 +117,26 @@ other:
   stain: "H&E (hematoxylin and eosin)"
   phase:
   exampleImage:
-  - title: "Overview of whole slide imaging."
-    url: "/assets/images/10.23698/aida/drco/wsi.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drco/wsi-thumbnail.jpeg"
-  - title: "Overview of annotations."
-    url: "/assets/images/10.23698/aida/drco/annotations.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drco/annotations-thumbnail.jpeg"
-  - title: "Overview of carcinoma whole slide imaging."
-    url: "/assets/images/10.23698/aida/drco/carcinoma.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drco/carcinoma-thumbnail.jpeg"
-  - title: "Overview of carcinoma annotations."
-    url: "/assets/images/10.23698/aida/drco/carcinoma-annotations.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drco/carcinoma-annotations-thumbnail.jpeg"
-  - title: "To-scale view of pixel resolution in original whole slide imaging data."
-    url: "/assets/images/10.23698/aida/drco/to-scale.jpeg"
-    thumbnail-url: "/assets/images/10.23698/aida/drco/to-scale-thumbnail.jpeg"
+    - title: "Overview of whole slide imaging."
+      url: "/assets/images/10.23698/aida/drco/wsi.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drco/wsi-thumbnail.jpeg"
+    - title: "Overview of annotations."
+      url: "/assets/images/10.23698/aida/drco/annotations.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drco/annotations-thumbnail.jpeg"
+    - title: "Overview of carcinoma whole slide imaging."
+      url: "/assets/images/10.23698/aida/drco/carcinoma.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drco/carcinoma-thumbnail.jpeg"
+    - title: "Overview of carcinoma annotations."
+      url: "/assets/images/10.23698/aida/drco/carcinoma-annotations.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drco/carcinoma-annotations-thumbnail.jpeg"
+    - title: "To-scale view of pixel resolution in original whole slide imaging data."
+      url: "/assets/images/10.23698/aida/drco/to-scale.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/drco/to-scale-thumbnail.jpeg"
 ---
 ## License
-Copyright {{ page.datacite.copyrightYear }} {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
+Copyright
+{{ page.datacite.copyrightYear }}
+{{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute this data within Analytic
 Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for any
@@ -143,7 +144,10 @@ purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies, and that publications
 resulting from the use of this data cite the following works:
 
-{{ page.datacite.author | map: "name" | array_to_sentence_string }} ({{ page.datacite.publicationYear }}) {{ page.datacite.name }} [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{{ page.datacite.author | map: "name" | array_to_sentence_string }}
+({{ page.datacite.datePublished | date: "%Y" }})
+{{ page.datacite.name }}
+[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN

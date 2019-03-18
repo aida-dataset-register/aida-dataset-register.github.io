@@ -96,7 +96,7 @@
           </tr>
           <tr>
             <th>Year</th>
-            <td>{{ page.datacite.publicationYear }}</td>
+            <td>{{ page.datacite.datePublished | date: "%Y" }}</td>
           </tr>
           <tr>
             <th>DOI</th>
@@ -153,8 +153,8 @@
           <tr>
             <th>Access <br/> constraints</th>
             <td>
-              {% for rights in page.datacite.rightsList %}
-                <a href="{{ rights.rightsURI }}">{{ rights.rights }}</a>
+              {% for rights in page.datacite.license %}
+                <a href="{{ rights.url }}">{{ rights.name }}</a><br/>
               {% endfor %}
             </td>
           </tr>

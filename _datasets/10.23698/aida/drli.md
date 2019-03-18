@@ -4,7 +4,6 @@ datacite:
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/drli"
   name: "Liver data from the Visual Sweden project DROID"
-  publicationYear: 2019
   about: "Pathology"
   url: "https://doi.aida.medtech4health.se/10.23698/aida/drli"
   author:
@@ -59,9 +58,9 @@ datacite:
     experienced radiologist. All changes with a diameter greater than 5mm were
     segmented and assumed metastases (cysts excluded as defined by HU). 317
     lesions were annotated.
-  rightsList:
-    - rights: "Restricted access"
-      rightsURI: "#license"
+  license:
+    - name: "Restricted access"
+      url: "#license"
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -101,7 +100,9 @@ other:
       thumbnail-url: "/assets/images/10.23698/aida/drli/slice-thumbnail.jpeg"
 ---
 ## License
-Copyright {{ page.datacite.copyrightYear }} {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
+Copyright
+{{ page.datacite.copyrightYear }}
+{{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute this data within Analytic
 Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for any
@@ -109,7 +110,10 @@ purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies, and that publications
 resulting from the use of this data cite the following works:
 
-{{ page.datacite.author | map: "name" | array_to_sentence_string }} ({{ page.datacite.publicationYear }}) {{ page.datacite.name }} [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{{ page.datacite.author | map: "name" | array_to_sentence_string }}
+({{ page.datacite.datePublished | date: "%Y" }})
+{{ page.datacite.name }}
+[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
