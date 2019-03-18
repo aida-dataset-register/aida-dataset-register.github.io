@@ -60,7 +60,7 @@ datacite:
     lesions were annotated.
   license:
     - name: "Restricted access"
-      url: "#license"
+      url: "https://datasets.aida.medtech4health.se/10.23698/aida/drov#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"

@@ -67,7 +67,7 @@ datacite:
     structures connected to ontologies.
   license:
     - name: "Restricted access"
-      url: "#license"
+      url: "/10.23698/aida/drov#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"
