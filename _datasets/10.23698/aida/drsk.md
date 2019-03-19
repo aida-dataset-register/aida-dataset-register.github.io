@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/drsk"
   name: "Skin data from the Visual Sweden project DROID"
   about: "Pathology"
-  url: "https://doi.aida.medtech4health.se/10.23698/aida/drsk"
+  url: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk"
   author:
     - name: "Karin Lindman"
       "@id": "https://orcid.org/0000-0003-1298-517X"
@@ -24,9 +24,9 @@ datacite:
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - "@type": "Organization"
-      name: "Linköping University"
+    - name: "Linköping University"
       url: "https://liu.se/"
+      "@type": "Organization"
     - name: "Claes Lundström"
       "@id": "https://orcid.org/0000-0002-9368-0177"
       "@type": "Person"
@@ -52,7 +52,7 @@ datacite:
     99 skin WSI (whole slide images): 49 abnormal cases and 50 normal benign.
   license:
     - name: "Restricted access"
-      id: "#license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"

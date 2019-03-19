@@ -5,23 +5,17 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/drco"
   name: "Colon data from the Visual Sweden project DROID"
   about: "Pathology"
-  url: "https://doi.aida.medtech4health.se/10.23698/aida/drco"
+  url: "https://datasets.aida.medtech4health.se/10.23698/aida/drco"
   author:
     - name: "Karin Lindman"
       "@id": "https://orcid.org/0000-0003-1298-517X"
       "@type": "Person"
-      givenName: "Karin"
-      familyName: "Lindman"
     - name: "Martin Lindvall"
       "@id": "https://orcid.org/0000-0002-7014-8874"
       "@type": "Person"
-      givenName: "Martin"
-      familyName: "Lindvall"
     - name: "Caroline Bivik Stadler"
       "@id": "https://orcid.org/0000-0001-7250-234X"
       "@type": "Person"
-      givenName: "Caroline"
-      familyName: "Bivik Stadler"
     - name: "Claes Lundstrom"
       "@id": "https://orcid.org/0000-0002-9368-0177"
       "@type": "Person"
@@ -33,14 +27,12 @@ datacite:
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - "@type": "Organization"
-      name: "Linköping University"
+    - name: "Linköping University"
       url: "https://liu.se/"
+      "@type": "Organization"
     - name: "Claes Lundström"
       "@id": "https://orcid.org/0000-0002-9368-0177"
       "@type": "Person"
-      givenName: "Claes"
-      familyName: "Lundström"
   provider:
     - name: "Karin Lindman"
       email: "Karin.Lindman@regionostergotland.se"
@@ -68,7 +60,7 @@ datacite:
     49 benign.
   license:
     - name: "Restricted access"
-      id: "#license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drco#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"

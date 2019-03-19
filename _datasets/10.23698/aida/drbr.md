@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/drbr"
   name: "Breast data from the Visual Sweden project DROID"
   about: "Pathology"
-  url: "https://doi.aida.medtech4health.se/10.23698/aida/drbr"
+  url: "https://datasets.aida.medtech4health.se/10.23698/aida/drbr"
   author:
     - name: "Anna Bodén"
       "@id": "https://orcid.org/0000-0002-0128-870X"
@@ -25,8 +25,8 @@ datacite:
   copyrightYear: 2019
   copyrightHolder:
     - name: "Linköping University"
-      "@type": "Organization"
       url: "https://liu.se/"
+      "@type": "Organization"
     - name: "Claes Lundström"
       "@id": "https://orcid.org/0000-0002-9368-0177"
       "@type": "Person"
@@ -57,7 +57,7 @@ datacite:
     structures connected to ontologies.
   license:
     - name: "Restricted access"
-      id: "#license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drbr#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"

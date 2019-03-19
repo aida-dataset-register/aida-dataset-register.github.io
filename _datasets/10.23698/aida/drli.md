@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/drli"
   name: "Liver data from the Visual Sweden project DROID"
   about: "Pathology"
-  url: "https://doi.aida.medtech4health.se/10.23698/aida/drli"
+  url: "https://datasets.aida.medtech4health.se/10.23698/aida/drli"
   author:
     - name: "Mischa Woisetschläger"
       "@id": "https://orcid.org/0000-0003-0066-4985"
@@ -28,8 +28,8 @@ datacite:
   copyrightYear: 2019
   copyrightHolder:
     - name: "Linköping University"
-      "@type": "Organization"
       url: "https://liu.se/"
+      "@type": "Organization"
     - name: "Claes Lundström"
       "@id": "https://orcid.org/0000-0002-9368-0177"
       "@type": "Person"
@@ -60,7 +60,7 @@ datacite:
     lesions were annotated.
   license:
     - name: "Restricted access"
-      id: "#license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drli#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"
