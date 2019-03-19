@@ -154,7 +154,7 @@
             <th>Access <br/> constraints</th>
             <td>
               {% for rights in page.datacite.license %}
-                <a href="{{ rights["@id"] }}">{{ rights.name }}</a><br/>
+                <a href="{{ rights.id }}">{{ rights.name }}</a><br/>
               {% endfor %}
             </td>
           </tr>
