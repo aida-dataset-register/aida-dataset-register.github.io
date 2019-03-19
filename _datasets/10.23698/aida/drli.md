@@ -60,7 +60,7 @@ datacite:
     lesions were annotated.
   license:
     - name: "Restricted access"
-      url: "https://datasets.aida.medtech4health.se/10.23698/aida/drov#license"
+      id: "#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"
@@ -83,7 +83,7 @@ other:
     - name: "Liver"
       sctid: 10200004 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
-  bytes: # FIXME: Missing info.
+  bytes: 33800000000
   numberOfImages: 77
   numberOfAnnotations: 317
   resolution:

@@ -52,7 +52,7 @@ datacite:
     99 skin WSI (whole slide images): 49 abnormal cases and 50 normal benign.
   license:
     - name: "Restricted access"
-      url: "#license"
+      id: "#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"

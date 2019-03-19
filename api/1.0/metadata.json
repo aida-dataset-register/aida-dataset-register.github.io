@@ -1,11 +1,11 @@
 ---
 ---
 [
-{% for d in site.datasets %}
+{% for d in site.datasets %}{% capture expansion %}"id":"{{ page.url | absolute_url }}#license"{% endcapture %}
   {
     "datacite": {{ d.datacite | jsonify }},
     "other": {{ d.other | jsonify }},
-    "additional": {{ d.content | jsonify }}
+    "additional": {{ d.content | jsonify | replace: '"id":"#license"',expansion }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

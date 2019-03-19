@@ -74,7 +74,7 @@ datacite:
     tissue were annotated.
   license:
     - name: "Restricted access"
-      "@id": "#license"
+      id: "#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"

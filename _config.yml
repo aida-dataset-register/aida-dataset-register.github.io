@@ -2,6 +2,7 @@ title: AIDA dataset register
 description: Information on datasets shared on the AIDA data hub
 
 theme: jekyll-theme-cayman
+url: https://datasets.aida.medtech4health.se
 
 collections:
   datasets:

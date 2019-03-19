@@ -66,7 +66,7 @@ datacite:
     a second radiologist.
   license:
     - name: "Restricted access"
-      url: "#license"
+      id: "#license"
       "@type": "CreativeWork"
   citation:
     #- "@type": "CreativeWork"
@@ -87,7 +87,7 @@ other:
     - name: "Skeleton"
       sctid: 113192009
   age-span:
-  bytes: # FIXME: Missing info.
+  bytes: 14900000000
   numberOfImages: 36
   numberOfAnnotations:
   resolution:
