@@ -60,7 +60,7 @@
             <th>Cite as</th>
             <td>
               {{ page.datacite.author | map: "name" | array_to_sentence_string }}
-              ({{ page.datacite.publicationYear }})
+              ({{ page.datacite.datePublished | date: "%Y" }})
               {{ page.datacite.name}}
               <a href="{{ page.datacite["@id"] }}">doi:{{ doi }}</a>
             </td>
