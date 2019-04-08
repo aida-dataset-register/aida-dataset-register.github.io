@@ -4,7 +4,7 @@ datacite:
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/drli"
   name: "Liver data from the Visual Sweden project DROID"
-  about: "Pathology"
+  about: "Radiology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/drli"
   author:
     - name: "Mischa Woisetschläger"

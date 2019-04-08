@@ -4,7 +4,7 @@ datacite:
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/ctpa"
   name: "Computed Tomography Pulmonary Angiography (CTPA) data"
-  about: "Pathology"
+  about: "Radiology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/pem"
   author:
     - name: "Tobias Sjöblom"
@@ -86,7 +86,7 @@ other:
     - name: "Lung"
       sctid: 39607008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "45-93"
-  bytes: # FIXME: Missing data
+  bytes: 4500000000
   numberOfImages: 30
   numberOfAnnotations: 1283
   resolution:
