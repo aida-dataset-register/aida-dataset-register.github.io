@@ -31,7 +31,7 @@ phase within June 2019.*
   <table>
     {% for d in site.datasets %}
       <tr>
-        <td><a href="{{ d.url }}"><img src="{{ d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>
+        <td><a href="{{ d.url }}"><img src="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>
         <td>
           <a href="{{ d.url }}">{{ d.datacite.name }}</a><br/>
           <span class="keywords">Keywords: {{ d.datacite.keywords }}.</span><br/>

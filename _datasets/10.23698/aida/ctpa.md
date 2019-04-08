@@ -95,6 +95,7 @@ other:
     - "GE Lightspeed VCT"
   stain:
   phase: Contrast enhanced, pulmonary arterial phase
+  image: "/assets/images/10.23698/aida/drli/axial-ctpa-annotated-thumbnail.jpg"
   exampleImage:
     - title: "3D volume rendered image."
       url: "/assets/images/10.23698/aida/ctpa/3d.jpg"

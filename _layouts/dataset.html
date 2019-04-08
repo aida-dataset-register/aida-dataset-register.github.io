@@ -14,7 +14,7 @@
     <link rel="canonical" href="{{ page.url | absolute_url }}" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:image" content="{{ d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url | absolute_url }}" />
+    <meta property="og:image" content="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url | absolute_url }}" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="{{ page.datacite.datePublished }}" />
     <script type="application/ld+json">
