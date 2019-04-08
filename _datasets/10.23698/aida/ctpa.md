@@ -95,17 +95,17 @@ other:
     - "GE Lightspeed VCT"
   stain:
   phase: Contrast enhanced, pulmonary arterial phase
-  image: "/assets/images/10.23698/aida/drli/axial-ctpa-annotated-thumbnail.jpg"
+  image: "/assets/images/10.23698/aida/ctpa/axial-ctpa-annotated-thumbnail.jpg"
   exampleImage:
     - title: "3D volume rendered image."
       url: "/assets/images/10.23698/aida/ctpa/3d.jpg"
       thumbnail-url: "/assets/images/10.23698/aida/ctpa/3d-thumbnail.jpg"
     - title: "Axial CTPA image showing pulmonary emboli."
       url: "/assets/images/10.23698/aida/ctpa/axial-ctpa.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/drli/axial-ctpa-thumbnail.jpg"
+      thumbnail-url: "/assets/images/10.23698/aida/ctpa/axial-ctpa-thumbnail.jpg"
     - title: "Axial CTPA image with annotated pulmonary emboli."
       url: "/assets/images/10.23698/aida/ctpa/axial-ctpa-annotated.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/drli/axial-ctpa-annotated-thumbnail.jpg"
+      thumbnail-url: "/assets/images/10.23698/aida/ctpa/axial-ctpa-annotated-thumbnail.jpg"
 ---
 ## License
 Copyright
