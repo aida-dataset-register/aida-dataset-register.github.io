@@ -23,6 +23,24 @@
   text-decoration: none;
 }
 
+// Columns
+.columns {
+  display: flex;
+}
+.columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+// Text alignment
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
 // - Frontpage ----------------------------------------------------------------
 .dataset-table table td,
 .dataset-table table th {

@@ -5,7 +5,7 @@
   {
     "datacite": {{ d.datacite | jsonify }},
     "other": {{ d.other | jsonify }},
-    "additional": {{ d.content | jsonify | replace: '"id":"#license"',expansion }}
+    "additional": {{ d.content | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

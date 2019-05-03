@@ -13,7 +13,7 @@ The [AIDA data hub](https://medtech4health.se/aida/datahub/) is a place where
 researchers can collaboratively gather, annotate, share and enrich large volumes
 of research data for machine learning in medical imaging diagnostics. This site
 provides information on the datasets that have been shared on the AIDA data hub,
-and makes them findable and citeable using Digital Object identifiers
+and makes them findable and citeable using Digital Object Identifiers
 ([DOI](https://www.doi.org/)).
 
 {% assign total = 0 %}
@@ -42,6 +42,3 @@ phase within June 2019.*
     {% endfor %}
   </table>
 </div>
-
-The information on these datasets is also available in machine-readable form
-through an [api](api/).
