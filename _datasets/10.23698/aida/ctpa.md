@@ -5,7 +5,7 @@ datacite:
   "@id": "https://doi.org/10.23698/aida/ctpa"
   name: "Computed Tomography Pulmonary Angiography (CTPA) data"
   about: "Radiology"
-  url: "https://datasets.aida.medtech4health.se/10.23698/aida/pem"
+  url: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa"
   author:
     - name: "Tobias Sjöblom"
       "@id": "https://orcid.org/0000-0001-6668-4140"
