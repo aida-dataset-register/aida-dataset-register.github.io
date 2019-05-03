@@ -1,4 +1,5 @@
 ---
+hidden: true
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"

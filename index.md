@@ -17,7 +17,7 @@ and makes them findable and citeable using Digital Object Identifiers
 ([DOI](https://www.doi.org/)).
 
 {% assign total = 0 %}
-{% for d in site.datasets %}{% assign total = d.other.bytes | default: 0 | plus: total %}{% endfor %}
+{% for d in site.datasets %}{% if d.hidden %}{% continue  %}{% endif %}{% assign total = d.other.bytes | default: 0 | plus: total %}{% endfor %}
 Thus far <b>{% include human_friendly_filesize bytes=total %} </b> image data from radiology
 and pathology has been shared on the AIDA data hub.
 
@@ -30,6 +30,7 @@ phase within June 2019.*
 <div class="dataset-table">
   <table>
     {% for d in site.datasets %}
+      {% if d.hidden %}{% continue  %}{% endif %}
       <tr>
         <td><a href="{{ d.url }}"><img src="{{ d.other.image | default: d.other.exampleImage[0].thumbnail-url | default: d.other.exampleImage[0].url }}"></a></td>
         <td>
