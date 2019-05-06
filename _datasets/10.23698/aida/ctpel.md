@@ -40,7 +40,7 @@ datacite:
       "@type": "Person"
   dateCreated: "2019-05-03"
   datePublished: "2019-05-03"
-  dateModified: "2019-05-03"
+  dateModified: "2019-05-06"
   keywords: "Radiology, Annotated, Pelvis, CT, Computed tomography, Anatomical landmarks, Bone segmentation"
   version: "1.0"
   description: |
