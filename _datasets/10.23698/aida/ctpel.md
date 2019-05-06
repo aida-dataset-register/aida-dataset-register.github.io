@@ -1,5 +1,5 @@
 ---
-hidden: true
+hidden:
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -45,9 +45,11 @@ datacite:
   version: "1.0"
   description: |
     Segmentation masks and annotations of anatomical landmarks for pelvis bones
-    for 90 segmented Computed Tomography (CT) cases extracted from the “CT Lymph
-    nodes” and “CT Colonography” collections from the The Cancer Imaging Archive
-    (TCIA).
+    for 90 segmented Computed Tomography (CT) cases extracted from the
+    [CT Lymph nodes](https://wiki.cancerimagingarchive.net/display/Public/CT+Lymph+Nodes) and
+    [CT Colonography](https://wiki.cancerimagingarchive.net/display/Public/CT+COLONOGRAPHY)
+    collections from the
+    [The Cancer Imaging Archive](https://www.cancerimagingarchive.net/) (TCIA).
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#license"
@@ -89,17 +91,14 @@ other:
     - "Computed tomography"
   stain:
   phase:
-  image: "/assets/images/10.23698/aida/ctpa/axial-ctpa-thumbnail.jpg"
+  image:
   exampleImage:
-    - title: "3D volume rendered image."
-      url: "/assets/images/10.23698/aida/ctpa/3d.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/ctpa/3d-thumbnail.jpg"
-    - title: "Axial CTPA image showing pulmonary emboli."
-      url: "/assets/images/10.23698/aida/ctpa/axial-ctpa.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/ctpa/axial-ctpa-thumbnail.jpg"
-    - title: "Axial CTPA image with annotated pulmonary emboli."
-      url: "/assets/images/10.23698/aida/ctpa/axial-ctpa-annotated.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/ctpa/axial-ctpa-annotated-thumbnail.jpg"
+    - title: "Anatomical landmarks of pelvis and femur indicated in a 3d volume rendered image."
+      url: "/assets/images/10.23698/aida/ctpel/landmarks.png"
+      thumbnail-url: "/assets/images/10.23698/aida/ctpel/landmarks-thumbnail.png"
+    - title: "Segmentation masks for femur, pelvis, and vertebra shown in a frontal plane CT image."
+      url: "/assets/images/10.23698/aida/ctpel/segmentations.png"
+      thumbnail-url: "/assets/images/10.23698/aida/ctpel/segmentations-thumbnail.png"
 ---
 ## License
 
