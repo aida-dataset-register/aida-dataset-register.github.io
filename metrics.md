@@ -55,7 +55,7 @@ Basic metrics for datasets shared on the AIDA data hub.
 {% endcapture %}
 ## Datasets
 <table class="info-box">
-  <tr><th></th><th>Datasets</th><th>Images</th><th>Annotations</th><th>Size</th></tr>
+  <tr><th></th><th>Datasets</th><th>Images / Cases</th><th>Annotations</th><th>Size</th></tr>
   <tr>
     <th>Total</th>
     <td>{{ n }}</td>
