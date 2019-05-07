@@ -29,9 +29,9 @@ Please use the interactive table below for simple sorting and text search.
 <script>
 $(document).ready( function () {
   $('#dataset-table').DataTable({
-     "paging":   false,
+     paging: false,
      columnDefs: [
-       { type: 'file-size', targets: 2 }
+       { type: 'file-size', targets: 3 }
      ]
   }).search(new URLSearchParams(window.location.search).get('q') || '').draw();
 } );
