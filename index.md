@@ -14,7 +14,7 @@ researchers can collaboratively gather, annotate, share and enrich large volumes
 of research data for machine learning in medical imaging diagnostics. This site
 provides information on the datasets that have been shared on the AIDA data hub,
 and makes them findable and citeable using Digital Object Identifiers
-([DOI](https://www.doi.org/)).
+([DOI](/about#what-are-dois-and-dataset-registers)).
 
 {% assign total = 0 %}
 {% for d in site.datasets %}{% if d.hidden %}{% continue  %}{% endif %}{% assign total = d.other.bytes | default: 0 | plus: total %}{% endfor %}

@@ -3,7 +3,7 @@ image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jp
 title: "About This Site"
 ---
 [The AIDA dataset register](https://datasets.aida.medtech4health.se) -this site-
-provides landing pages for
+provides DOI landing pages with search engine optimization for
 datasets shared on the [AIDA data hub](https://medtech4health.se/aida/datahub/).
 The information is also available in machine-readable form through an [API](api/).
 
@@ -15,7 +15,7 @@ Please report any errors to our
 or submit a [pull request](https://github.com/aida-doi-repository/aida-doi-repository.github.io/pulls).
 For other inquiries please [contact AIDA](https://medtech4health.se/aida/organisation/).
 
-## About This Site
+## What are DOIs and Dataset Registers?
 The AIDA data hub facilitates sharing datasets for machine learning in medical
 image diagnoistics. AIDA uses
 Digital Object Identifiers ([DOI](https://www.doi.org/)) to increase exposure
@@ -35,7 +35,9 @@ Swedish National Data Service ([SND](https://snd.gu.se/en)).
 The AIDA data hub and its datasets are discoverable through the global
 [re3data.org](https://www.re3data.org) registry of research data repositories:
 
-<a href="https://www.re3data.org/repository/r3d100013031"><img src="/assets/images/badges/re3data-large.png"></a>
+<a href="https://www.re3data.org/repository/r3d100013031">
+  <img src="/assets/images/badges/re3data-large.png" style="margin-bottom: -2em;">
+</a>
 
 You can [find us](https://www.re3data.org/repository/r3d100013031) and other
 data sources relevant to your research if you
@@ -44,3 +46,15 @@ data sources relevant to your research if you
 * [Radiology and Nuclear Medicine](https://www.re3data.org/search?query=&subjects%5B%5D=20530%20Radiology%20and%20Nuclear%20Medicine)
 * [Pathology and Forensic Medicine](https://www.re3data.org/search?query=&subjects%5B%5D=20506%20Pathology%20and%20Forensic%20Medicine)
 * [Artificial Intelligence, Image and Language Processing](https://www.re3data.org/search?subjects[]=40904%20Artificial%20Intelligence,%20Image%20and%20Language%20Processing).
+
+## Acknowledgements
+This site uses the following free and open services and technologies:
+
+* [DataCite](https://datacite.org) - DOI minting and management for research datasets.
+* [SND](https://snd.gu.se/en) - Swedish member of DataCite.
+* [re3data.org](https://www.re3data.org) - Dataset register discoverability.
+* [GitHub Pages](https://pages.github.com/) - Hosting, issue tracking and collaborative development.
+* [Jekyll](https://jekyllrb.com/) - Static website generator.
+* [ViewerJS](https://viewerjs.org/) - Interactive image viewer.
+* [AnchorJS](https://www.bryanbraun.com/anchorjs/) - Linkable headings.
+* [DataTables](https://datatables.net/) - Sortable and searchable tables.
