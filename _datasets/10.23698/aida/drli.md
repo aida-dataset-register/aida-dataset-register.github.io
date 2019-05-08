@@ -84,7 +84,7 @@ other:
       sctid: 10200004 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
   bytes: 33800000000
-  numberOfImages: 77
+  numberOfScans: 77
   numberOfAnnotations: 317
   resolution:
   modality:

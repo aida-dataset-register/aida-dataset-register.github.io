@@ -77,7 +77,7 @@ other:
       sctid: 39937001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "20-93 years"
   bytes: 32375418471
-  numberOfImages: 99
+  numberOfScans: 99
   numberOfAnnotations: 16509
   resolution: "20X single plane"
   modality:

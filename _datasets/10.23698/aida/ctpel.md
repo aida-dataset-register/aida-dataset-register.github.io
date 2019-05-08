@@ -84,7 +84,7 @@ other:
       sctid: 12921003 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "" # FIXME: missing data
   bytes: 28000000000
-  numberOfImages: 90
+  numberOfScans: 90
   numberOfAnnotations: # FIXME: missing data
   resolution:
   modality:

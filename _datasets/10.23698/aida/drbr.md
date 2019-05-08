@@ -82,7 +82,7 @@ other:
       sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
   bytes: 577999734414
-  numberOfImages: 337
+  numberOfScans: 337
   numberOfAnnotations: 4381
   resolution: "40X single plane, scanned in NDP format"
   modality:

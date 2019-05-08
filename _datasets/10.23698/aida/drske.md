@@ -78,7 +78,7 @@ other:
       sctid: 113192009
   age-span:
   bytes: 14900000000
-  numberOfImages: 36
+  numberOfScans: 36
   numberOfAnnotations:
   resolution:
   modality:
