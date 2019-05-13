@@ -63,7 +63,7 @@ description: "AIDA data hub sharing in numbers."
     <td>{{ totn }}</td>
     <td>{{ tots }}</td>
     <td>{{ tota }}</td>
-    <td>{% include human_friendly_filesize bytes=b %}</td>
+    <td>{% include human_friendly_filesize bytes=totb %}</td>
   </tr>
   <tr>
     <td><a href="/search?q=Annotated">Annotated</a></td>
