@@ -36,7 +36,7 @@ The AIDA data hub and its datasets are discoverable through the global
 [re3data.org](https://www.re3data.org) registry of research data repositories:
 
 <a id="badge" href="https://www.re3data.org/repository/r3d100013031">
-  <img src="/assets/images/badges/re3data-large.png" style="margin-bottom: -2em;">
+  <img src="/assets/icons/badges/re3data-large.png" style="margin-bottom: -2em;">
 </a>
 
 You can [find us](https://www.re3data.org/repository/r3d100013031) and other
