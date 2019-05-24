@@ -44,8 +44,8 @@ datacite:
   keywords: "Radiology, Annotated, Pelvis, CT, Computed tomography, Anatomical landmarks, Bone segmentation"
   version: "1.0"
   description: |
-    Segmentation masks and annotations of anatomical landmarks for pelvis bones
-    for 90 segmented Computed Tomography (CT) cases extracted from the
+    5 bone segmentation masks and 15 annotations of anatomical landmarks for pelvis bones
+    in each of 90 segmented Computed Tomography (CT) cases extracted from the
     [CT Lymph nodes](https://wiki.cancerimagingarchive.net/display/Public/CT+Lymph+Nodes) and
     [CT Colonography](https://wiki.cancerimagingarchive.net/display/Public/CT+COLONOGRAPHY)
     collections from the
@@ -82,7 +82,7 @@ other:
   age-span: "" # FIXME: missing data
   bytes: 28000000000
   numberOfScans: 90
-  numberOfAnnotations: # FIXME: missing data
+  numberOfAnnotations: 1800
   resolution:
   modality:
     - "Computed tomography"
