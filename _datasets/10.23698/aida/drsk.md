@@ -66,8 +66,6 @@ other:
     The following findings were annotated in the abnormal cases: actinic keratosis, basal cell carcinoma, dermatofibroma, dysplastic nevus, intradermal nevus, keratoachantoma, lentigo malignant melanoma, malignant melanoma, malignant melanoma in situ, scar, seborrheic keratosis, squamous cell carcinoma and squamous cell carcinoma in situ. Other areas annotated: abnormal, acanthosis, artifacts, dermis, epidermis, fibrosis, fibrin body, granuloma, inflammation, inflammatory edema, normal, perichondrium, reactive cellular changes, skin appendage structure, surgical margins, structure of cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous tissue, surgical margins and from which body part the skin was excised.
 
     In the normal skin cases were following structures chosen to be annotated: artifact, dermis, epidermis, normal skin, perichondrium, skin and subcutaneous structure, skin appendage structure, skin structure, structure of cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous tissue and surgical margins.
-  ethicsApproval: |
-    The data collection and sharing is ethical approved.
   download:
     links:
       - text: ""

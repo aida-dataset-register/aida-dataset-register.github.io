@@ -71,8 +71,6 @@ other:
     carcinoma and others. 4381 separate annotations were made to segment
     different tissue structures connected to ontologies. One physician were
     responsible for the manual annotations controlled by a second pathologist.
-  ethicsApproval: |
-    The data collection and sharing is ethical approved.
   download:
     links:
       - text: ""

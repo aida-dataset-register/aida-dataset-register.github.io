@@ -76,8 +76,6 @@ other:
     All pulmonary emboli have been delineated by an experienced radiologist - in
     an image by image process (in axial view 1 or 0,625mm images) using MITK
     Workbench. 1 283 annotations were made, in a total of 38 emboli.
-  ethicsApproval: |
-    The data collection and sharing is ethical approved.
   download:
     links:
       - text: ""

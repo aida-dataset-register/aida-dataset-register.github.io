@@ -73,8 +73,6 @@ other:
     controlled by a second radiologist. All changes with a diameter greater than
     5mm was segmented and as assumed metastases (cysts excluded defined by HU).
     317 lesions were annotated.
-  ethicsApproval: |
-    The data collection and sharing is ethical approved.
   download:
     links:
       - text: ""

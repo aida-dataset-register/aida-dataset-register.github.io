@@ -15,7 +15,7 @@ Please report any errors to our
 or submit a [pull request](https://github.com/aida-doi-repository/aida-doi-repository.github.io/pulls).
 For other inquiries please [contact AIDA](https://medtech4health.se/aida/organisation/).
 
-## What are DOIs and Dataset Registers?
+## What are DOIs and dataset registers?
 The AIDA data hub facilitates sharing datasets for machine learning in medical
 image diagnoistics. AIDA uses
 Digital Object Identifiers ([DOI](https://www.doi.org/)) to increase exposure
@@ -46,6 +46,14 @@ data sources relevant to your research if you
 * [Radiology and Nuclear Medicine](https://www.re3data.org/search?query=&subjects%5B%5D=20530%20Radiology%20and%20Nuclear%20Medicine)
 * [Pathology and Forensic Medicine](https://www.re3data.org/search?query=&subjects%5B%5D=20506%20Pathology%20and%20Forensic%20Medicine)
 * [Artificial Intelligence, Image and Language Processing](https://www.re3data.org/search?subjects[]=40904%20Artificial%20Intelligence,%20Image%20and%20Language%20Processing).
+
+## Access and privacy
+AIDA is a collaboration arena for academia, industry and healthcare and supports OpenScience and [FAIR data](https://www.go-fair.org/fair-principles/). AIDA can facilitate large scale data exports for research from clinical production systems, and can host research data for sharing. AIDA uses data mainly from medical imaging, and therefore has an obligation to adequately safeguard the privacy of the individuals concerned. Therefore AIDA only shares data that is ethically approved for sharing, and when a contractual agreement is in place that includes non-disclosure of data, such AIDA partner contracts for [innovation projects](https://medtech4health.se/aida/ansok-om-innovationsprojekt/), [clinical-](https://medtech4health.se/aida/ansok-klinisk-fellow/) or [technical fellowships](https://medtech4health.se/aida/ansok-om-teknisk-fellow/), [on-site development projects](https://medtech4health.se/aida/ansok-om-pa-plats-utveckling/), or [network partnerships](https://medtech4health.se/aida/partnerskap/). AIDA also facilitates contacts with data controllers for datasets shared on AIDA for data sharing options outside of AIDA.
+
+Please see the [AIDA GDPR policy](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit) for more details. AIDA is planning a revision of its platform and will update this section as extended capabilities become available.
+
+### Anonymous vs identifiable data
+Currently, AIDA exclusively uses anonymized data. However to facilitate export and work with larger amounts of data, AIDA is planning to establish a platform that is secure enough to store, share and process also identifiable data.
 
 ## Acknowledgements
 This site uses the following free and open services and technologies:

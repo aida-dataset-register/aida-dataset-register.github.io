@@ -72,9 +72,6 @@ other:
     based on fuzzy connectedness followed by level set method. Both the
     segmentation mask and annotated anatomical landmarks were created by a
     trained radiologist.
-  ethicsApproval: |
-    Please refer to the original ethical approvals, available through
-    [TCIA](https://www.cancerimagingarchive.net/).
   download:
     links:
       - text: ""

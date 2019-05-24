@@ -88,8 +88,6 @@ other:
     colonic mucous membrane, colonic muscularis propria, colonic submucosa,
     colonic subserosa, descending colon, ileum, normal, rectum, sigmoid colon
     and transverse colon.
-  ethicsApproval: |
-    The data collection and sharing is ethical approved.
   download:
     links:
       - text: ""

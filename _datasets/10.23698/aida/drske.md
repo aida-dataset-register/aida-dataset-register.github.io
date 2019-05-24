@@ -67,8 +67,6 @@ other:
   annotation: |
     The metastases were segmented accurately by a radiologist and the
     annotations were confirmed by a second radiologist.
-  ethicsApproval: |
-    The data collection and sharing is ethical approved.
   download:
     links:
       - text: ""

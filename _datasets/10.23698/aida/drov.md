@@ -84,8 +84,6 @@ other:
     was annotated. In total 11258 separate annotations were made. For the
     benign structures only the epithelial structures, stroma and support tissue
     were annotated.
-  ethicsApproval: |
-    The data collection and sharing is ethical approved.
   download:
     links:
       - text: ""
