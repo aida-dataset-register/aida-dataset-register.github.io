@@ -17,7 +17,7 @@ For other inquiries please [contact AIDA](https://medtech4health.se/aida/organis
 
 ## What are DOIs and dataset registers?
 The AIDA data hub facilitates sharing datasets for machine learning in medical
-image diagnoistics. AIDA uses
+image diagnostics. AIDA uses
 Digital Object Identifiers ([DOI](https://www.doi.org/)) to increase exposure
 and impact of the shared datasets. These DOIs help make the datasets more findable,
 accessible, interoperable, and reusable ([FAIR](https://www.go-fair.org/)).
