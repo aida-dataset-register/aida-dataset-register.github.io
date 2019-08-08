@@ -21,10 +21,6 @@ and makes them findable and citeable using Digital Object Identifiers
 Thus far <b>{% include human_friendly_filesize bytes=total %} </b> image data from radiology
 and pathology has been shared on the AIDA data hub.
 
-*The AIDA data hub is currently being developed in collaboration with pilot
-users from research, clinic and industry. It is planned to go into production
-phase within June 2019.*
-
 ## Datasets shared on the AIDA data hub
 
 <div class="dataset-table">
