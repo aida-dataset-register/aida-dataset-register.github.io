@@ -83,14 +83,12 @@ other:
     - name: "Breast"
       sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "-"
-  bytes: 283000000000
+  bytes: 283000000000 # 283 GB
   numberOfScans: 626
   numberOfAnnotations: 1283
   resolution: "20x"
   modality:
-    # FIXME: These are the ones used in the DROID project. Were the same ones used here?
-    # - "Hamamatsu NanoZoomer-XR C12000 series 2013"
-    # - "Hamamatsu NanoZoomer 2.0 HT C9600 series 2013"
+    - Aperio ScanScope
   stain: "Hematoxylin and eosin, immunohistochemistry for cytokeratin AE1/AE3."
   phase:
   image: "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"

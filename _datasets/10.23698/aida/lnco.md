@@ -80,8 +80,8 @@ other:
     - name: "Colon"
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "-"
-  bytes: # FIXME: Missing info.
-  numberOfScans: # FIXME: Missing info.
+  bytes: 1097000000000 # 1097 GB
+  numberOfScans: 2076
   numberOfAnnotations: # FIXME: Missing info.
   resolution: "20x and 40x"
   modality:
