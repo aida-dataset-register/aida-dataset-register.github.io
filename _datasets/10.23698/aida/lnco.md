@@ -70,7 +70,7 @@ other:
     training have been annotated for exclusion (eg missing or poor quality
     material), or as preparation artefact (eg folded tissue sample).
 
-    Note: data collection is still ongoing - not all samples have yet been
+    Note: Data collection is still ongoing &ndash; not all samples have yet been
     classified.
   download:
     links:
@@ -80,16 +80,16 @@ other:
     - name: "Colon"
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "-"
-  bytes: 1097000000000 # 1097 GB
-  numberOfScans: 2076
-  numberOfAnnotations: # FIXME: Missing info.
+  bytes: 213024235159 # 198 Gibibytes
+  numberOfScans: 740
+  numberOfAnnotations: 5720
   resolution: "20x and 40x"
   modality:
     - "Aperio Scanscope (20x)"
     - "Hamamatsu NanoZoomer (40x)"
   stain: "Hematoxylin and eosin."
   phase:
-  image: "" # FIXME: Missing info. "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"
+  image:
   exampleImage:
     - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
       url: "/assets/images/10.23698/aida/lnco/he-overview.jpeg"
