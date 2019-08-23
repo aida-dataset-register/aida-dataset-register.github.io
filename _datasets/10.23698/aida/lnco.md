@@ -1,5 +1,4 @@
 ---
-hidden: yes
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -79,7 +78,7 @@ other:
   organ:
     - name: "Colon"
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
-  age-span: "-"
+  age-span: 
   bytes: 213024235159 # 198 Gibibytes
   numberOfScans: 740
   numberOfAnnotations: 5720
