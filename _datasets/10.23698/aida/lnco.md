@@ -97,12 +97,6 @@ other:
     - title: "To-scale view of pixel resolution in original whole slide imaging data from hematoxylin and eosin staining."
       url: "/assets/images/10.23698/aida/lnco/he-to-scale.jpeg"
       thumbnail-url: "/assets/images/10.23698/aida/lnco/he-to-scale-thumbnail.jpeg"
-    - title: "Overview of whole slide imaging with MSH2 mismatch repair protein immunostaining."
-      url: "/assets/images/10.23698/aida/lnco/msh2-overview.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco/msh2-overview-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original whole slide imaging data from MSH2 mismatch repair protein staining."
-      url: "/assets/images/10.23698/aida/lnco/msh2-to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco/msh2-to-scale-thumbnail.jpeg"
 ---
 ## License
 Copyright
