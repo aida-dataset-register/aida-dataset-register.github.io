@@ -16,3 +16,6 @@ defaults:
       type: "datasets"
     values:
       layout: dataset
+
+plugins:
+  - jekyll-feed
