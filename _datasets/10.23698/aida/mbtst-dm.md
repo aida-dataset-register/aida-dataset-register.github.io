@@ -11,11 +11,11 @@ datacite:
     - name: "Victor Dahlblom"
       "@id": "https://orcid.org/0000-0002-4330-5387"
       "@type": "Person"
-    - name: "Sophia Zackrisson"
-      "@id": "https://orcid.org/0000-0001-5678-3882"
-      "@type": "Person"
     - name: "Magnus Dustler"
       "@id": "https://orcid.org/0000-0002-5699-9664"
+      "@type": "Person"
+    - name: "Sophia Zackrisson"
+      "@id": "https://orcid.org/0000-0001-5678-3882"
       "@type": "Person"
   publisher:
     "@type": "Organization"
@@ -100,9 +100,18 @@ other:
   phase:
   image:
   exampleImage:
-  #  - title: "Anatomical landmarks of pelvis and femur indicated in a 3d volume rendered image."
-  #    url: "/assets/images/10.23698/aida/ctpel/landmarks.png"
-  #    thumbnail-url: "/assets/images/10.23698/aida/ctpel/landmarks-thumbnail.png"
+    - title: "Mediolateral oblique view of right breast."
+      url: "/assets/images/10.23698/aida/mbtst-dm/1rmlo.jpg"
+      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/1rmlo-thumbnail.jpg"
+    - title: "Mediolateral oblique view of left breast."
+      url: "/assets/images/10.23698/aida/mbtst-dm/2lmlo.jpg"
+      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/2lmlo-thumbnail.jpg"
+    - title: "Craniocaudal view of right breast."
+      url: "/assets/images/10.23698/aida/mbtst-dm/3rcc.jpg"
+      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/3rcc-thumbnail.jpg"
+    - title: "Craniocaudal view of left breast."
+      url: "/assets/images/10.23698/aida/mbtst-dm/4lcc.jpg"
+      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/4lcc-thumbnail.jpg"
 ---
 ## License
 Copyright
@@ -115,13 +124,13 @@ or without fee is hereby granted, provided that the above copyright notice and
 this permission notice appear in all copies, and that publications resulting
 from the use of this data cite the following publications:
 
-[1] {{ page.datacite.author | map: "name" | array_to_sentence_string }}
+{{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
 {% for c in page.datacite.citation %}
-  [{{ forloop.index | plus: 1 }}]
+  [{{ forloop.index }}]
   [{{ c.name }}]({{c["@id"]}})
 {% endfor %}
 
