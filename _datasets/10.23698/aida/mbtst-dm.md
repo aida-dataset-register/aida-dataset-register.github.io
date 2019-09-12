@@ -1,0 +1,134 @@
+---
+hidden: yes
+datacite:
+  "@context": "http://schema.org"
+  "@type": "Dataset"
+  "@id": "https://doi.org/10.23698/aida/mbtst-dm"
+  name: "Mammograms from cancer screening"
+  about: "Radiology"
+  url: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm"
+  author:
+    - name: "Victor Dahlblom"
+      "@id": "https://orcid.org/0000-0002-4330-5387"
+      "@type": "Person"
+    - name: "Sophia Zackrisson"
+      "@id": "https://orcid.org/0000-0001-5678-3882"
+      "@type": "Person"
+    - name: "Magnus Dustler"
+      "@id": "https://orcid.org/0000-0002-5699-9664"
+      "@type": "Person"
+  publisher:
+    "@type": "Organization"
+    name: "AIDA"
+  copyrightYear: 2019
+  copyrightHolder:
+    - name: "Lund University"
+      url: "https://lu.se/"
+      "@type": "Organization"
+    - name: "Sophia Zackrisson"
+      "@id": "https://orcid.org/0000-0001-5678-3882"
+      "@type": "Person"
+  provider:
+    - name: "Victor Dahlblom"
+      email: "victor.dahlblom@med.lu.se"
+      "@id": "https://orcid.org/0000-0002-4330-5387"
+      "@type": "Person"
+    - name: "Joel Hedlund"
+      email: "joel.hedlund@liu.se"
+      "@id": "https://orcid.org/0000-0001-6443-3604"
+      "@type": "Person"
+    - name: "Claes Lundstrom"
+      email: "claes.lundstrom@liu.se"
+      "@id": "https://orcid.org/0000-0002-9368-0177"
+      "@type": "Person"
+  dateCreated: "2019-09-12"
+  datePublished: "2019-09-12"
+  dateModified: "2019-09-12"
+  keywords: "Radiology, Breast, Cancer, Mammography, MMG, MG, MAMMO, DM"
+  version: "1.0"
+  description: |
+    14711 digital mammography (DM) examinations from screening, usually
+    including two projections (mediolateral oblique and craniocaudal) of each
+    breast. Categorized cancer positive/negative. 95 cancer cases diagnosed on
+    DM.
+
+    Part of this dataset is directly available for inspection for partners on
+    the AIDA platform, and the rest can be made available on request.
+
+    This dataset is an anonymized excerpt from a dataset with richer associated
+    data, collected in a research project which is still ongoing. The authors
+    welcome proposals for new impactful research collaborations.
+  license:
+    - name: "Restricted access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#license"
+      "@type": "CreativeWork"
+  citation:
+    - "@type": "Article"
+      "@id": "https://doi.org/10.1016/S1470-2045(18)30521-7"
+      name: |
+        Zackrisson S, Lång K, Rosso A, Johnson K, Dustler M, Förnvik D, Förnvik
+        H, Sartor H, Tingberg A, Andersson I. One-view breast tomosynthesis
+        versus two-view mammography in the Malmö Breast Tomosynthesis Screening
+        Trial (MBTST): a prospective, population-based, diagnostic accuracy
+        study. The Lancet Oncology. October 2018.
+        doi:10.1016/S1470-2045(18)30521-7
+other:
+  status: "Ongoing"
+  annotation: |
+    The mammography cancer screening was carried out as part of the Malmö Breast
+    Tomosynthesis Screening Trial (MBTST) and all women were examined with both
+    mammography and one-view wide angle breast tomosynthesis. The examinations
+    were read in separate reading arms and this dataset only includes the
+    results from the mammography reading arm. Presence of cancer was determined
+    by an experienced radiologist and verified by a second radiologist. Cancers
+    were verified with biopsy.
+  download:
+    links:
+      - text: ""
+        url: ""
+  organ:
+    - name: "Breast"
+      sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  age-span: "40-74"
+  bytes: 889058230272 # 889 GB, or 828 GiB.
+  numberOfScans: 14711
+  numberOfAnnotations: 0
+  resolution: "Various, e.g. 2800 x 3500 px"
+  modality:
+    - "Siemens Mammomat Inspiration"
+  stain:
+  phase:
+  image:
+  exampleImage:
+  #  - title: "Anatomical landmarks of pelvis and femur indicated in a 3d volume rendered image."
+  #    url: "/assets/images/10.23698/aida/ctpel/landmarks.png"
+  #    thumbnail-url: "/assets/images/10.23698/aida/ctpel/landmarks-thumbnail.png"
+---
+## License
+Copyright
+{{ page.datacite.copyrightYear }}
+{{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
+
+Permission to use, copy, modify, and/or distribute the data within AIDA (Analytic
+Imaging Diagnostics Arena https://medtech4health.se/aida) for any purpose with
+or without fee is hereby granted, provided that the above copyright notice and
+this permission notice appear in all copies, and that publications resulting
+from the use of this data cite the following publications:
+
+[1] {{ page.datacite.author | map: "name" | array_to_sentence_string }}
+({{ page.datacite.datePublished | date: "%Y" }})
+{{ page.datacite.name }}
+[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+
+{% for c in page.datacite.citation %}
+  [{{ forloop.index | plus: 1 }}]
+  [{{ c.name }}]({{c["@id"]}})
+{% endfor %}
+
+THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
+TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
+NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
+OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS
+DATA.
