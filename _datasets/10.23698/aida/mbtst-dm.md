@@ -130,7 +130,6 @@ from the use of this data cite the following publications:
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
 {% for c in page.datacite.citation %}
-  [{{ forloop.index }}]
   [{{ c.name }}]({{c["@id"]}})
 {% endfor %}
 
