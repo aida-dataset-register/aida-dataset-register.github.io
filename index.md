@@ -19,7 +19,7 @@ and makes them findable and citeable using Digital Object Identifiers
 {% assign total = 0 %}
 {% for d in site.datasets %}{% if d.hidden %}{% continue  %}{% endif %}{% assign total = d.other.bytes | default: 0 | plus: total %}{% endfor %}
 We currently share <b>{% include human_friendly_filesize bytes=total %} </b>
-data and grow according to clinical [data acquisition priorities](/prio).
+data and growing according to clinical [data acquisition priorities](/prio).
 
 ## Datasets shared on the AIDA data hub
 
