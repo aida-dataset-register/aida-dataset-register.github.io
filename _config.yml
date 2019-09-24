@@ -1,18 +1,18 @@
-title: AIDA dataset register
-description: Information on datasets shared on the AIDA data hub
+title: "AIDA Dataset Register"
+description: "Information on datasets shared on the AIDA data hub."
 
-theme: jekyll-theme-cayman
-url: https://datasets.aida.medtech4health.se
+theme: "jekyll-theme-cayman"
+url: "https://datasets.aida.medtech4health.se"
 
 collections:
   datasets:
     output: true
-    layout: dataset.html
-    permalink: :path
+    layout: "dataset.html"
+    permalink: ":path"
 
 defaults:
   - scope:
       path: ""
       type: "datasets"
     values:
-      layout: dataset
+      layout: "dataset"

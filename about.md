@@ -8,12 +8,13 @@ datasets shared on the [AIDA data hub](https://medtech4health.se/aida/datahub/).
 The information is also available in machine-readable form through an [API](api/).
 
 ## Feedback
-This site is run by [AIDA](https://medtech4health.se/aida-overview/) using
-[GitHub Pages](https://pages.github.com/).
-Please report any errors to our
+Please report any errors on this website to our GitHub Pages
 [issue tracker](https://github.com/aida-doi-repository/aida-doi-repository.github.io/issues),
 or submit a [pull request](https://github.com/aida-doi-repository/aida-doi-repository.github.io/pulls).
-For other inquiries please [contact AIDA](https://medtech4health.se/aida/organisation/).
+
+For questions regarding data please contact the [AIDA data director](mailto:aida-data-director@medtech4health.se).
+
+For all other inquiries please contact [AIDA](mailto:aida-director@medtech4health.se).
 
 ## What are DOIs and dataset registers?
 The AIDA data hub facilitates sharing datasets for machine learning in medical
