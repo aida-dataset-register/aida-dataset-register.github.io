@@ -1,6 +1,6 @@
 ---
 image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg"
-title: "Data Aquisition Priorities"
+title: "Data Acquisition Priorities"
 description: "Shaping the future of medical imaging diagnosis."
 ---
 
@@ -15,7 +15,7 @@ The AIDA data hub can fund work with extracting prioritized data for sharing on
 the AIDA data hub. Please contact the
 [AIDA data director](mailto:aida-data-director@medtech4health.se)
 for proposals for data extraction, or to suggest further data
-aquisition topics.
+acquisition topics.
 
 ## Priorities
 
