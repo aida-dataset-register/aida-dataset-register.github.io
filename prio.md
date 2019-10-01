@@ -24,5 +24,5 @@ Approved: 2019-09-13
 1. CT bulk examinations of brain, thorax, abdomen.
 2. PET-CT bulk examinations of thorax and abdomen with <sup>18</sup>F-FDG tracer.
 3. Lymph nodes. Radiology and pathology.
-4. Basal cell cancer whole-slide imaging, eg for identifying ronradical excisions.
+4. Basal cell cancer whole-slide imaging, eg for identifying nonradical excisions.
 5. MRI prostate.
