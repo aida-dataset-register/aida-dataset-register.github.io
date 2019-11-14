@@ -30,8 +30,8 @@ datacite:
     - name: "Linköping University"
       url: "https://liu.se/"
       "@type": "Organization"
-    - name: "Claes Lundström"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
+    - name: "Anders Persson"
+      "@id": "https://orcid.org/0000-0002-9446-6981"
       "@type": "Person"
   provider:
     - name: "Mischa Woisetschläger"
@@ -42,15 +42,15 @@ datacite:
       email: "joel.hedlund@liu.se"
       "@id": "https://orcid.org/0000-0001-6443-3604"
       "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
+    - name: "Anders Persson"
+      email: "anders.s.persson@liu.se"
+      "@id": "https://orcid.org/0000-0002-9446-6981"
       "@type": "Person"
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Radiology, Liver, Cancer, Computed tomography, Annotated"
-  version: "1.0"
+  version: "1.0.1"
   description: |
     77 CT abdomen (computed tomography) examinations taken with contrast in
     venous phase. All cases showed liver malignancies. Manual oncological
