@@ -27,9 +27,9 @@ datacite:
     - name: "Linköping University"
       url: "https://liu.se/"
       "@type": "Organization"
-    - name: "Claes Lundström"
+    - name: "Anders Persson"
+      "@id": "https://orcid.org/0000-0002-9446-6981"
       "@type": "Person"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
   provider:
     - name: "Mischa Woisetschläger"
       email: "Mischa.Woisetschlager@regionostergotland.se"
@@ -43,11 +43,15 @@ datacite:
       email: "joel.hedlund@liu.se"
       "@id": "https://orcid.org/0000-0001-6443-3604"
       name: "Joel Hedlund"
+    - name: "Anders Persson"
+      email: "anders.s.persson@liu.se"
+      "@id": "https://orcid.org/0000-0002-9446-6981"
+      "@type": "Person"
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Radiology, Bone, Cancer, Metastasis, Computed tomography, Annotated"
-  version: "1.0"
+  version: "1.0.1"
   description: |
     36 radiology cases showing lytic and lytic/sclerotic (blastic) metastases
     i.e. bone regenerative and degenerative. These cases have all been punctured
