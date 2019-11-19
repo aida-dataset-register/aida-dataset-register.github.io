@@ -50,19 +50,20 @@ datacite:
       email: "claes.lundstrom@liu.se"
       "@id": "https://orcid.org/0000-0002-9368-0177"
       "@type": "Person"
-  dateCreated: "2019-08-12"
-  datePublished: "2019-08-12"
-  dateModified: "2019-08-12"
-  keywords: "Pathology, Whole slide imaging, Breast, Lymph nodes, Cancer, Sentinel nodes, Immunohistochemical staining, cytokeratin, CK AE1/AE3, KVAST standard 2018"
+  dateCreated: "2019-11-19"
+  datePublished: "2019-11-19"
+  dateModified: "2019-11-19"
+  keywords: "Pathology, Whole slide imaging, Breast, Lymph nodes, Cancer, Sentinel nodes, Immunohistochemical staining, cytokeratin, CKAE1/AE3"
   version: "1.0.0"
   description: |
-    Whole slide imaging of 63 sentinel node examinations and axillary resections
-    performed at the Region Östergötland pathology department. No frozen
-    sections added. All sentinel nodes were prepared according to KVAST 2018
-    standard protocol with three levels. Thereto immunohistochemical staining
-    for cytokeratin AE1/AE3. The axillary resections prepared with one level and
-    no mandatory immunohistochemical staining. Data collection is still ongoing.
-    Further cases and clinical study parameters are continuously being added.
+    Whole slide imaging of 396 full cases of axillary lymph nodes in breast 
+    cancer cases. Included are both sentinel node surgery and axillary 
+    resections pre, peri or post breast cancer surgery or treatment. Sentinel 
+    node cases are cut in three levels and mandatory CKAE1/AE3 staining. The 
+    other axillary resections with one cut level as default. No frozen 
+    sections included. The cases are anonymised and exported from the digital 
+    archive at the Department of Clinical Pathology in Linköping, Region 
+    Östergötland. Included are both positive and negative cases.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#license"
@@ -83,13 +84,17 @@ other:
     - name: "Breast"
       sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "-"
-  bytes: 283000000000 # 283 GB
-  numberOfScans: 626
-  numberOfAnnotations: 1283
+  bytes: 2366408222458  # 2.4 TB
+  numberOfScans: 4462
+  numberOfAnnotations: 0
   resolution: "20x"
   modality:
-    - Aperio ScanScope
-  stain: "Hematoxylin and eosin, immunohistochemistry for cytokeratin AE1/AE3."
+    - Digitized histopathological glass slides
+    - Aperio ScanScope AT
+    - Hamamatsu NanoZoomer XR
+    - Hamamatsu NanoZoomer S360 
+    - Hamamatsu NanoZoomer S60
+  stain: "Hematoxylin and eosin. In sentinel node cases also immunohistochemical stain  for cytokeratin AE1/AE3."
   phase:
   image: "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"
   exampleImage:
