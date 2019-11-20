@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden: no
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -100,20 +100,20 @@ other:
     - Hamamatsu NanoZoomer S60
   stain: "Hematoxylin and eosin. In sentinel node cases also immunohistochemical stain  for cytokeratin AE1/AE3."
   phase:
-  image: "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"
+  image: "/assets/images/10.23698/aida/brln/ckae-metastasis-thumbnail.jpeg"
   exampleImage:
-    - title: "Overview of whole slide imaging with cytokeratin immunostaining."
-      url: "/assets/images/10.23698/aida/brln/ckae-overview.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original whole slide imaging data from cytokeratin immunostaining."
-      url: "/assets/images/10.23698/aida/brln/ckae-to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-to-scale-thumbnail.jpeg"
     - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
       url: "/assets/images/10.23698/aida/brln/he-overview.jpeg"
       thumbnail-url: "/assets/images/10.23698/aida/brln/he-overview-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original whole slide imaging data from hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/brln/he-to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/brln/he-to-scale-thumbnail.jpeg"
+    - title: "Overview of whole slide imaging with cytokeratin immunostaining."
+      url: "/assets/images/10.23698/aida/brln/ckae-overview.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"
+    - title: "Detail view of metastasis with hematoxylin and eosin staining."
+      url: "/assets/images/10.23698/aida/brln/he-metastasis.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/brln/he-metastasis-thumbnail.jpeg"
+    - title: "Detail view of metastasis with cytokeratin immunostaining."
+      url: "/assets/images/10.23698/aida/brln/ckae-metastasis.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-metastasis-thumbnail.jpeg"
 ---
 ## License
 Copyright
