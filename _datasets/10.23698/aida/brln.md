@@ -4,7 +4,7 @@ datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
   "@id": "https://doi.org/10.23698/aida/brln"
-  name: "Lymph nodes from breast cancer with immunohistochemical staining"
+  name: "Axillary lymph nodes in breast cancer cases"
   about: "Pathology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/brln"
   author:
@@ -56,14 +56,18 @@ datacite:
   keywords: "Pathology, Whole slide imaging, Breast, Lymph nodes, Cancer, Sentinel nodes, Immunohistochemical staining, cytokeratin, CKAE1/AE3"
   version: "1.0.0"
   description: |
-    Whole slide imaging of 396 full cases of axillary lymph nodes in breast 
-    cancer cases. Included are both sentinel node surgery and axillary 
-    resections pre, peri or post breast cancer surgery or treatment. Sentinel 
-    node cases are cut in three levels and mandatory CKAE1/AE3 staining. The 
-    other axillary resections with one cut level as default. No frozen 
-    sections included. The cases are anonymised and exported from the digital 
-    archive at the Department of Clinical Pathology in Linköping, Region 
-    Östergötland. Included are both positive and negative cases.
+    Whole slide imaging of 396 full cases of axillary lymph nodes in breast
+    cancer cases. Included are both sentinel node surgery and axillary
+    resections pre, peri or post breast cancer surgery or treatment. Sentinel
+    node cases are cut in three levels (stained with HE) and one additional
+    slide immunohistochemically stained with CKAE1/AE3. The number of sentinel
+    node cases with complete immunohistochemical staining is 321. The axillary
+    resections are cut with one cut level as default. Sentinel node cases are
+    cut in three levels and mandatory CKAE1/AE3 staining. The other axillary
+    resections with one cut level as default. No frozen sections included. The
+    cases are anonymised and exported from the digital archive at the Department
+    of Clinical Pathology in Linköping, Region Östergötland. Included are both
+    positive and negative cases.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#license"
@@ -92,7 +96,7 @@ other:
     - Digitized histopathological glass slides
     - Aperio ScanScope AT
     - Hamamatsu NanoZoomer XR
-    - Hamamatsu NanoZoomer S360 
+    - Hamamatsu NanoZoomer S360
     - Hamamatsu NanoZoomer S60
   stain: "Hematoxylin and eosin. In sentinel node cases also immunohistochemical stain  for cytokeratin AE1/AE3."
   phase:
