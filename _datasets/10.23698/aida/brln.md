@@ -52,9 +52,9 @@ datacite:
       "@type": "Person"
   dateCreated: "2019-11-19"
   datePublished: "2019-11-19"
-  dateModified: "2019-11-19"
+  dateModified: "2019-11-21"
   keywords: "Pathology, Whole slide imaging, Breast, Lymph nodes, Cancer, Sentinel nodes, Immunohistochemical staining, cytokeratin, CKAE1/AE3"
-  version: "1.0.0"
+  version: "1.0.1"
   description: |
     Whole slide imaging of 396 full cases of axillary lymph nodes in breast
     cancer cases. Included are both sentinel node surgery and axillary
@@ -62,12 +62,10 @@ datacite:
     node cases are cut in three levels (stained with HE) and one additional
     slide immunohistochemically stained with CKAE1/AE3. The number of sentinel
     node cases with complete immunohistochemical staining is 321. The axillary
-    resections are cut with one cut level as default. Sentinel node cases are
-    cut in three levels and mandatory CKAE1/AE3 staining. The other axillary
-    resections with one cut level as default. No frozen sections included. The
-    cases are anonymised and exported from the digital archive at the Department
-    of Clinical Pathology in Linköping, Region Östergötland. Included are both
-    positive and negative cases.
+    resections are cut with one cut level as default. No frozen sections
+    included. The cases are anonymised and exported from the digital archive at
+    the Department of Clinical Pathology in Linköping, Region Östergötland.
+    Included are both positive and negative cases.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#license"
@@ -79,7 +77,8 @@ datacite:
 other:
   status: "Ongoing"
   annotation: |
-    No in-image annotations available.
+    No in-image annotations available. Additional information at case level
+    available on request.
   download:
     links:
       - text: ""
