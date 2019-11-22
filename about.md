@@ -2,10 +2,9 @@
 image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg"
 title: "About This Site"
 ---
-[The AIDA dataset register](https://datasets.aida.medtech4health.se) -this site-
-provides DOI landing pages with search engine optimization for
-datasets shared on the [AIDA data hub](https://medtech4health.se/aida/datahub/).
-The information is also available in machine-readable form through an [API](api/).
+This site provides information on datasets shared on the [AIDA data hub](https://medtech4health.se/aida/datahub/)
+through search engine optimized DOI landing pages, and also in machine-readable
+form through an [API](api/).
 
 ## Feedback
 Please report any errors on this website to our GitHub Pages
