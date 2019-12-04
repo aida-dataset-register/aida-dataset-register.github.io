@@ -64,6 +64,7 @@ datacite:
     #  "@id": "https://doi.org/..."
     #  name: "Title of paper goes here"
 other:
+  shortName: "DRBR"
   status: "Completed"
   annotation: |
     The breast tumours were classified with four SNOMED-CT categories based on

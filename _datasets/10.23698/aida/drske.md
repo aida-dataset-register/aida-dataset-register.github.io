@@ -67,6 +67,7 @@ datacite:
     #  "@id": "https://doi.org/10.5438/0000-00SS"
     #  name: "Title of paper 1 goes here"
 other:
+  shortName: "DRSKE"
   status: "Completed"
   annotation: |
     The metastases were segmented accurately by a radiologist and the

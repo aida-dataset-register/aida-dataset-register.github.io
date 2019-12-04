@@ -59,6 +59,7 @@ datacite:
     #  "@id": "https://doi.org/..."
     #  name: "Title of paper goes here"
 other:
+  shortName: "DRSK"
   status: "Completed"
   annotation: |
     One physician was responsible for the manual annotations controlled by a second pathologist. Accurate annotations were made over the whole tissues. 16509 separate annotations were made.

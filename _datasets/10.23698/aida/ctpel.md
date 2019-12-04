@@ -65,6 +65,7 @@ datacite:
         Imaging. MSKI 2018. Lecture Notes in Computer Science, vol 11404.
         Springer, Cham
 other:
+  shortName: "CTPEL"
   status: "Ongoing"
   annotation: |
     Segmentation was done first with an interactive software (Mialab), followed

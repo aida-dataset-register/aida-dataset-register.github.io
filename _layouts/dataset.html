@@ -61,6 +61,10 @@
       <div class="info-box">
         <table>
           <tr>
+            <th>Short name</th>
+            <td>{{ page.other.shortName }}</td>
+          </tr>
+          <tr>
             <th>Cite as</th>
             <td>
               {{ page.datacite.author | map: "name" | array_to_sentence_string }}

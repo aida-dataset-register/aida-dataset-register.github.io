@@ -75,6 +75,7 @@ datacite:
     #  "@id": "https://doi.org/..."
     #  name: "Title of paper goes here"
 other:
+  shortName: "BRLN"
   status: "Ongoing"
   annotation: |
     No in-image annotations available. Additional information at case level

@@ -67,6 +67,7 @@ datacite:
     #  "@id": "https://doi.org/..."
     #  name: "Title of paper goes here"
 other:
+  shortName: "DRLI"
   status: "Completed"
   annotation: |
     Manual oncological annotations was made by a radiologist and these were
