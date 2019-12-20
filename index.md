@@ -9,12 +9,12 @@ of clinically useful tools.
 
 The most important factor for training world-class AI is access to massive
 amounts of high-quality training data.
-The [AIDA data hub](https://medtech4health.se/aida/datahub/) is a place where
-researchers can collaboratively gather, annotate, share and enrich large volumes
-of research data for machine learning in medical imaging diagnostics. This site
-provides information on the datasets that have been shared on the AIDA data hub,
-and makes them findable and citeable using Digital Object Identifiers
-([DOI](/about#what-are-dois-and-dataset-registers)).
+The [AIDA data hub](https://medtech4health.se/aida/datahub/) is a place where researchers can
+collaboratively gather, annotate, share and enrich large volumes of research
+data for machine learning in medical imaging diagnostics.
+This site facilitates [data sharing](../sharing/) by providing information on the datasets that
+have been shared on the AIDA data hub, and makes them findable and citeable
+using Digital Object Identifiers ([DOI](/about#what-are-dois-and-dataset-registers)).
 
 {% assign total = 0 %}
 {% for d in site.datasets %}{% if d.hidden %}{% continue  %}{% endif %}{% assign total = d.other.bytes | default: 0 | plus: total %}{% endfor %}
