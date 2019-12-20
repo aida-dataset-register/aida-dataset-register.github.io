@@ -50,7 +50,7 @@
       <p>Sample images with reduced image quality. Please click to preview.</p>
 
       <div>
-        <ul id="example-images">
+        <ul class="dataset-example-images" id="dataset-example-images">
           {% for i in page.other.exampleImage %}
             <li><img src="{{ i.thumbnail-url | default: i.url }}" data-original="{{ i.url }}" alt="Figure {{ forloop.index }}. {{ i.title }}"></li>
           {% endfor %}
@@ -199,7 +199,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.2/viewer.min.js"></script>
     <script>
-      const gallery = new Viewer(document.getElementById('example-images'), { url: "data-original" });
+      const gallery = new Viewer(document.getElementById('dataset-example-images'), { url: "data-original" });
     </script>
     </body>
 </html>

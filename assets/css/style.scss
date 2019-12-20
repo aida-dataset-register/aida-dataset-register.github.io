@@ -62,17 +62,17 @@
 }
 
 // - Dataset page -------------------------------------------------------------
-#example-images {
+.dataset-example-images {
   padding-left: 0;
 }
-#example-images:after {
+.dataset-example-images:after {
   content: ".";
   visibility: hidden;
   display: block;
   height: 0;
   clear: both;
 }
-#example-images > li {
+.dataset-example-images > li {
     border: 1px solid transparent;
     float: left;
     height: calc(100% / 5);
@@ -80,7 +80,7 @@
     overflow: hidden;
     width: calc(100% / 5);
 }
-#example-images > li > img {
+.dataset-example-images > li > img {
   cursor: zoom-in;
 }
 .viewer-title {
@@ -107,4 +107,37 @@
 .info-box ol.references > li:before {
     content: "[" counter(list) "] ";
     counter-increment: list;
+}
+
+// - AIDA data sharing overview page -------------------------------------------------------------
+
+.aida-data-sharing-overview-member {
+  background: #d9ead3;
+}
+table.aida-data-sharing-overview td {
+  background: #d9ead3;
+}
+table.aida-data-sharing-overview tr.nonmember td {
+  background: #c9daf8;
+}
+.aida-data-sharing-overview-nonmember {
+  background: #c9daf8;
+}
+table.aida-data-sharing-overview td {
+  border: 0px;
+  vertical-align: top;
+}
+table.aida-data-sharing-overview td:nth-child(1) {
+  text-align: right;
+  font-weight: bold;
+}
+table.aida-data-sharing-overview td:nth-child(2) {
+  padding-left: 0px;
+}
+table.aida-data-sharing-overview {
+  counter-reset: myOrderedListItemsCounter;
+}
+table.aida-data-sharing-overview td:first-child::before {
+  counter-increment: myOrderedListItemsCounter;
+  content: counter(myOrderedListItemsCounter)".";
 }
