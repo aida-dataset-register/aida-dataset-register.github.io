@@ -14,7 +14,7 @@ Contents:
 
 ## Common practice in the use of clinical imaging data for research
 
-See linked explanations in the [Legal discussion](../legal/) section with reference to original sources in law:
+Keywords below link to relevant sections in the [Legal discussion](../legal/) with reference to official sources:
 
 In brief, the common practice is that [caregivers](../legal/#caregiver) [disclose](../legal/#disclose) data to [research institutions](../legal/#research-institution) for specific activities described in approved [ethical review applications](../legal/#ethical-review-application), to be carried out under appropriate technical and organizational [protective measures](../legal/#protective-measures) and supervised by a named [competent researcher](../legal/#competent-researcher). The research institution is then [data controller](../legal/#data-controller) and [copyright holder](../legal/#copyright-holder) for the disclosed data, and is responsible for ensuring that data is processed and shared only as described in the approved ethical review application, with [data processing agreements](../legal/#data-processing-services-and-the-cloud), [pseudonymization](../legal/#pseudonymization), [anonymization](../legal/#anonymization) and [licensing](../legal/#license) as tools, and (starting 2020-01-01) with an obligation to store relevant data for 10 years after last use for purposes of [research validation](../legal/#research-validation).
 
