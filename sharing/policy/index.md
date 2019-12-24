@@ -27,7 +27,7 @@ AIDA is a collaboration between partners in healthcare, academia and industry. A
 
 ## Personal data and legal basis
 
-AIDA engages in research and innovation using data mainly from medical imaging, and thus has an obligation under the general data protection regulation (GDPR) to adequately safeguard the privacy of the individuals concerned. For this reason -and to protect against for example mistakes in large scale anonymization- AIDA engages in data sharing for research only when it is ethically approved, and when a contractual agreement is in place that includes non-disclosure of data, such as AIDA partner contracts. More details including the [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit%23heading%3Dh.i639kmr8va6o) can be found in the [AIDA GDPR policy 1.0](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit).
+AIDA engages in research and innovation using data mainly from medical imaging, and thus has an obligation under the general data protection regulation (GDPR) to adequately safeguard the privacy of the individuals concerned. For this reason -and to protect against for example mistakes in large scale anonymization- AIDA engages in data sharing for research only when it is ethically approved, and when a contractual agreement is in place that includes non-disclosure of data, such as AIDA partner contracts. More details including the [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) can be found in the [AIDA GDPR policy 1.0](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit).
 
 AIDA can presently only host anonymous data due to terms in the data processing agreement for the present AIDA platform. At the time of writing AIDA is reworking its platform to be sufficiently secure also for sensitive personal data, at which point AIDA will be able to support further modes of data sharing.
 
@@ -108,7 +108,7 @@ DOIs work by means of the global [DOI system](https://doi.org/), such that follo
 
 Example: 10.23698/aida/ctpa → [https://doi.org/10.23698/aida/ctpa](https://doi.org/10.23698/aida/ctpa)
 
-AIDA has its own [DOI prefix](https://search.datacite.org/works?query%3Dsnd.aida) provided by [DataCite](https://datacite.org) through the Swedish National Data Service ([SND](https://snd.gu.se/en)), and has made the data hub and its datasets discoverable through the global [re3data.org](https://www.re3data.org) registry of research data repositories, here: [AIDA data hub on re3data](https://www.re3data.org/repository/r3d100013031).
+AIDA has its own [DOI prefix](https://search.datacite.org/works?query=snd.aida) provided by [DataCite](https://datacite.org) through the Swedish National Data Service ([SND](https://snd.gu.se/en)), and has made the data hub and its datasets discoverable through the global [re3data.org](https://www.re3data.org) registry of research data repositories, here: [AIDA data hub on re3data](https://www.re3data.org/repository/r3d100013031).
 
 ### AIDA data sharing licenses
 
