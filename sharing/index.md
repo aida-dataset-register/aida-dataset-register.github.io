@@ -8,7 +8,7 @@ description: "Guidelines and best practices in sharing clinical imaging data for
 
 ## AIDA data sharing policy
 Author: [Joel Hedlund, Data director AIDA](mailto:joel.hedlund@liu.se).  
-Version: 1.0  
+Version: 1.0.1  
 Approved: 2019-12-13  
 Printable version: [AIDA data sharing policy v1.0.1](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.0.1.pdf))
 
