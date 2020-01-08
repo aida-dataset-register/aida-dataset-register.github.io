@@ -35,12 +35,10 @@ AIDA can offer some support to non-members in steps 2-5 below <span class="aida-
 </td></tr>
 <tr><td></td><td><b>Data hub sharing?</b><br/>  
     AIDA encourages <a href="../policy/#aida-data-hub-sharing">data hub sharing</a>. AIDA <a href="../policy/#aida-dataset-register">advertises shared datasets</a>, and makes them <a href="../policy/#visibility-citability-and-digital-object-identifiers">citable in research</a> using DOIs.
-</td></tr>
-<tr><td></td><td><b>Full or sample data hub sharing?</b><br/>  
+    <p><b>Select data hub sharing license</b><br/>
+    AIDA promotes the <a href="../policy/#aida-by-license">AIDA BY license</a> which allows use within AIDA.</p>
+    <b>Full or sample data hub sharing?</b><br/>  
     In the interest of OpenScience, you should make full data available <a href="../policy/#modes-of-access">on request</a>.
-</td></tr>
-<tr><td></td><td><b>Select data hub sharing license</b><br/>
-     AIDA promotes the <a href="../policy/#aida-by-license">AIDA BY license</a> which allows use within AIDA.
 </td></tr>
 <tr><td></td><td><b>Share outside of AIDA</b><br/>  
      AIDA will notify you of access requests, and can <a href="../policy/#facilitating-data-sharing-outside-of-aida">facilitate contacts</a> with requesters for data sharing options outside of AIDA, and can facilitate transfers to recipients outside AIDA based on your instructions.
