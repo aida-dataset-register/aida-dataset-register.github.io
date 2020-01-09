@@ -44,14 +44,12 @@ datacite:
   dateCreated: "2020-01-09"
   datePublished: "2020-01-09"
   dateModified: "2020-01-09"
-  keywords: "Pathology, Whole slide imaging, Lymph nodes, Cancer, Colon, Adenocarcinoma" # FIXME: Annotated?
+  keywords: "Pathology, Whole slide imaging, Lymph nodes, Cancer, Colon, Adenocarcinoma"
   version: "1.0.0"
   description: |
     Whole slide pathology images from regional lymph node metastasis in colon
     adenocarcinoma produced at Region Gävleborg Clinical Pathology and Cytology
-    department and Region Östergötland Clinical Pathology department.
-    Annotations for AI training produced as part of AIDA clinical fellowship
-    project investigating AI decision support in metastasis detection.
+    department. Consists of fifty chronologically consecutive cases.
 
     This dataset represents a second collection series in connection to the
     <a href="lnco">LNCO dataset</a> using different collection and annotation
@@ -65,9 +63,9 @@ datacite:
     #  "@id": "https://doi.org/..."
     #  name: "Title of paper goes here"
 other:
-  shortName: "LNCO"
+  shortName: "LNCO2"
   status: "Ongoing"
-  annotation: | # FIXME: Is this correct?
+  annotation: | 
     Lymph glands have been identified by an experienced pathologist and annotated
     using region-of-interest boxes.
 
@@ -81,7 +79,7 @@ other:
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
   bytes: 788018000000 # Rounding down 788018448273 bytes to 788018 MB, to account for few kb json metadata present in dir structure.
-  numberOfScans: 1244
+  numberOfScans: 1245
   numberOfAnnotations: 0 # FIXME: Is this correct?
   resolution: "20x and 40x"
   modality:
