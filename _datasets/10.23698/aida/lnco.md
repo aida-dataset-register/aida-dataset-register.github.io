@@ -62,7 +62,7 @@ datacite:
 other:
   shortName: "LNCO"
   status: "Ongoing"
-  annotation: |
+  annotation: | # FIXME: Specify annotations better, eg LGL ROI boxes and tumor polygons.
     Lymph nodes manually classified into two groups, either with or without
     tumor metastases. Tumors have been non-exhaustively annotated in lymph nodes
     that have them, so only lymph nodes without tumor present can be reliably

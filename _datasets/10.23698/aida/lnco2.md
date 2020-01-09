@@ -20,7 +20,7 @@ datacite:
   publisher:
     "@type": "Organization"
     name: "AIDA"
-  copyrightYear: 2019
+  copyrightYear: 2020
   copyrightHolder:
     - name: "Linköping University"
       url: "https://liu.se/"
@@ -68,6 +68,9 @@ other:
   shortName: "LNCO"
   status: "Ongoing"
   annotation: | # FIXME: Is this correct?
+    Lymph glands have been identified by an experienced pathologist and annotated
+    using region-of-interest boxes.
+
     Annotation is ongoing and will be included here when available.
   download:
     links:
