@@ -1,5 +1,4 @@
 ---
-hidden: yes # This means publicly readable with disclaimer if you have the link, but not included in metrics, search or frontpage.
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -65,7 +64,7 @@ datacite:
 other:
   shortName: "LNCO2"
   status: "Ongoing"
-  annotation: | 
+  annotation: |
     Lymph glands have been identified by an experienced pathologist and annotated
     using region-of-interest boxes.
 
@@ -80,7 +79,7 @@ other:
   age-span:
   bytes: 788018000000 # Rounding down 788018448273 bytes to 788018 MB, to account for few kb json metadata present in dir structure.
   numberOfScans: 1245
-  numberOfAnnotations: 0 # FIXME: Is this correct?
+  numberOfAnnotations: 0
   resolution: "20x and 40x"
   modality:
     - "Aperio Scanscope (20x)"
@@ -88,13 +87,19 @@ other:
   stain: "Hematoxylin and eosin."
   phase:
   image:
-  exampleImage: # FIXME: Replace with correct
-    - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco/he-overview.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco/he-overview-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original whole slide imaging data from hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco/he-to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco/he-to-scale-thumbnail.jpeg"
+  exampleImage:
+    - title: "Overview of lymph node whole slide imaging with hematoxylin and eosin staining."
+      url: "/assets/images/10.23698/aida/lnco2/lymph-nodes.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-thumbnail.jpeg"
+    - title: "To-scale view of pixel resolution in original lymph node whole slide imaging data from hematoxylin and eosin staining."
+      url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-to-scale.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-to-scale-thumbnail.jpeg"
+    - title: "Overview of primary tumor whole slide imaging with hematoxylin and eosin staining."
+      url: "/assets/images/10.23698/aida/lnco2/primary-tumor.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/lnco2/primary-tumor-thumbnail.jpeg"
+    - title: "To-scale view of pixel resolution in original primary tumor whole slide imaging data from hematoxylin and eosin staining."
+      url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale.jpeg"
+      thumbnail-url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale-thumbnail.jpeg"
 ---
 ## License
 Copyright

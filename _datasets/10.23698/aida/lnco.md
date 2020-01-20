@@ -51,6 +51,10 @@ datacite:
     department and Region Östergötland Clinical Pathology department.
     Annotations for AI training produced as part of AIDA clinical fellowship
     project investigating AI decision support in metastasis detection.
+
+    This dataset has been extended with a second collection series in the
+    <a href="lnco2">LNCO2 dataset</a> using different collection and annotation
+    parameters.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#license"
