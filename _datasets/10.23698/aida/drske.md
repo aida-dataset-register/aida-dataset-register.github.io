@@ -85,6 +85,8 @@ other:
   numberOfAnnotations:
   resolution:
   modality:
+    - "CT"
+  scanner:
   stain:
   phase:
   exampleImage:

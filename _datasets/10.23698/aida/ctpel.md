@@ -86,7 +86,8 @@ other:
   numberOfAnnotations: 1800
   resolution:
   modality:
-    - "Computed tomography"
+    - "CT"
+  scanner:
   stain:
   phase:
   image:

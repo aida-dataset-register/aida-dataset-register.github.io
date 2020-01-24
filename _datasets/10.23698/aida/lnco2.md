@@ -82,6 +82,8 @@ other:
   numberOfAnnotations: 0
   resolution: "20x and 40x"
   modality:
+    - "SM"
+  scanner:
     - "Aperio Scanscope (20x)"
     - "Hamamatsu NanoZoomer (40x)"
   stain: "Hematoxylin and eosin."

@@ -85,6 +85,8 @@ other:
   numberOfAnnotations: 4381
   resolution: "40X single plane, scanned in NDP format"
   modality:
+    - "SM"
+  scanner:
     - "Hamamatsu NanoZoomer-XR C12000 series 2013"
     - "Hamamatsu NanoZoomer 2.0 HT C9600 series 2013"
   stain: "H&E (hematoxylin and eosin)"

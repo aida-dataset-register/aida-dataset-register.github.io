@@ -93,7 +93,8 @@ other:
   numberOfAnnotations: 0
   resolution: "20x"
   modality:
-    - Digitized histopathological glass slides
+    - "SM"
+  scanner:
     - Aperio ScanScope AT
     - Hamamatsu NanoZoomer XR
     - Hamamatsu NanoZoomer S360

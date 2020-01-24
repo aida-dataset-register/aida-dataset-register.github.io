@@ -137,7 +137,15 @@
           <tr>
             <th>Modality</th>
             <td>
-              {{ page.other.modality | join: "<br/>" }}<br/>
+              {% for m in page.other.modality %}
+                {% include modality-title.html modality=m %}<br/>
+              {% endfor %}
+            </td>
+          </tr>
+          <tr>
+            <th>Scanner</th>
+            <td>
+              {{ page.other.scanner | join: "<br/>" }}<br/>
             </td>
           </tr>
           <tr>

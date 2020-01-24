@@ -96,6 +96,8 @@ other:
   numberOfAnnotations: 0
   resolution: "Various, e.g. 2800 x 3500 px"
   modality:
+    - "MG"
+  scanner:
     - "Siemens Mammomat Inspiration"
   stain:
   phase:

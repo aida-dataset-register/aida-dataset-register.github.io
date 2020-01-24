@@ -61,6 +61,15 @@
   color: #606c71;
 }
 
+// - Search page -------------------------------------------------------------
+#dataset-table {
+  font-size: small;
+}
+
+#dataset-table tbody tr {
+  vertical-align: top;
+}
+
 // - Dataset page -------------------------------------------------------------
 .dataset-example-images {
   padding-left: 0;

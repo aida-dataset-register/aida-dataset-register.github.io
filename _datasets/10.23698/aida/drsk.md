@@ -80,6 +80,8 @@ other:
   numberOfAnnotations: 16509
   resolution: "20X single plane"
   modality:
+    - "SM"
+  scanner:
     - "Scanscope AT (Aperio, US)"
     - "NanoZoomer XR (Hamamatsu, Japan)" # FIXME: is this same as "Hamamatsu NanoZoomer-XR C12000 series 2013"?
     - "NanoZoomer XRL (Hamamatsu, Japan)" # FIXME: is this same as "Hamamatsu NanoZoomer 2.0 HT C9600 series 2013"

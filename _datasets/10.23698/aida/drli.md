@@ -87,6 +87,8 @@ other:
   numberOfAnnotations: 317
   resolution:
   modality:
+    - "CT"
+  scanner:
     - "Siemens CT Scanners"
   stain:
   phase: Venuous (with contrast)

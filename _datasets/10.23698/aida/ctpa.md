@@ -90,6 +90,8 @@ other:
   numberOfAnnotations: 1283
   resolution:
   modality:
+    - "CT"
+  scanner:
     - "Philips Brilliance 64 CT"
     - "GE Lightspeed VCT"
   stain:
