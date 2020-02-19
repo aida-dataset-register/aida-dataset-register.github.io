@@ -47,9 +47,16 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Skin, Cancer, Whole slide imaging, Annotated"
-  version: "1.0"
+  version: "1.0.1"
   description: |
-    99 skin WSI (whole slide images): 49 abnormal cases and 50 normal benign.
+    The dataset consists of 99 H&E-stained skin whole slide images (WSI) -49
+    abnormal and 50 normal cases. All significant abnormal findings identified
+    are outlined and categorized into 13 types such as actinic keratosis, basal
+    cell carcinoma, dermatofibroma and squamous cell carcinoma. Other tissue
+    components, such as epidermis, adnexal structures as well as the surgical
+    margin are delineated to create a complete histological map. In total, 16741
+    separate annotations have been made to segment the different tissue
+    structures and link them to ontological information.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk#license"
