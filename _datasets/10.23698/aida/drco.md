@@ -53,11 +53,17 @@ datacite:
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
-  keywords: "Pathology, Colon, Whole slide imaging, Annotated"
-  version: "1.0"
+  keywords: "Pathology, Colon, Cancer, Whole slide imaging, Annotated"
+  version: "1.0.1"
   description: |
-    The dataset consist of 101 colon whole slide images (WSI): 52 abnormal and
-    49 benign.
+    The dataset consists of 101 H&E-stained colon whole slide images (WSI) - 52
+    abnormal and 49 benign cases. All significant abnormal findings identified
+    are outlined and categorized into 15 types such as hyperplastic polyp, high
+    grade adenocarcinoma and necrosis. Other tissue components such as mucosa,
+    submucosa, as well as the surgical margin are delineated to create a
+    complete histological map. In total, 756 separate annotations have been made
+    to segment the different tissue structures and link them to ontological
+    information.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/drco#license"
@@ -72,7 +78,7 @@ other:
   annotation: |
     One physician was responsible for the manual annotations controlled by a
     second pathologist. Accurate annotations were made over the whole tissues.
-    1238 separate annotations were made.
+    756 separate annotations were made.
 
     Following abnormal findings were annotated for the malign cases: acute and
     chronic inflammation, acute inflammation, adenocarcinoma, atrophy, chronic
@@ -99,7 +105,7 @@ other:
   age-span: "22-90 years"
   bytes: 49227210891
   numberOfScans: 101
-  numberOfAnnotations: 1238
+  numberOfAnnotations: 756
   resolution: "40X single plane"
   modality:
     - "SM"
