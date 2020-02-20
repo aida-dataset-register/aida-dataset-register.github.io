@@ -47,16 +47,16 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Skin, Cancer, Whole slide imaging, Annotated"
-  version: "1.0.1"
+  version: "1.0.2"
   description: |
-    The dataset consists of 99 H&E-stained skin whole slide images (WSI) -49
+    The dataset consists of 99 H&E-stained whole slide skin images (WSI) - 49
     abnormal and 50 normal cases. All significant abnormal findings identified
     are outlined and categorized into 13 types such as actinic keratosis, basal
-    cell carcinoma, dermatofibroma and squamous cell carcinoma. Other tissue
-    components, such as epidermis, adnexal structures as well as the surgical
-    margin are delineated to create a complete histological map. In total, 16741
-    separate annotations have been made to segment the different tissue
-    structures and link them to ontological information.
+    cell carcinoma and dermatofibroma. Other tissue components, such as
+    epidermis, adnexal structures, as well as the surgical margin are delineated
+    to create a complete histological map. In total, 16741 separate annotations
+    have been made to segment the different tissue structures and link them to
+    ontological information.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk#license"
@@ -69,11 +69,26 @@ other:
   shortName: "DRSK"
   status: "Completed"
   annotation: |
-    One physician was responsible for the manual annotations controlled by a second pathologist. Accurate annotations were made over the whole tissues. 16509 separate annotations were made.
+    One physician was responsible for the manual annotations controlled by a
+    second pathologist. Accurate annotations were made over the whole tissues.
+    16741 separate annotations were made.
 
-    The following findings were annotated in the abnormal cases: actinic keratosis, basal cell carcinoma, dermatofibroma, dysplastic nevus, intradermal nevus, keratoachantoma, lentigo malignant melanoma, malignant melanoma, malignant melanoma in situ, scar, seborrheic keratosis, squamous cell carcinoma and squamous cell carcinoma in situ. Other areas annotated: abnormal, acanthosis, artifacts, dermis, epidermis, fibrosis, fibrin body, granuloma, inflammation, inflammatory edema, normal, perichondrium, reactive cellular changes, skin appendage structure, surgical margins, structure of cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous tissue, surgical margins and from which body part the skin was excised.
+    The following findings were annotated in the abnormal cases: actinic
+    keratosis, basal cell carcinoma, dermatofibroma, dysplastic nevus,
+    intradermal nevus, keratoachantoma, lentigo malignant melanoma, malignant
+    melanoma, malignant melanoma in situ, scar, seborrheic keratosis, squamous
+    cell carcinoma and squamous cell carcinoma in situ. Other areas annotated:
+    abnormal, acanthosis, artifacts, dermis, epidermis, fibrosis, fibrin body,
+    granuloma, inflammation, inflammatory edema, normal, perichondrium, reactive
+    cellular changes, skin appendage structure, surgical margins, structure of
+    cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous tissue,
+    surgical margins and from which body part the skin was excised.
 
-    In the normal skin cases were following structures chosen to be annotated: artifact, dermis, epidermis, normal skin, perichondrium, skin and subcutaneous structure, skin appendage structure, skin structure, structure of cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous tissue and surgical margins.
+    In the normal skin cases were following structures chosen to be annotated:
+    artifact, dermis, epidermis, normal skin, perichondrium, skin and
+    subcutaneous structure, skin appendage structure, skin structure, structure
+    of cartilage of auditory canal, subcutaneous fatty tissue, subcutaneous
+    tissue and surgical margins.
   download:
     links:
       - text: ""
@@ -84,7 +99,7 @@ other:
   age-span: "20-93 years"
   bytes: 32375418471
   numberOfScans: 99
-  numberOfAnnotations: 16509
+  numberOfAnnotations: 16741
   resolution: "20X single plane"
   modality:
     - "SM"
