@@ -51,7 +51,7 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Ovary, Cancer, Whole slide imaging, Annotated"
-  version: "1.0"
+  version: "1.0.1"
   description: |
     This dataset consists of 174 WSI ovary whole slide images (WSI): 158
     malignant and 16 benign. Eight of the most common, histological definable
@@ -59,7 +59,7 @@ datacite:
     serous carcinoma (LGSC), clear cell carcinoma (CC), endometrioid
     adenocarcinoma (EN), metastastic serous carcinoma (MS), metastatic other
     (MO), serous borderline tumor (SB) and mucinous borderline tumor (MB). Also
-    normal ovarian tissue were annotated. 11258 separate annotations were made.
+    normal ovarian tissue were annotated. 2402 separate annotations were made.
     For the benign structures only the epithelial structures, stroma and support
     tissue were annotated.
   license:
@@ -82,7 +82,7 @@ other:
     (LGSC), clear cell carcinoma (CC), endometrioid adenocarcinoma (EN),
     metastastic serous carcinoma (MS), metastatic other (MO), serous borderline
     tumor (SB) and mucinous borderline tumor (MB). Also normal ovarian tissue
-    was annotated. In total 11258 separate annotations were made. For the
+    was annotated. In total 2402 separate annotations were made. For the
     benign structures only the epithelial structures, stroma and support tissue
     were annotated.
   download:
