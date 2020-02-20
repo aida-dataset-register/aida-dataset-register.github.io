@@ -47,13 +47,13 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Breast, Cancer, Whole slide imaging, Annotated"
-  version: "1.0"
+  version: "1.0.1"
   description: |
-    This dataset consists of 337 whole slide images (WSI) - 272 malignant from
+    This dataset consists of 361 whole slide images (WSI) - 296 malignant from
     women with invasive breast cancer (HER2 neg) and 65 benign. The tumours have
     been classified with four SNOMED-CT categories based on morphology: invasive
     duct carcinoma, invasive lobular carcinoma, in situ carcinoma, and others.
-    4381 separate annotations have been made to segment different tissue
+    4144 separate annotations have been made to segment different tissue
     structures connected to ontologies.
   license:
     - name: "Restricted access"
@@ -69,7 +69,7 @@ other:
   annotation: |
     The breast tumours were classified with four SNOMED-CT categories based on
     morphology: invasive duct carcinoma, Invasive lobular carcinoma, in situ
-    carcinoma and others. 4381 separate annotations were made to segment
+    carcinoma and others. 4144 separate annotations were made to segment
     different tissue structures connected to ontologies. One physician were
     responsible for the manual annotations controlled by a second pathologist.
   download:
@@ -81,8 +81,8 @@ other:
       sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
   bytes: 577999734414
-  numberOfScans: 337
-  numberOfAnnotations: 4381
+  numberOfScans: 361
+  numberOfAnnotations: 4144
   resolution: "40X single plane, scanned in NDP format"
   modality:
     - "SM"
