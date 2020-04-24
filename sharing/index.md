@@ -8,9 +8,8 @@ description: "Guidelines and best practices in sharing clinical imaging data for
 
 ## AIDA data sharing policy
 Author: [Joel Hedlund, Data director AIDA](mailto:joel.hedlund@liu.se).  
-Version: 1.0.1  
-Approved: 2019-12-13  
-Printable version: [AIDA data sharing policy v1.0.1](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.0.1.pdf))
+[Version](#version-history): 1.1.0  
+Printable version: [AIDA data sharing policy v1.1.0](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.0.pdf))
 
 This policy has been drawn up by [AIDA](https://medtech4health.se/aida/) in order to provide succinct and understandable guidelines for its activities, and in an attempt to relate its decisions about its data sharing activities to what AIDA has identified as the common practice of using and sharing clinical imaging data for research in Sweden and similar countries.
 
@@ -25,7 +24,7 @@ This document does not constitute legal advice.
 
 ## Contents
 
-Printable version: [AIDA data sharing policy v1.0.1](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.0.1.pdf))
+Printable version: [AIDA data sharing policy v1.1.0](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.0.pdf))
 
 **[Context](context/)**  
 Law, ethics, and protections in the common practice of sharing clinical imaging data for research in Sweden and similar countries.
@@ -41,3 +40,20 @@ Examples of language in ethical review applications to support data sharing.
 
 **[Anonymization examples](anonymization/)**  
 Examples of what AIDA considers correct anonymization in medical imaging.
+
+**[Templates](templates/)**  
+Template documents to facilitate setting up legal and ethical data sharing outside of AIDA.
+
+## Version history
+
+* 1.1.0 2020-04-24 [.pdf](AIDA-data-sharing-policy-v1.1.0.pdf)
+  * Add [templates](templates/) appendix.
+  * Add information on [AIDA Data sharing routines](https://docs.google.com/document/d/1FOb9YD_w_8SabCAbfWXHuKwAwhPyFBPKlVWuOTTwBF0/edit#).
+
+* 1.0.1 2020-01-08 [.pdf](AIDA-data-sharing-policy-v1.0.1.pdf)
+  * Delete additions on laws taking effect "(starting 2020-01-01)", for clarity.
+  * In [Overview](overview/), include points on "Data hub sharing modes" such as licensing or sample sharing into the preceding data hub sharing step.
+
+* 1.0 2019-12-13 [.pdf](AIDA-data-sharing-policy-v1.0.pdf)
+  * Initial release.
+

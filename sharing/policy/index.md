@@ -14,7 +14,7 @@ AIDA supports data sharing in the following ways:
 4.  [Support to ethical review applications](#support-to-ethical-review-applications-in-research) that include data sharing aspects.
 5.  [Facilitating data sharing outside of AIDA](#facilitating-data-sharing-outside-of-aida).
 
-This is described in further detail in the sections below.
+This is described in further detail in the sections below. The corresponding internal processes are described in a separate document [AIDA Data sharing routines](https://docs.google.com/document/d/1FOb9YD_w_8SabCAbfWXHuKwAwhPyFBPKlVWuOTTwBF0/edit#) which is updated continuously.
 
 Contents:
 
@@ -217,3 +217,5 @@ An approved ethical review application defines the framework for what is allowed
 AIDA can support researchers who as copyright holders wish to share their research data outside of AIDA, and can facilitate contacts between data requesters and copyright holders for data sharing options outside of AIDA.
 
 AIDA can facilitate data transfers from AIDA systems to recipients based on instructions from the copyright holder. AIDA can also advise and share tools for data sharing.
+
+AIDA also provides lightweight [template license agreements](../templates/) that can be used as a starting point by copyright holders looking to set up agreements for legal and ethical sharing outside of AIDA.
