@@ -37,8 +37,8 @@ datacite:
       "@type": "Person"
   dateCreated: "2020-04-27"
   datePublished: "2020-04-27"
-  dateModified: "2020-04-27"
-  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate cancer"
+  dateModified: "2020-04-28"
+  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer"
   version: "1.0.0pre"
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
@@ -91,10 +91,10 @@ other:
     - name: "Prostate"
       sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "49-85"
-  bytes: 160300000000 # 160.3 GB
+  bytes: 160000000000 # 160 GB
   numberOfScans: 366 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for training/evaluation dataset. 40 additional patients for a test dataset (x8 echo times).
   numberOfAnnotations: 692 # 652 (x8 echo times) + 40 (x8 echo times)
-  resolution: "2.8x1.46x1.46 mm scan, 0.47x0.47 mm reconstruction to 28-34 slices with 512x512 image matrix" # 2.8 mm scan slice thickness and an in-plane scan resolution of 1.46 mm x 1.46 mm (reconstructed to 0.47 mm x 0.47 mm), yielding an image matrix size of 512x512 with 28 to 34 slices for each patient and each echo.
+  resolution: "Scan resolution 2.8x1.46x1.46 mm, reconstructed to 0.47x0.47x2.8 mm. Each patient has 28-34 slices with 512x512 image matrix." # 2.8 mm scan slice thickness and an in-plane scan resolution of 1.46 mm x 1.46 mm (reconstructed to 0.47 mm x 0.47 mm), yielding an image matrix size of 512x512 with 28 to 34 slices for each patient and each echo.
   modality:
     - "MRI"
   scanner:
@@ -120,9 +120,8 @@ See github repository for pre-processing and method source code
 
 ## File formats
 Compressed NifTi (.nii.gz) file format for both images and ground truth
-segmentations.
-
-The data contains an image volume for each patient, for each echo time.
+segmentations. The data contains an image volume for each patient, for each echo
+time.
 
 Data augmentation was performed for the 326 patients with a random image
 rotation around the superior-inferior patient axis for each patient in the
@@ -143,6 +142,10 @@ Pat 1-150 = Real patients
 Pat 151-300 = Augmented versions of Pat 1-150  
 Pat 301-476 = Real patients  
 Pat 477-652 = Augmented versions of Pat 301-476  
+
+Folder names:  
+Patients40processedN4v2Normalized for Pat 1-40  
+Patients326processedPooledAugN4v2 for Pat 1-652  
 
 Test data set and ground truth label:  
 Pat 1-40 = real patients  
@@ -177,7 +180,7 @@ resulting from the use of this data cite the following works:
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
-Deep learning paper 2 above (in review).
+Deep learning paper (in review).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
