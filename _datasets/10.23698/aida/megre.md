@@ -73,10 +73,10 @@ other:
   shortName: "MEGRE"
   status: "Completed"
   annotation: |
-    For 100 out of the 326 patients in the training/validation dataset the MEGRE
+    For 100 out of the 326 patients in the train/validation dataset the MEGRE
     images was annotated in MATLAB where the center of mass (CoM) coordinates of
     the gold fiducial marker signal voids were defined by one observer. For the
-    remaining 226 of the patients in the training/validation dataset and the 39
+    remaining 226 of the patients in the train/validation dataset and the 39
     patients in the test dataset MEGRE images, echo number one or two was
     exported to the treatment planning system Eclipse v.15.1 where the CoM
     points of the gold fiducial marker signal voids were defined by multiple
@@ -92,7 +92,7 @@ other:
       sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "49-85"
   bytes: 160305002394 # ~160 GB
-  numberOfScans: 366 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for training/validation dataset. 40 additional patients for a test dataset (x8 echo times).
+  numberOfScans: 366 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for train/validation dataset. 40 additional patients for a test dataset (x8 echo times).
   numberOfAnnotations: 692 # 652 (x8 echo times) + 40 (x8 echo times)
   resolution: "Scan resolution 2.8x1.46x1.46 mm, reconstructed to 0.47x0.47x2.8 mm. Each patient has 28-34 slices with 512x512 image matrix." # 2.8 mm scan slice thickness and an in-plane scan resolution of 1.46 mm x 1.46 mm (reconstructed to 0.47 mm x 0.47 mm), yielding an image matrix size of 512x512 with 28 to 34 slices for each patient and each echo.
   modality:
