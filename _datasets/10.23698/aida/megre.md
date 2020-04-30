@@ -36,9 +36,9 @@ datacite:
       "@id": "https://orcid.org/0000-0002-9368-0177"
       "@type": "Person"
   dateCreated: "2020-04-27"
-  datePublished: "2020-04-27"
-  dateModified: "2020-04-28"
-  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer"
+  datePublished: "2020-04-30"
+  dateModified: "2020-04-30"
+  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology"
   version: "1.0.0"
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
@@ -96,7 +96,7 @@ other:
   numberOfAnnotations: 692 # 652 (x8 echo times) + 40 (x8 echo times)
   resolution: "Scan resolution 2.8x1.46x1.46 mm, reconstructed to 0.47x0.47x2.8 mm. Each patient has 28-34 slices with 512x512 image matrix." # 2.8 mm scan slice thickness and an in-plane scan resolution of 1.46 mm x 1.46 mm (reconstructed to 0.47 mm x 0.47 mm), yielding an image matrix size of 512x512 with 28 to 34 slices for each patient and each echo.
   modality:
-    - "MRI"
+    - "MR"
   scanner:
     - "GE Discovery 750w 3T" # software versions DV25.0R02-1549b and DV26.0R03-1831b
   stain:
