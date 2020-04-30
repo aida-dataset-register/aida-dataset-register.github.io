@@ -43,7 +43,7 @@ datacite:
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
     (2.38-23.6 ms) from 326 + 40 prostate cancer patients with gold fiducial
-    markers inserted into the prostate (train/evaluation + test dataset).
+    markers inserted into the prostate (train/validation + test dataset).
     Underlying description of the technique and its first use has been described
     in a [previous publication](https://www.ncbi.nlm.nih.gov/pubmed/28803447).
     A scientific paper that utilizes this dataset for deep learning is being
@@ -91,8 +91,8 @@ other:
     - name: "Prostate"
       sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "49-85"
-  bytes: 160000000000 # 160 GB
-  numberOfScans: 366 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for training/evaluation dataset. 40 additional patients for a test dataset (x8 echo times).
+  bytes: 160305002394 # ~160 GB
+  numberOfScans: 366 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for training/validation dataset. 40 additional patients for a test dataset (x8 echo times).
   numberOfAnnotations: 692 # 652 (x8 echo times) + 40 (x8 echo times)
   resolution: "Scan resolution 2.8x1.46x1.46 mm, reconstructed to 0.47x0.47x2.8 mm. Each patient has 28-34 slices with 512x512 image matrix." # 2.8 mm scan slice thickness and an in-plane scan resolution of 1.46 mm x 1.46 mm (reconstructed to 0.47 mm x 0.47 mm), yielding an image matrix size of 512x512 with 28 to 34 slices for each patient and each echo.
   modality:
@@ -119,7 +119,7 @@ See github repository for pre-processing and method source code
 [https://github.com/jamtheim/MEGRE-Net](https://github.com/jamtheim/MEGRE-Net)
 
 ## File formats
-Compressed NifTi (.nii.gz) file format for both images and ground truth
+Compressed NIfTI (.nii.gz) file format for both images and ground truth
 segmentations. The data contains an image volume for each patient, for each echo
 time.
 
@@ -137,21 +137,21 @@ augmentation was performed for the test data set containing 40 patients.
 All image data for all echos in all datasets were independently N4 bias
 field corrected in an image pre-processing pipeline.
 
-Train/evaluation data set and ground truth label:  
+Train/validation data set and ground truth label:  
 Pat 1-150 = Real patients  
 Pat 151-300 = Augmented versions of Pat 1-150  
 Pat 301-476 = Real patients  
 Pat 477-652 = Augmented versions of Pat 301-476  
-
-Folder names:  
-Patients40processedN4v2Normalized for Pat 1-40  
-Patients326processedPooledAugN4v2 for Pat 1-652  
 
 Test data set and ground truth label:  
 Pat 1-40 = real patients  
 Patient 1 had four fiducial markers inserted and was excluded in the deep
 learning study (in review). Each patient volume for each echo in test data set
 Pat 1-40 was subjected to Z-score normalization after N4 bias field correction.  
+
+Folder names:  
+Patients40processedN4v2Normalized for Pat 1-40  
+Patients326processedPooledAugN4v2 for Pat 1-652  
 
 Folder structure for images:  
 echo_1/PatientXXX_echo-1.nii.gz  
@@ -175,12 +175,12 @@ purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies, and that publications
 resulting from the use of this data cite the following works:
 
+Deep learning paper (in review).
+
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
-
-Deep learning paper (in review).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
