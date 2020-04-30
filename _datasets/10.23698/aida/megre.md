@@ -1,5 +1,5 @@
 ---
-hidden: yes
+hidden: no
 datacite:
   "@context": "http://schema.org"
   "@type": "Dataset"
@@ -39,7 +39,7 @@ datacite:
   datePublished: "2020-04-27"
   dateModified: "2020-04-28"
   keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer"
-  version: "1.0.0pre"
+  version: "1.0.0"
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
     (2.38-23.6 ms) from 326 + 40 prostate cancer patients with gold fiducial
