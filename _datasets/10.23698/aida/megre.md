@@ -38,11 +38,7 @@ datacite:
   dateCreated: "2020-04-27"
   datePublished: "2020-04-30"
   dateModified: "2020-04-30"
-<<<<<<< HEAD
   keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology"
-=======
-  keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer"
->>>>>>> e1cfb0178ad106dac4f92be0ec8a19ee56324660
   version: "1.0.0"
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
