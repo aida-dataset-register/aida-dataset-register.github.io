@@ -39,7 +39,7 @@ datacite:
   datePublished: "2020-04-30"
   dateModified: "2020-04-30"
   keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology"
-  version: "1.0.0"
+  version: "1.0.1"
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
     (2.38-23.6 ms) from 326 + 40 prostate cancer patients with gold fiducial
@@ -51,9 +51,9 @@ datacite:
 
     The data contains an image volume for each patient, for each echo time. The
     center of mass from the three inserted prostate gold fiducial markers was
-    manually defined. The ground truth label for this datasets consists of
+    manually defined. The ground truth label for this dataset consist of
     spherical objects with a radius of 1-12 mm, inserted in the center of mass
-    defined locations.
+    defined locations. Method in the paper uses 9 mm radius.
   license:
     - name: "Restricted access"
       id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#license"
@@ -74,15 +74,16 @@ other:
   status: "Completed"
   annotation: |
     For 100 out of the 326 patients in the train/validation dataset the MEGRE
-    images was annotated in MATLAB where the center of mass (CoM) coordinates of
+    images were annotated in MATLAB where the center of mass (CoM) coordinates of
     the gold fiducial marker signal voids were defined by one observer. For the
-    remaining 226 of the patients in the train/validation dataset and the 39
+    remaining 226 of the patients in the train/validation dataset and the 40
     patients in the test dataset MEGRE images, echo number one or two was
     exported to the treatment planning system Eclipse v.15.1 where the CoM
     points of the gold fiducial marker signal voids were defined by multiple
     observers and exported as DICOM RT-structures. Further details on this are
     provided in an article currently in review for publication. All fiducial
-    identification was confirmed to be correct using CT images.
+    identifications were confirmed to be correct using the corresponding CT
+    images.
   download: # Fixme: insert link to paper in annotation text above when published.
     links:
       - text: ""
@@ -123,19 +124,19 @@ Compressed NIfTI (.nii.gz) file format for both images and ground truth
 segmentations. The data contains an image volume for each patient, for each echo
 time.
 
-Data augmentation was performed for the 326 patients with a random image
-rotation around the superior-inferior patient axis for each patient in the
-interval -15 to 15 degrees using linear interpolation. Image data for each
-echo for each patient time was handled separately but subjected to the same
-amount of rotation. The same rotation was applied to the ground truth labels
-using nearest neighbor interpolation (to avoid producing non-binary mask
-values). The augmented data and labels for each patient data was saved as a
-new subject, producing a total of 652 subjects in the train/validation
-dataset, which equaled a total of 1946 fiducial objects. No data
-augmentation was performed for the test data set containing 40 patients.  
+Data augmentation was performed for each of the 326 patients with random image
+rotations in an interval between -15 to 15 degrees around the superior-inferior
+patient axis using linear interpolation. Image data for each echo for each
+patient time was handled separately but subjected to the same amount of
+rotation. The same rotation was applied to the ground truth labels using nearest
+neighbor interpolation (to avoid producing non-binary mask values). The
+augmented data and labels for each patient data was saved as a new subject,
+producing a total of 652 subjects in the train/validation dataset, which equaled
+a total of 1946 fiducial objects. No data augmentation was performed for the
+test data set containing 40 patients.  
 
-All image data for all echos in all datasets were independently N4 bias
-field corrected in an image pre-processing pipeline.
+All image data for all echos in all datasets was independently N4 bias field
+corrected in an image pre-processing pipeline.
 
 Train/validation data set and ground truth label:  
 Pat 1-150 = Real patients  
