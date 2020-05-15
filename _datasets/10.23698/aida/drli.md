@@ -78,6 +78,8 @@ other:
     links:
       - text: ""
         url: ""
+  countries-shared:
+    - "SE"
   organ:
     - name: "Liver"
       sctid: 10200004 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

@@ -2,7 +2,7 @@
 image: "https://medtech4health.se/wp-content/uploads/2018/01/AIDA-banner-smal.jpg"
 title: "About This Site"
 ---
-This site facilitates [AIDA data sharing](../sharing/) by providing information 
+This site facilitates [AIDA data sharing](../sharing/) by providing information
 on datasets shared on the [AIDA data hub](https://medtech4health.se/aida/datahub/)
 through search engine optimized DOI landing pages, and also in machine-readable
 form through an [API](api/).
@@ -67,3 +67,4 @@ This site uses the following free and open services and technologies:
 * [Viewer.js](https://github.com/fengyuanchen/viewerjs) - Interactive image viewer.
 * [AnchorJS](https://www.bryanbraun.com/anchorjs/) - Linkable headings.
 * [DataTables](https://datatables.net/) - Sortable and searchable tables.
+* [simplemaps](https://simplemaps.com/resources/svg-world) - Free World SVG Map.

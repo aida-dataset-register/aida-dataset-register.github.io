@@ -87,6 +87,8 @@ other:
     links:
       - text: ""
         url: ""
+  countries-shared:
+    - "SE"
   organ:
     - name: "Breast"
       sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

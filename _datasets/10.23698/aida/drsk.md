@@ -93,6 +93,8 @@ other:
     links:
       - text: ""
         url: ""
+  countries-shared:
+    - "SE"
   organ:
     - name: "Skin"
       sctid: 39937001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

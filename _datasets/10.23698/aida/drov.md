@@ -89,6 +89,8 @@ other:
     links:
       - text: ""
         url: ""
+  countries-shared:
+    - "SE"
   organ:
     - name: "Ovary"
       sctid: 15497006 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s

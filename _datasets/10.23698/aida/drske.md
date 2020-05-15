@@ -76,6 +76,8 @@ other:
     links:
       - text: ""
         url: ""
+  countries-shared:
+    - "SE"
   organ:
     - name: "Skeleton"
       sctid: 113192009

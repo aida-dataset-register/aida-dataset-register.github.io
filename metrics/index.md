@@ -1,6 +1,6 @@
 ---
 title: "Metrics"
-description: "AIDA data hub sharing in numbers."
+description: "AIDA Data Hub sharing in numbers."
 ---
 {% capture ignored %}
   {% assign totn = 0 %}
@@ -19,6 +19,8 @@ description: "AIDA data hub sharing in numbers."
   {% assign radb = 0 %}
   {% assign rads = 0 %}
   {% assign rada = 0 %}
+  {% assign country-codes = '' | split: '' %}
+  {% assign modalities = '' | split: '' %}
   {% assign organs = '' | split: '' %}
   {% for d in site.datasets %}
     {% if d.hidden %}
@@ -50,11 +52,23 @@ description: "AIDA data hub sharing in numbers."
       {% assign rads = rads | plus: s %}
       {% assign rada = rada | plus: a %}
     {% endif %}
+    {% assign country-codes = country-codes | concat: d.other.countries-shared %}
+    {% assign modalities = modalities | concat: d.other.modality %}
     {% assign o = d.other.organ | map: "name" %}
     {% assign organs = organs | concat: o %}
   {% endfor %}
+  {% assign modalities = modalities | uniq | sort %}
   {% assign organs = organs | uniq | sort %}
+  {% assign countries = '' | split: '' %}
+  {% for c in country-codes %}{% assign countries = countries | push: site.data.countrynames[c] %}{% endfor %}
+  {% assign countries = countries | uniq | sort %}
 {% endcapture %}
+## Countries
+{% include world-map.svg %}
+
+AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overview/#share-outside-of-aida) with researchers in {{ countries | size }} countries:
+{{ countries | array_to_sentence_string: "and" }}.
+
 ## Datasets
 <table class="info-box">
   <tr><th></th><th>Datasets</th><th>Scans</th><th>Annotations</th><th>Size</th></tr>
@@ -87,6 +101,17 @@ description: "AIDA data hub sharing in numbers."
     <td>{% include human_friendly_filesize bytes=radb %}</td>
   </tr>
 </table>
+
+## Modalities
+Modalities: {{ modalities | size }}.
+
+Please click the names below to do a simple text search for matching datasets:
+
+<ul>
+{% for m in modalities %}
+  <li><a href="/search?q={{ m }}">{{ m }}: {{ site.data.modalitynames[m] }}</a></li>
+{% endfor %}
+</ul>
 
 ## Organs
 Organs: {{ organs | size }} (unique names).

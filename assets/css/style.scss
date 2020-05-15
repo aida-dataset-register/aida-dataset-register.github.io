@@ -150,3 +150,19 @@ table.aida-data-sharing-overview td:first-child::before {
   counter-increment: myOrderedListItemsCounter;
   content: counter(myOrderedListItemsCounter)".";
 }
+
+// - Metrics page -------------------------------------------------------------
+
+// Making mouseover hover styles for member countries on the map, eg:
+//#country-CN,#country-ES,#country-SE,#country-GB {
+//#country-CN:hover,#country-ES:hover,#country-SE:hover,#country-GB:hover {
+{% assign country-codes = '' | split: '' %}
+{% for d in site.datasets %}{% assign country-codes = country-codes | concat: d.other.countries-shared %}{% endfor %}
+{% assign country-codes = country-codes | uniq %}
+// {{ country-codes }}
+{% for c in country-codes %}#country-{{ c }}{% unless forloop.last %},{% endunless %}{% endfor %} {
+  fill: #045eb6 !important;
+}
+{% for c in country-codes %}#country-{{ c }}:hover{% unless forloop.last %},{% endunless %}{% endfor %} {
+  fill: #0c72d5 !important;
+}
