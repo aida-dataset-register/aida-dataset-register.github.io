@@ -2,7 +2,10 @@
 title: "Search"
 description: "Find datasets of interest on the AIDA data hub."
 ---
-Please use the interactive table below for basic sorting and text search.
+<div style="display:table; width:100%;">
+    <label for="search" style="display:table-cell; width:1px">Search:&nbsp;</label>
+    <input type="text" id="search" style="display:table-cell; width: 100%;" placeholder="Search for example modality:ct lymph node..."/>
+</div>
 
 <table id="dataset-table">
  <thead><tr><th>Name</th><th>Subject</th><th>Modality</th><th>Date</th><th>Size</th><th>Organ</th><th>Title</th></tr></thead>
@@ -32,12 +35,56 @@ Please use the interactive table below for basic sorting and text search.
 <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/1.10.19/sorting/file-size.js"></script>
 <script>
+var columns = {};
+$("#dataset-table th").map( function (i, e) { columns[e.innerHTML.toLowerCase()] = i });
+
+// Search extension to enable basic word search by column name, eg: modality:ct
+$.fn.dataTable.ext.search.push(
+  function( settings, data, dataIndex ) {
+    var terms = $('#search').val().toLowerCase().match(/\S+/g) || [];
+    for (i = 0; i < terms.length; ++i) {
+      var term = terms[i];
+      var colspec = term.match(/(\w+):(.*)/);
+      if (colspec) {
+        var col = columns[colspec[1]];
+        if (data[col] == undefined) {
+          return false;
+        }
+        if (colspec[2] && data[col].toLowerCase().indexOf(colspec[2]) < 0) {
+          return false;
+        }
+      } else {
+        var match = false;
+        for (j = 0; j < data.length; ++j) {
+          match = match || (data[j].toLowerCase().indexOf(term) >= 0)
+        }
+        if (!match) {
+          return false;
+        }
+      }
+    }
+    return true;
+  }
+);
+
 $(document).ready( function () {
-  $('#dataset-table').DataTable({
+  var table = $('#dataset-table').DataTable({
      paging: false,
+     dom: "ilrtp",
      columnDefs: [
        { type: 'file-size', targets: 4 }
      ]
-  }).search(new URLSearchParams(window.location.search).get('q') || '').draw();
+  });
+
+  // Event listener for live search
+  $('#search').keyup( function(event) {
+    var code = event.charCode || event.keyCode;
+    if (code == 27) { // Esc clears searchbox
+        this.value = '';
+    }
+    table.draw();
+  } ).val(new URLSearchParams(window.location.search).get('q') || '');
+  table.draw();
 } );
+
 </script>

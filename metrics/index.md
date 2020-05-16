@@ -87,14 +87,14 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
     <td>{% include human_friendly_filesize bytes=annb %}</td>
   </tr>
   <tr>
-    <td><a href="/search?q=Pathology">Pathology</a></td>
+    <td><a href="/search?q=Subject:Pathology">Pathology</a></td>
     <td>{{ patn }}</td>
     <td>{{ pats }}</td>
     <td>{{ pata }}</td>
     <td>{% include human_friendly_filesize bytes=patb %}</td>
   </tr>
   <tr>
-    <td><a href="/search?q=Radiology">Radiology</a></td>
+    <td><a href="/search?q=Subject:Radiology">Radiology</a></td>
     <td>{{ radn }}</td>
     <td>{{ rads }}</td>
     <td>{{ rada }}</td>
@@ -109,7 +109,7 @@ Please click the names below to do a simple text search for matching datasets:
 
 <ul>
 {% for m in modalities %}
-  <li><a href="/search?q={{ m }}">{{ m }}: {{ site.data.modalitynames[m] }}</a></li>
+  <li><a href="/search?q=Modality:{{ m }}">{{ m }}: {{ site.data.modalitynames[m] }}</a></li>
 {% endfor %}
 </ul>
 
@@ -120,6 +120,6 @@ Please click the names below to do a simple text search for matching datasets:
 
 <ul>
 {% for o in organs %}
-  <li><a href="/search?q={{ o }}">{{ o }}</a></li>
+  <li><a href="/search?q=Organ:{{ o }}">{{ o }}</a></li>
 {% endfor %}
 </ul>
