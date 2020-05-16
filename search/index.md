@@ -36,7 +36,7 @@ $(document).ready( function () {
   $('#dataset-table').DataTable({
      paging: false,
      columnDefs: [
-       { type: 'file-size', targets: 3 }
+       { type: 'file-size', targets: 4 }
      ]
   }).search(new URLSearchParams(window.location.search).get('q') || '').draw();
 } );
