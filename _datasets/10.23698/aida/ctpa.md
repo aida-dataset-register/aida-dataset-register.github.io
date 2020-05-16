@@ -17,7 +17,7 @@ datacite:
       "@id": "https://orcid.org/0000-0001-7488-6105"
       "@type": "Person"
     - name: "Dimitris Toumpanakis"
-      "@id": "" # FIXME: missing info
+      #"@id": "" # FIXME: missing info
       "@type": "Person"
     - name: "Tomas Fröding"
       "@id": "https://orcid.org/0000-0002-4053-4301"

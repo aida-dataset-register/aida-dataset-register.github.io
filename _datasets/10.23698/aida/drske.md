@@ -11,7 +11,7 @@ datacite:
       "@id": "https://orcid.org/0000-0003-0066-4985"
       "@type": "Person"
     - name: "Filip Landgren"
-      "@id": "" # FIXME: missing info
+      #"@id": "" # FIXME: missing info
       "@type": "Person"
     - name: "Caroline Bivik Stadler"
       "@id": "https://orcid.org/0000-0001-7250-234X"

@@ -8,7 +8,7 @@ datacite:
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2"
   author:
     - name: "Gordan Maras"
-      "@id": "" # FIXME: missing info
+      #"@id": "" # FIXME: missing info
       "@type": "Person"
     - name: "Martin Lindvall"
       "@id": "https://orcid.org/0000-0002-7014-8874"
@@ -30,7 +30,7 @@ datacite:
   provider:
     - name: "Gordan Maras"
       email: "gordan.maras@regiongavleborg.se"
-      "@id": "" # FIXME: missing info
+      #"@id": "" # FIXME: missing info
       "@type": "Person"        
     - name: "Joel Hedlund"
       email: "joel.hedlund@liu.se"

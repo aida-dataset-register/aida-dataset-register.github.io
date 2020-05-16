@@ -11,7 +11,7 @@ datacite:
       "@id": "https://orcid.org/0000-0003-0066-4985"
       "@type": "Person"
     - name: "Johan Blomma"
-      "@id": "" # FIXME: missing info
+      #"@id": "" # FIXME: missing info
       "@type": "Person"
     - name: "Nils Dahlström"
       "@id": "https://orcid.org/0000-0002-4111-1693"

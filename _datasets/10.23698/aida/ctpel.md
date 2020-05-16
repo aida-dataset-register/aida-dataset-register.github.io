@@ -9,7 +9,7 @@ datacite:
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel"
   author:
     - name: "Bryan Connolly"
-      "@id": "" # FIXME: missing info
+      #"@id": "" # FIXME: missing info
       "@type": "Person"
     - name: "Chunliang Wang"
       "@id": "https://orcid.org/0000-0002-0442-3524"
