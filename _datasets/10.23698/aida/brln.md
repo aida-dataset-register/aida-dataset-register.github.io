@@ -9,7 +9,7 @@ datacite:
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/brln"
   author:
     - name: "Sofia Jarkman"
-      #"@id": "" # FIXME: missing info
+      "@id": # FIXME: missing info
       "@type": "Person"
     - name: "Martin Lindvall"
       "@id": "https://orcid.org/0000-0002-7014-8874"
