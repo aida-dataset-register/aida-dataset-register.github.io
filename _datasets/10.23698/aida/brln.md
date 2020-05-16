@@ -40,7 +40,7 @@ datacite:
   provider:
     - name: "Sofia Jarkman"
       email: "sofia.jarkman@regionostergotland.se"
-      "@id": "" # FIXME: missing info
+      #"@id": "" # FIXME: missing info
       "@type": "Person"        
     - name: "Joel Hedlund"
       email: "joel.hedlund@liu.se"
