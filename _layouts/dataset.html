@@ -97,8 +97,8 @@
           <tr>
             <th>Author</th>
             <td>
-              {% for a in page.datacite.author %}
-                <a href="{{ a['@id'] }}">{{ a.name }}</a><br/>
+              {% for a in page.datacite.author %}{% assign url=a["@id"] %}
+                {% include link_if_url.html text=a.name url=url %}<br/>
               {% endfor %}
             </td>
           </tr>

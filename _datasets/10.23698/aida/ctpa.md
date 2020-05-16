@@ -10,8 +10,8 @@ datacite:
     - name: "Tobias Sjöblom"
       "@id": "https://orcid.org/0000-0001-6668-4140"
       "@type": "Person"
-    - name: "Natasa Sladoje"
-      "@id": "" # FIXME: missing info
+    - name: "Nataša Sladoje"
+      "@id": "https://orcid.org/0000-0002-6041-6310"
       "@type": "Person"
     - name: "Ali Teymur Kahraman"
       "@id": "https://orcid.org/0000-0001-7488-6105"
@@ -20,7 +20,7 @@ datacite:
       "@id": "" # FIXME: missing info
       "@type": "Person"
     - name: "Tomas Fröding"
-      "@id": "" # FIXME: missing info
+      "@id": "https://orcid.org/0000-0002-4053-4301"
       "@type": "Person"        
   publisher:
     "@type": "Organization"
@@ -37,12 +37,12 @@ datacite:
       url: "Axial CTPA image showing annotated pulmonary emboli"
       "@type": "Organization"
     - name: "Tomas Fröding"
-      "@id": "" # FIXME: missing info
+      "@id": "https://orcid.org/0000-0002-4053-4301"
       "@type": "Person"        
   provider:
     - name: "Tomas Fröding"
       email: "tomaskjfroding@gmail.com"
-      "@id": "" # FIXME: missing info
+      "@id": "https://orcid.org/0000-0002-4053-4301"
       "@type": "Person"        
     - name: "Joel Hedlund"
       email: "joel.hedlund@liu.se"
