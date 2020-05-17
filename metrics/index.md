@@ -80,21 +80,21 @@ AIDA Data Hub has facilitated [legal and ethical data sharing](../sharing/overvi
     <td>{% include human_friendly_filesize bytes=totb %}</td>
   </tr>
   <tr>
-    <td><a href="/search?q=Annotated">Annotated</a></td>
+    <td><a href="/search/?q=Annotated">Annotated</a></td>
     <td>{{ annn }}</td>
     <td>{{ anns }}</td>
     <td>{{ anna }}</td>
     <td>{% include human_friendly_filesize bytes=annb %}</td>
   </tr>
   <tr>
-    <td><a href="/search?q=Subject:Pathology">Pathology</a></td>
+    <td><a href="/search/?q=Subject:Pathology">Pathology</a></td>
     <td>{{ patn }}</td>
     <td>{{ pats }}</td>
     <td>{{ pata }}</td>
     <td>{% include human_friendly_filesize bytes=patb %}</td>
   </tr>
   <tr>
-    <td><a href="/search?q=Subject:Radiology">Radiology</a></td>
+    <td><a href="/search/?q=Subject:Radiology">Radiology</a></td>
     <td>{{ radn }}</td>
     <td>{{ rads }}</td>
     <td>{{ rada }}</td>
@@ -120,6 +120,6 @@ Please click the names below to do a simple text search for matching datasets:
 
 <ul>
 {% for o in organs %}
-  <li><a href="/search?q=Organ:{{ o }}">{{ o }}</a></li>
+  <li><a href="/search/?q=Organ:{{ o }}">{{ o }}</a></li>
 {% endfor %}
 </ul>
