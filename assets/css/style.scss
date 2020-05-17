@@ -74,6 +74,24 @@
   padding-bottom: 0.755em;
 }
 
+span.clearicon {
+    position: relative;
+}
+span.clearicon span {
+    position: absolute;
+    display: block;
+    top: 5px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/0/0f/Clear_Icon.svg');
+    cursor: pointer;
+}
+span.clearicon input {
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
 // - Dataset page -------------------------------------------------------------
 .dataset-example-images {
   padding-left: 0;

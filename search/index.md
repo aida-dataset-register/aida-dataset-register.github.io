@@ -5,6 +5,7 @@ description: "Find datasets of interest on the AIDA data hub."
 <div style="display:table; width:100%;">
     <label for="search" style="display:table-cell; width:1px">Search:&nbsp;</label>
     <input type="text" id="search" style="display:table-cell; width: 100%;" placeholder="Search for example modality:ct lymph node..."/>
+    <span style="display:table-cell; width:1px; font-size: medium; vertical-align: middle;">&nbsp;<a onclick="$('#search').val('').trigger('keyup');">Clear</a></span>
 </div>
 
 <table id="dataset-table">
@@ -35,10 +36,9 @@ description: "Find datasets of interest on the AIDA data hub."
 <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/1.10.19/sorting/file-size.js"></script>
 <script>
+// DataTables search extension to enable basic word search by column name, eg: modality:ct
 var columns = {};
 $("#dataset-table th").map( function (i, e) { columns[e.innerHTML.toLowerCase()] = i });
-
-// Search extension to enable basic word search by column name, eg: modality:ct
 $.fn.dataTable.ext.search.push(
   function( settings, data, dataIndex ) {
     var terms = $('#search').val().toLowerCase().match(/\S+/g) || [];
