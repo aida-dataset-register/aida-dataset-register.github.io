@@ -109,7 +109,7 @@ Please click the names below to do a simple text search for matching datasets:
 
 <ul>
 {% for m in modalities %}
-  <li><a href="/search?q=Modality:{{ m }}">{{ m }}: {{ site.data.modalitynames[m] }}</a></li>
+  <li><a href="../search?q=Modality:{{ m }}">{{ m }}: {{ site.data.modalitynames[m] }}</a></li>
 {% endfor %}
 </ul>
 
