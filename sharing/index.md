@@ -7,9 +7,10 @@ description: "Guidelines and best practices in sharing clinical imaging data for
 <span style="font-size: smaller;">[The AIDA Dataset Register](/)</span>
 
 ## AIDA data sharing policy
-Author: [Joel Hedlund, Data director AIDA](mailto:joel.hedlund@liu.se).  
-[Version](#version-history): 1.1.0  
-Printable version: [AIDA data sharing policy v1.1.0](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.0.pdf))
+Author: Analytical Imaging Diagnostics Arena (AIDA).  
+Editor: [Joel Hedlund, Data director AIDA](mailto:joel.hedlund@liu.se).  
+Version: [1.1.1](#version-history)  
+Printable version: [AIDA data sharing policy v1.1.1](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.1.pdf))
 
 This policy has been drawn up by [AIDA](https://medtech4health.se/aida/) in order to provide succinct and understandable guidelines for its activities, and in an attempt to relate its decisions about its data sharing activities to what AIDA has identified as the common practice of using and sharing clinical imaging data for research in Sweden and similar countries.
 
@@ -24,7 +25,7 @@ This document does not constitute legal advice.
 
 ## Contents
 
-Printable version: [AIDA data sharing policy v1.1.0](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.0.pdf))
+Printable version: [AIDA data sharing policy v1.1.1](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.0.pdf))
 
 **[Context](context/)**  
 Law, ethics, and protections in the common practice of sharing clinical imaging data for research in Sweden and similar countries.
@@ -46,6 +47,9 @@ Template documents to facilitate setting up legal and ethical data sharing outsi
 
 ## Version history
 
+* 1.1.1 2020-06-05 [.pdf](AIDA-data-sharing-policy-v1.1.0.pdf)
+  * Change "Author" attribution to AIDA, add "Editor" attribution to Joel Hedlund.
+
 * 1.1.0 2020-04-24 [.pdf](AIDA-data-sharing-policy-v1.1.0.pdf)
   * Add [templates](templates/) appendix.
   * Add information on [AIDA Data sharing routines](https://docs.google.com/document/d/1FOb9YD_w_8SabCAbfWXHuKwAwhPyFBPKlVWuOTTwBF0/edit#).
@@ -56,4 +60,3 @@ Template documents to facilitate setting up legal and ethical data sharing outsi
 
 * 1.0 2019-12-13 [.pdf](AIDA-data-sharing-policy-v1.0.pdf)
   * Initial release.
-
