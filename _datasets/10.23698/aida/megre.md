@@ -39,7 +39,7 @@ datacite:
   datePublished: "2020-04-30"
   dateModified: "2020-04-30"
   keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology"
-  version: "1.0.1"
+  version: "1.1.0"
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
     (2.38-23.6 ms) from 326 + 40 prostate cancer patients with gold fiducial
@@ -122,50 +122,35 @@ See github repository for pre-processing and method source code
 [https://github.com/jamtheim/MEGRE-Net](https://github.com/jamtheim/MEGRE-Net)
 
 ## File formats
-Compressed NIfTI (.nii.gz) file format for both images and ground truth
-segmentations. The data contains an image volume for each patient, for each echo
-time.
+Compressed NIfTI (.nii.gz) file format for both images and ground truth segmentations. The data contains an image volume for each patient, for each echo time.
 
-Data augmentation was performed for each of the 326 patients with random image
-rotations in an interval between -15 to 15 degrees around the superior-inferior
-patient axis using linear interpolation. Image data for each echo for each
-patient time was handled separately but subjected to the same amount of
-rotation. The same rotation was applied to the ground truth labels using nearest
-neighbor interpolation (to avoid producing non-binary mask values). The
-augmented data and labels for each patient data was saved as a new subject,
-producing a total of 652 subjects in the train/validation dataset, which equaled
-a total of 1946 fiducial objects. No data augmentation was performed for the
-test data set containing 40 patients.  
+Data augmentation was performed for each of the 326 patients with random image rotations in an interval between -15 to 15 degrees around the superior-inferior patient axis using linear interpolation. Image data for each echo for each patient time was handled separately but subjected to the same amount of rotation. The same rotation was applied to the ground truth labels using nearest neighbor interpolation (to avoid producing non-binary mask values). The augmented data and labels for each patient data was saved as a new subject, producing a total of 652 subjects in the train/validation dataset, which equaled a total of 1946 fiducial objects. No data augmentation was performed for the test data set containing 40 patients.
 
-All image data for all echos in all datasets was independently N4 bias field
-corrected in an image pre-processing pipeline.
+All image data for all echos in all datasets was independently N4 bias field corrected in an image pre-processing pipeline.
 
 Train/validation data set and ground truth label:  
-Pat 1-150 = Real patients  
-Pat 151-300 = Augmented versions of Pat 1-150  
-Pat 301-476 = Real patients  
-Pat 477-652 = Augmented versions of Pat 301-476  
+XXXXXXXXX = Real patients  
+XXXXXXXXXAug = Augmented data
 
 Test data set and ground truth label:  
-Pat 1-40 = real patients  
-Patient 1 had four fiducial markers inserted and was excluded in the deep
-learning study (in review). Each patient volume for each echo in test data set
-Pat 1-40 was subjected to Z-score normalization after N4 bias field correction.  
+XXXXXXXXXtest= real patients  
+
+One patient had four fiducial markers inserted and was excluded in the deep learning study (in review). This patient has suffix \_4fid in its name. Each patient volume for each echo in test data set was subjected to Z-score normalization after N4 bias field correction.
 
 Folder names:  
-Patients40processedN4v2Normalized for Pat 1-40  
-Patients326processedPooledAugN4v2 for Pat 1-652  
+Patients40processedN4v2Normalized for Test Data  
+Patients326processedPooledAugN4v2 for Training/Validation Data
 
-Folder structure for images:  
-echo_1/PatientXXX_echo-1.nii.gz  
-echo_2/PatientXXX_echo-2.nii.gz  
+Folder structure for image files:  
+echo_1/ XXXXXXXXX_echo-1.nii.gz  
+echo_2/ XXXXXXXXX_echo-2.nii.gz  
 …  
-echo_8/PatientXXX_echo-8-nii.gz  
+echo_8/ XXXXXXXXX_echo-8-nii.gz
 
-Folder structure for ground truth:  
-GT1/PatientXXX_coords.nii.gz  
-GT2/PatientXXX_coords.nii.gz  
-…  
+Folder structure for ground truth files:  
+GT1/ XXXXXXXXX_coords.nii.gz  
+GT2/ XXXXXXXXX_coords.nii.gz  
+…
 
 ## License
 Copyright
