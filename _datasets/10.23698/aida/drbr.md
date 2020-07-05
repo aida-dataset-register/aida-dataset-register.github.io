@@ -47,7 +47,8 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Breast, Cancer, Whole slide imaging, Annotated"
-  version: "1.0.1"
+  version: "1.0.2"
+  # v1.0.2 2020-07-05: Update size in bytes.
   description: |
     This dataset consists of 361 whole slide images (WSI) - 296 malignant from
     women with invasive breast cancer (HER2 neg) and 65 benign. The tumours have
@@ -83,7 +84,7 @@ other:
     - name: "Breast"
       sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
-  bytes: 577999734414
+  bytes: 500800073698 # 501 GB
   numberOfScans: 361
   numberOfAnnotations: 4144
   resolution: "40X single plane, scanned in NDP format"

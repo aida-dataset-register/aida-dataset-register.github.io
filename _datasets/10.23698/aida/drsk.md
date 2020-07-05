@@ -47,7 +47,8 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Skin, Cancer, Whole slide imaging, Annotated"
-  version: "1.0.2"
+  version: "1.0.3"
+  # v1.0.3 2020-07-05: Update size in bytes.
   description: |
     The dataset consists of 99 H&E-stained whole slide skin images (WSI) - 49
     abnormal and 50 normal cases. All significant abnormal findings identified
@@ -99,7 +100,7 @@ other:
     - name: "Skin"
       sctid: 39937001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "20-93 years"
-  bytes: 32375418471
+  bytes: 32362326070 # 32 GB
   numberOfScans: 99
   numberOfAnnotations: 16741
   resolution: "20X single plane"

@@ -51,7 +51,8 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Ovary, Cancer, Whole slide imaging, Annotated"
-  version: "1.0.1"
+  version: "1.0.2"
+  # v1.0.2 2020-07-05: Update size in bytes.
   description: |
     This dataset consists of 174 WSI ovary whole slide images (WSI): 158
     malignant and 16 benign. Eight of the most common, histological definable
@@ -95,7 +96,7 @@ other:
     - name: "Ovary"
       sctid: 15497006 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "17-86 years"
-  bytes: 108589866647
+  bytes: 108588106975 # 109 GB
   numberOfScans: 193
   numberOfAnnotations: 2402
   resolution: "20X single plane"

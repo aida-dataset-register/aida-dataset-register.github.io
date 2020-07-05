@@ -44,7 +44,8 @@ datacite:
   datePublished: "2020-01-09"
   dateModified: "2020-01-09"
   keywords: "Pathology, Whole slide imaging, Lymph nodes, Cancer, Colon, Adenocarcinoma"
-  version: "1.0.0"
+  version: "1.0.1"
+  # v1.0.1 2020-07-05: Update size in bytes.
   description: |
     Whole slide pathology images from regional lymph node metastasis in colon
     adenocarcinoma produced at Region Gävleborg Clinical Pathology and Cytology
@@ -79,7 +80,7 @@ other:
     - name: "Colon"
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
-  bytes: 788018000000 # Rounding down 788018448273 bytes to 788018 MB, to account for few kb json metadata present in dir structure.
+  bytes: 648142432590 # 648 GB.
   numberOfScans: 1245
   numberOfAnnotations: 0
   resolution: "20x and 40x"

@@ -54,7 +54,8 @@ datacite:
   datePublished: "2019-01-09"
   dateModified: "2019-01-09"
   keywords: "Pathology, Colon, Cancer, Whole slide imaging, Annotated"
-  version: "1.0.1"
+  version: "1.0.2"
+  # v1.0.2 2020-07-05: Update size in bytes.
   description: |
     The dataset consists of 101 H&E-stained colon whole slide images (WSI) - 52
     abnormal and 49 benign cases. All significant abnormal findings identified
@@ -105,7 +106,7 @@ other:
     - name: "Colon"
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "22-90 years"
-  bytes: 49227210891
+  bytes: 49227373916 # 49 GB
   numberOfScans: 101
   numberOfAnnotations: 756
   resolution: "40X single plane"

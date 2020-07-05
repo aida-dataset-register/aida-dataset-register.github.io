@@ -54,7 +54,8 @@ datacite:
   datePublished: "2019-11-19"
   dateModified: "2019-11-21"
   keywords: "Pathology, Whole slide imaging, Breast, Lymph nodes, Cancer, Sentinel nodes, Immunohistochemical staining, cytokeratin, CKAE1/AE3"
-  version: "1.0.1"
+  version: "1.0.2"
+  # v1.0.2 2020-07-05: Update size in bytes.
   description: |
     Whole slide imaging of 396 full cases of axillary lymph nodes in breast
     cancer cases. Included are both sentinel node surgery and axillary
@@ -90,7 +91,7 @@ other:
     - name: "Breast"
       sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "-"
-  bytes: 2366408222458  # 2.4 TB
+  bytes: 2363159897649  # 2.4 TB
   numberOfScans: 4462
   numberOfAnnotations: 0
   resolution: "20x"
