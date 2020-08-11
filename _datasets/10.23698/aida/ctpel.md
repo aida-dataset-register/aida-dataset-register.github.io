@@ -80,6 +80,7 @@ other:
   countries-shared:
     - "CN"
     - "ES"
+    - "KR"
     - "SE"
   organ:
     - name: "Pelvis"
