@@ -68,4 +68,4 @@ This site uses the following free and open services and technologies:
 * [Viewer.js](https://github.com/fengyuanchen/viewerjs) - Interactive image viewer.
 * [AnchorJS](https://www.bryanbraun.com/anchorjs/) - Linkable headings.
 * [DataTables](https://datatables.net/) - Sortable and searchable tables.
-* [simplemaps](https://simplemaps.com/resources/svg-world) - Free World SVG Map.
+* [simplemaps](https://simplemaps.com/resources/svg-world) - SVG World Map.

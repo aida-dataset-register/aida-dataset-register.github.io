@@ -39,15 +39,16 @@ datacite:
   datePublished: "2020-04-30"
   dateModified: "2020-04-30"
   keywords: "Gold fiducial marker, MRI only, Radiotherapy, MRI radiation therapy, Prostate, Cancer, Radiology"
-  version: "1.1.0"
+  version: "1.2.0"
+  # 1.2.0: Paper now published. References & license wording updated.
   description: |
     Multi-echo gradient echo (MEGRE) MRI data with 8 different echo times
     (2.38-23.6 ms) from 326 + 40 prostate cancer patients with gold fiducial
     markers inserted into the prostate (train/validation + test dataset).
+    A scientific paper that utilizes this dataset for deep learning has been
+    [published](https://doi.org/10.1088/1361-6560/abb0f9).
     Underlying description of the technique and its first use has been described
     in a [previous publication](https://www.ncbi.nlm.nih.gov/pubmed/28803447).
-    A scientific paper that utilizes this dataset for deep learning is being
-    reviewed for publication.
 
     The data contains an image volume for each patient, for each echo time. The
     center of mass from the three inserted prostate gold fiducial markers was
@@ -62,6 +63,13 @@ datacite:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
     #  name: "Title of paper goes here"
+    - "@type": "Article"
+      "@id": "https://doi.org/10.1088/1361-6560/abb0f9"
+      name: |
+        Jamtheim Gustafsson et al (2020), Development and evaluation of a deep
+        learning based artificial intelligence for automatic identification of
+        gold fiducial markers in an MRI-only prostate radiotherapy workflow.
+        Phys. Med. Biol. doi:10.1088/1361-6560/abb0f9
     - "@type": "Article"
       "@id": "https://doi.org/10.1002/mp.12516"
       name: |
@@ -163,7 +171,7 @@ purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies, and that publications
 resulting from the use of this data cite the following works:
 
-Deep learning paper (in review).
+[{{ page.datacite.citation[0].name }}]({{page.datacite.citation[0]["@id"]}})
 
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
