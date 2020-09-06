@@ -63,6 +63,7 @@ description: "AIDA Data Hub sharing in numbers."
   {% for c in country-codes %}{% assign countries = countries | push: site.data.countrynames[c] %}{% endfor %}
   {% assign countries = countries | uniq | sort %}
 {% endcapture %}
+*<center>"AIDA Data Hub is among the <a href="#fair">12% highest scoring</a> repositories in the sample" &mdash;<a href="https://www.eosc-nordic.eu/">EOSC-Nordic</a></center>*
 ## Countries
 {% include world-map.svg %}
 
@@ -123,3 +124,12 @@ Please click the names below to do a simple text search for matching datasets:
   <li><a href="/search/?q=Organ:{{ o }}">{{ o }}</a></li>
 {% endfor %}
 </ul>
+
+## FAIR
+In 2020, [EOSC-Nordic](https://www.eosc-nordic.eu/) carried out an independent evaluation of FAIR readiness among 98 data repositories in the Nordics (results to be published). The AIDA Data Hub was included in this evaluation, and was shown to be among the 12% best scoring repositories in in the sample.
+
+AIDA Data Hub is also findable through [re3data.org](https://www.re3data.org/repository/r3d100013031)
+
+<a id="badge" href="https://www.re3data.org/repository/r3d100013031">
+  <img src="/assets/icons/badges/re3data-large.png" style="margin-bottom: -2em;">
+</a>
