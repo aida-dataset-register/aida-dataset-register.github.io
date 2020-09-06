@@ -126,7 +126,7 @@ Please click the names below to do a simple text search for matching datasets:
 </ul>
 
 ## FAIR
-In 2020, [EOSC-Nordic](https://www.eosc-nordic.eu/) carried out an independent evaluation of FAIR readiness among 98 data repositories in the Nordics (results to be published). The AIDA Data Hub was included in this evaluation, and was shown to be among the 12% best scoring repositories in in the sample.
+In 2020, [EOSC-Nordic](https://www.eosc-nordic.eu/) carried out an independent evaluation of [FAIR](https://www.go-fair.org/fair-principles/) readiness among 98 data repositories in the Nordics (results to be published). The AIDA Data Hub was included in this evaluation, and was shown to be among the 12% best scoring repositories in in the sample.
 
 AIDA Data Hub is also findable through [re3data.org](https://www.re3data.org/repository/r3d100013031)
 
