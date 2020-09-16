@@ -25,7 +25,7 @@ This document does not constitute legal advice.
 
 ## Contents
 
-Printable version: [AIDA data sharing policy v1.1.1](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.0.pdf))
+Printable version: [AIDA data sharing policy v1.1.1](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.1.pdf))
 
 **[Context](context/)**  
 Law, ethics, and protections in the common practice of sharing clinical imaging data for research in Sweden and similar countries.
@@ -47,7 +47,7 @@ Template documents to facilitate setting up legal and ethical data sharing outsi
 
 ## Version history
 
-* 1.1.1 2020-06-05 [.pdf](AIDA-data-sharing-policy-v1.1.0.pdf)
+* 1.1.1 2020-06-05 [.pdf](AIDA-data-sharing-policy-v1.1.1.pdf)
   * Change "Author" attribution to AIDA, add "Editor" attribution to Joel Hedlund.
 
 * 1.1.0 2020-04-24 [.pdf](AIDA-data-sharing-policy-v1.1.0.pdf)
