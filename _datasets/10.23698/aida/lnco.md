@@ -44,7 +44,8 @@ datacite:
   datePublished: "2019-08-13"
   dateModified: "2019-08-13"
   keywords: "Pathology, Whole slide imaging, Annotated, Lymph nodes, Cancer, Colon, Adenocarcinoma"
-  version: "1.0.1"
+  version: "1.1.0"
+  # v1.1.0 2020-10-22: Add new cases and annotations.
   # v1.0.1 2020-07-05: Update size in bytes.
   description: |
     Whole slide pathology images from regional lymph node metastasis in colon
@@ -87,9 +88,9 @@ other:
     - name: "Colon"
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
-  bytes: 212923939525 # 213 GB
-  numberOfScans: 740
-  numberOfAnnotations: 5720
+  bytes: 373662154752 # 348 GiB
+  numberOfScans: 977
+  numberOfAnnotations: 6773
   resolution: "20x and 40x"
   modality:
     - "SM"

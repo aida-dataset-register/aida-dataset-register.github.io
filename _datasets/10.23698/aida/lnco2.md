@@ -43,8 +43,9 @@ datacite:
   dateCreated: "2020-01-09"
   datePublished: "2020-01-09"
   dateModified: "2020-01-09"
-  keywords: "Pathology, Whole slide imaging, Lymph nodes, Cancer, Colon, Adenocarcinoma"
-  version: "1.0.1"
+  keywords: "Pathology, Annotated, Whole slide imaging, Lymph nodes, Cancer, Colon, Adenocarcinoma"
+  version: "1.1.0"
+  # v1.1.0 2020-10-22: Add annotations.
   # v1.0.1 2020-07-05: Update size in bytes.
   description: |
     Whole slide pathology images from regional lymph node metastasis in colon
@@ -68,8 +69,6 @@ other:
   annotation: |
     Lymph glands have been identified by an experienced pathologist and annotated
     using region-of-interest boxes.
-
-    Annotation is ongoing and will be included here when available.
   download:
     links:
       - text: ""
@@ -80,9 +79,9 @@ other:
     - name: "Colon"
       sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
-  bytes: 648142432590 # 648 GB.
+  bytes: 651761287168 # 607 GiB.
   numberOfScans: 1245
-  numberOfAnnotations: 0
+  numberOfAnnotations: 7882
   resolution: "20x and 40x"
   modality:
     - "SM"
