@@ -10,7 +10,9 @@ description: "Guidelines and best practices in sharing clinical imaging data for
 Author: Analytical Imaging Diagnostics Arena (AIDA).  
 Editor: [Joel Hedlund, Data director AIDA](mailto:joel.hedlund@liu.se).  
 Version: [1.1.2](#version-history)  
-Printable version: [AIDA data sharing policy v1.1.2](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.2.pdf))
+Printable version: [AIDA data sharing policy v1.1.2](https://docs.google.com/document/d/17MZJkNnopiRoEx4eYsi_rn-YPZH1AJbz0IxRRvcbWBk/edit#) ([PDF](AIDA-data-sharing-policy-v1.1.2.pdf))  
+Scientific publication: [Comment article in Nature Scientific Data](https://www.nature.com/articles/s41597-020-00674-0)  
+> Hedlund, J., Eklund, A. & Lundström, C. Key insights in the AIDA community policy on sharing of clinical imaging data for research in Sweden. Sci Data **7,** 331 (2020). https://doi.org/10.1038/s41597-020-00674-0
 
 This policy has been drawn up by [AIDA](https://medtech4health.se/aida/) in order to provide succinct and understandable guidelines for its activities, and in an attempt to relate its decisions about its data sharing activities to what AIDA has identified as the common practice of using and sharing clinical imaging data for research in Sweden and similar countries.
 
@@ -18,8 +20,6 @@ Summaries:
 
 * **[Practical guide](overview/)** &raquo; An overview of AIDA data sharing.
 * **[Common practice](context/#common-practice-in-the-use-of-clinical-imaging-data-for-research)** &raquo; Ethics and law in clinical data sharing for research.
-* **[Scientific publication](https://www.nature.com/articles/s41597-020-00674-0)** &raquo; Comment article in Nature Scientific Data.  
-  Hedlund, J., Eklund, A. & Lundström, C. Key insights in the AIDA community policy on sharing of clinical imaging data for research in Sweden. Sci Data **7,** 331 (2020). https://doi.org/10.1038/s41597-020-00674-0
 
 AIDA policies are set continuously by [AIDA management](https://medtech4health.se/aida/organisation/), who reports to the AIDA steering group. Please contact the [AIDA data director](mailto:aida-data-director@medtech4health.se) for comments and feedback.
 
