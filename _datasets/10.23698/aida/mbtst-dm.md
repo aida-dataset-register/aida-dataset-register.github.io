@@ -59,9 +59,17 @@ datacite:
     data, collected in a research project which is still ongoing. The authors
     welcome proposals for new impactful research collaborations.
   license:
-    - name: "Restricted access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#license"
+    - name: "Controlled access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#controlled-access"
       "@type": "CreativeWork"
+      abstract: |
+        Free for use in legal and ethical medical diagnostics research. <br/> Please
+        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#download">contact</a>
+        the copyright holder for terms of access.
+    - name: "AIDA BY license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#aida-by-license"
+      "@type": "CreativeWork"
+      abstract: "Free for use within AIDA with attribution."
   citation:
     - "@type": "Article"
       "@id": "https://doi.org/10.1016/S1470-2045(18)30521-7"
@@ -119,6 +127,11 @@ other:
       thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/4lcc-thumbnail.jpg"
 ---
 ## License
+### Controlled access
+Free for use in legal and ethical medical diagnostics research.
+Please [contact](#contact) the copyright holder for terms of access.
+
+### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}

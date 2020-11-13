@@ -56,9 +56,17 @@ datacite:
     spherical objects with a radius of 1-12 mm, inserted in the center of mass
     defined locations. Method in the paper uses 9 mm radius.
   license:
-    - name: "Restricted access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#license"
+    - name: "Controlled access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#controlled-access"
       "@type": "CreativeWork"
+      abstract: |
+        Free for use in legal and ethical medical diagnostics research. <br/> Please
+        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/megre#download">contact</a>
+        the copyright holder for terms of access.
+    - name: "AIDA BY license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#aida-by-license"
+      "@type": "CreativeWork"
+      abstract: "Free for use within AIDA with attribution."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -161,6 +169,11 @@ GT2/ XXXXXXXXX_coords.nii.gz
 …
 
 ## License
+### Controlled access
+Free for use in legal and ethical medical diagnostics research.
+Please [contact](#contact) the copyright holder for terms of access.
+
+### AIDA BY CA license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}

@@ -64,9 +64,17 @@ datacite:
     For the benign structures only the epithelial structures, stroma and support
     tissue were annotated.
   license:
-    - name: "Restricted access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drov#license"
+    - name: "Controlled access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drov#controlled-access"
       "@type": "CreativeWork"
+      abstract: |
+        Free for use in legal and ethical medical diagnostics research. <br/> Please
+        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/drov#download">contact</a>
+        the copyright holder for terms of access.
+    - name: "AIDA BY license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drov#aida-by-license"
+      "@type": "CreativeWork"
+      abstract: "Free for use within AIDA with attribution."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -123,6 +131,11 @@ other:
       thumbnail-url: "/assets/images/10.23698/aida/drov/to-scale-thumbnail.jpeg"
 ---
 ## License
+### Controlled access
+Free for use in legal and ethical medical diagnostics research.
+Please [contact](#contact) the copyright holder for terms of access.
+
+### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}

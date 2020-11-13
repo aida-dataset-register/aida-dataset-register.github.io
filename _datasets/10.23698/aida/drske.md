@@ -59,9 +59,17 @@ datacite:
     segmented accurately by a radiologist and the annotations were confirmed by
     a second radiologist.
   license:
-    - name: "Restricted access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drske#license"
+    - name: "Controlled access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drske#controlled-access"
       "@type": "CreativeWork"
+      abstract: |
+        Free for use in legal and ethical medical diagnostics research. <br/> Please
+        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/drske#download">contact</a>
+        the copyright holder for terms of access.
+    - name: "AIDA BY license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drske#aida-by-license"
+      "@type": "CreativeWork"
+      abstract: "Free for use within AIDA with attribution."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/10.5438/0000-00SS"
@@ -106,6 +114,11 @@ other:
       thumbnail-url: "/assets/images/10.23698/aida/drske/lytic-thumbnail.png"
 ---
 ## License
+### Controlled access
+Free for use in legal and ethical medical diagnostics research.
+Please [contact](#contact) the copyright holder for terms of access.
+
+### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}

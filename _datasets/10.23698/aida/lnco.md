@@ -58,9 +58,17 @@ datacite:
     <a href="lnco2">LNCO2 dataset</a> using different collection and annotation
     parameters.
   license:
-    - name: "Restricted access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#license"
+    - name: "Controlled access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#controlled-access"
       "@type": "CreativeWork"
+      abstract: |
+        Free for use in legal and ethical medical diagnostics research. <br/> Please
+        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/lnco#download">contact</a>
+        the copyright holder for terms of access.
+    - name: "AIDA BY CA license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#aida-by-ca-license"
+      "@type": "CreativeWork"
+      abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -109,6 +117,11 @@ other:
       thumbnail-url: "/assets/images/10.23698/aida/lnco/he-to-scale-thumbnail.jpeg"
 ---
 ## License
+### Controlled access
+Free for use in legal and ethical medical diagnostics research.
+Please [contact](#contact) the copyright holder for terms of access.
+
+### AIDA BY CA license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}

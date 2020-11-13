@@ -57,9 +57,17 @@ datacite:
     4144 separate annotations have been made to segment different tissue
     structures connected to ontologies.
   license:
-    - name: "Restricted access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drbr#license"
+    - name: "Controlled access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drbr#controlled-access"
       "@type": "CreativeWork"
+      abstract: |
+        Free for use in legal and ethical medical diagnostics research. <br/> Please
+        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/drbr#download">contact</a>
+        the copyright holder for terms of access.
+    - name: "AIDA BY license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drbr#aida-by-license"
+      "@type": "CreativeWork"
+      abstract: "Free for use within AIDA with attribution."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -110,6 +118,11 @@ other:
       thumbnail-url: "/assets/images/10.23698/aida/drbr/to-scale-thumbnail.jpeg"
 ---
 ## License
+### Controlled access
+Free for use in legal and ethical medical diagnostics research.
+Please [contact](#contact) the copyright holder for terms of access.
+
+### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}

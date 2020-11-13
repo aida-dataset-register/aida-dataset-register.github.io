@@ -51,9 +51,17 @@ datacite:
     collections from the
     [The Cancer Imaging Archive](https://www.cancerimagingarchive.net/) (TCIA).
   license:
-    - name: "Restricted access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#license"
+    - name: "Controlled access"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#controlled-access"
       "@type": "CreativeWork"
+      abstract: |
+        Free for use in legal and ethical medical diagnostics research. <br/> Please
+        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">contact</a>
+        the copyright holder for terms of access.
+    - name: "AIDA license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#aida-license"
+      "@type": "CreativeWork"
+      abstract: "Free for use within AIDA."
   citation:
     - "@type": "Chapter"
       "@id": "https://doi.org/10.1007/978-3-030-11166-3_5"
@@ -107,8 +115,12 @@ other:
       thumbnail-url: "/assets/images/10.23698/aida/ctpel/segmentations-thumbnail.png"
 ---
 ## License
+### Controlled access
+Free for use in legal and ethical medical diagnostics research.
+Please [contact](#contact) the copyright holder for terms of access.
 
-### Segmentation masks and anatomical landmark annotations
+### AIDA BY license
+#### Segmentation masks and anatomical landmark annotations
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
@@ -126,7 +138,7 @@ OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS
 DATA.
 
-### Attribution
+## Attribution
 In addition to the TCIA rules about using the image data, we would really
 appreciate if you include the following references in publications that make use
 of the provided segmentation masks or anatomical landmarks:
