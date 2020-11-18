@@ -42,9 +42,10 @@ datacite:
       "@type": "Person"
   dateCreated: "2019-08-13"
   datePublished: "2019-08-13"
-  dateModified: "2019-08-13"
+  dateModified: "2020-11-18"
   keywords: "Pathology, Whole slide imaging, Annotated, Lymph nodes, Cancer, Colon, Adenocarcinoma"
-  version: "1.1.0"
+  version: "1.2.0"
+  # v1.2.0 2020-11-18: Updated statistics, description and license.
   # v1.1.0 2020-10-22: Add new cases and annotations.
   # v1.0.1 2020-07-05: Update size in bytes.
   description: |
@@ -75,17 +76,11 @@ datacite:
     #  name: "Title of paper goes here"
 other:
   shortName: "LNCO"
-  status: "Ongoing"
-  annotation: | # FIXME: Specify annotations better, eg LGL ROI boxes and tumor polygons.
-    Lymph nodes manually classified into two groups, either with or without
-    tumor metastases. Tumors have been non-exhaustively annotated in lymph nodes
-    that have them, so only lymph nodes without tumor present can be reliably
-    used as examples of normal tissue. Regions deemed not suitable for AI
-    training have been annotated for exclusion (eg missing or poor quality
-    material), or as preparation artefact (eg folded tissue sample).
+  status: "Completed"
+  annotation: |
+    ROI boxes around lymph nodes (positive, negative or unasssed) and detailed tumor polygons
 
-    Note: Data collection is still ongoing &ndash; not all samples have yet been
-    classified.
+    See details below.
   download:
     links:
       - text: ""
@@ -98,7 +93,7 @@ other:
   age-span:
   bytes: 373662154752 # 348 GiB
   numberOfScans: 977
-  numberOfAnnotations: 6773
+  numberOfAnnotations: 7379
   resolution: "20x and 40x"
   modality:
     - "SM"
@@ -116,6 +111,56 @@ other:
       url: "/assets/images/10.23698/aida/lnco/he-to-scale.jpeg"
       thumbnail-url: "/assets/images/10.23698/aida/lnco/he-to-scale-thumbnail.jpeg"
 ---
+## Annotation details
+
+### Labels
+
+The following labels exists:
+
+- roi_lgl_norm:: Region contains a lymph node section that do not contain tumor-positive areas, eg, is normal or negative. (but see also note below)
+
+- roi_lgl_unknown:: Region contains a lymph node for which ground truth has not been established.
+
+- roi_lgl_tumor:: Region contains a lymph node where at least some areas are tumor-positive areas. (Might not be annotated)
+
+- roi_lgl_exclude:: Contains lymph node that was determined to be of poor quality or contain severe artifacts from scanning. Would be excluded from clinial review (not suitable).
+
+- tumor:: region exclusively contains tumor pixels (but see also excl category below)
+
+- excl & excl_artifact:: these areas should be substracted from tumor-annotated regions to gain pure-tumor pixels.
+
+- bkg: region contains only background pixels
+
+NOTE: `tumor` annotations are not exhaustive, meaning, there might be more tumor areas in `lgl_roi_tumor` lymph nodes than annotated with `tumor` annotations.
+
+NOTE: Some `roi_lgl_norm` areas contain tumor cells that are from an accidental contamination of the glass during processing. This is normal during routine clinical work and a challenge that automated systems should deal with in an appropriate manner. This is a very easy task for human pathologists to discern.
+
+NOTE: `tumor` regions not within a `roi_lgl_*` region should be assumed to be annotations of tumor in the the primary tumor. This can easily be verified visually, and the primary tumor is always on the initial blocks of the case (A..B...C etc)
+
+### Sampling procedure
+
+Sampling procedure: Query for patients with confirmed adenocarcinomas that underwent colorectomy with subsequent lymphnode review as part of TNM-staging. Query selected N cases with a relatively high number of reported positive lymph nodes.
+
+Source: Two medical clinics in Sweden.
+
+### Descriptive statistics
+
+```
+LNCO1
+  patients: 39
+  cases: 39
+  images: 977
+     median dimensions(WxH px): 49799 x 38729
+     median resolution (micrometer per pixel): 0.4959
+  annotations:
+    number: 7379
+    lymph node sections (roi) 1557
+      which are negative 712
+      which are positive 292
+      which are unassessed 525
+    images with at least one detailed tumor annotation: 165
+```
+
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
@@ -130,8 +175,7 @@ Permission to use, copy, modify, and/or distribute this data within Analytic
 Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for any
 purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies, and that publications
-resulting from the use of this data include the authors of this dataset Gordan
-Maras and Martin Lindvall in the author list and cite the following works:
+resulting from the use of this data cite the following works:
 
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
