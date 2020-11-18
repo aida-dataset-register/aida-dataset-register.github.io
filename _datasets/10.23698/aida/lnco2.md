@@ -64,10 +64,10 @@ datacite:
         Free for use in legal and ethical medical diagnostics research. <br/> Please
         <a href="https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#download">contact</a>
         the copyright holder for terms of access.
-    - name: "AIDA BY CA license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#aida-by-ca-license"
+    - name: "AIDA BY license"
+      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#aida-by-license"
       "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution and co-authorship."
+      abstract: "Free for use within AIDA with attribution."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -167,7 +167,7 @@ LNCO2
 Free for use in legal and ethical medical diagnostics research.
 Please [contact](#contact) the copyright holder for terms of access.
 
-### AIDA BY CA license
+### AIDA BY license
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
