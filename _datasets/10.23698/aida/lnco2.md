@@ -42,9 +42,10 @@ datacite:
       "@type": "Person"
   dateCreated: "2020-01-09"
   datePublished: "2020-01-09"
-  dateModified: "2020-01-09"
+  dateModified: "2020-11-18"
   keywords: "Pathology, Annotated, Whole slide imaging, Lymph nodes, Cancer, Colon, Adenocarcinoma"
-  version: "1.1.0"
+  version: "1.2.0"
+  # v1.2.0 2020-11-18: Updated statistics, description and license.
   # v1.1.0 2020-10-22: Add annotations.
   # v1.0.1 2020-07-05: Update size in bytes.
   description: |
@@ -73,10 +74,10 @@ datacite:
     #  name: "Title of paper goes here"
 other:
   shortName: "LNCO2"
-  status: "Ongoing"
+  status: "Completed"
   annotation: |
-    Lymph glands have been identified by an experienced pathologist and annotated
-    using region-of-interest boxes.
+    Lymph nodes have been identified by an experienced pathologist and annotated
+    using region-of-interest boxes (positive, negative, unassested). A few detailed polygons of tumor exist. See details below.
   download:
     links:
       - text: ""
@@ -89,7 +90,7 @@ other:
   age-span:
   bytes: 651761287168 # 607 GiB.
   numberOfScans: 1245
-  numberOfAnnotations: 7882
+  numberOfAnnotations: 2598
   resolution: "20x and 40x"
   modality:
     - "SM"
@@ -113,6 +114,54 @@ other:
       url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale.jpeg"
       thumbnail-url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale-thumbnail.jpeg"
 ---
+## Annotation details
+
+### Labels
+
+The following labels exists:
+
+- roi_lgl_norm:: Region contains a lymph node section that do not contain tumor-positive areas, eg, is normal or negative. (but see also note below)
+
+- roi_lgl_unknown:: Region contains a lymph node for which ground truth has not been established.
+
+- roi_lgl_tumor:: Region contains a lymph node where at least some areas are tumor-positive areas. (Might not be annotated)
+
+- roi_lgl_exclude:: Contains lymph node that was determined to be of poor quality or contain severe artifacts from scanning. Would be excluded from clinial review (not suitable).
+
+- roi_tumor:: Region mostly contains positive pixels, but not guaranteed that all pixels are positive.
+
+- excl & excl_artifact:: these areas should be substracted from tumor-annotated regions to gain pure-tumor pixels.
+
+- bkg: region contains only background pixels
+
+NOTE: `roi_tumor` annotations are not exhaustive, meaning, there might be more tumor areas in `lgl_roi_tumor` lymph nodes than annotated with `roi_tumor` annotations.
+
+NOTE: Some `roi_lgl_norm` areas contain tumor cells that are from an accidental contamination of the glass during processing. This is normal during routine clinical work and a challenge that automated systems should deal with in an appropriate manner. This is a very easy task for human pathologists to discern.
+
+### Sampling procedure
+
+Sampling procedure: Query for patients with confirmed adenocarcinomas that underwent colorectomy with subsequent lymphnode review as part of TNM-staging. Selected 50 chronologically consecutive cases from unique patients (no patient has more than one case).
+
+Source: One medical clinic in Sweden. Same as for LNCO1.
+
+### Descriptive statistics
+
+```
+LNCO2
+  patients: 50
+  cases: 50
+  images: 1245
+     median dimensions(WxH px): 49920 x 38016
+     median resolution (micrometer per pixel): 0.459896982
+  annotations:
+    number: 2598
+    lymph node sections (roi) 2551
+      which are negative 948
+      which are positive 75
+      which are unassessed 1517
+    images with at least one approximate tumor annotation: 30
+```
+
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
@@ -127,8 +176,7 @@ Permission to use, copy, modify, and/or distribute this data within Analytic
 Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for any
 purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies, and that publications
-resulting from the use of this data include the authors of this dataset Gordan
-Maras and Martin Lindvall in the author list and cite the following works:
+resulting from the use of this data cite the following works:
 
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
