@@ -87,6 +87,7 @@ other:
         url: ""
   countries-shared:
     - "CN"
+    - "DE"
     - "ES"
     - "GB"
     - "KR"
