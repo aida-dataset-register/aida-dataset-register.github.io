@@ -49,9 +49,10 @@ datacite:
       "@type": "Person"
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
-  dateModified: "2019-01-09"
+  dateModified: "2020-11-27"
   keywords: "Pathology, Ovary, Cancer, Whole slide imaging, Annotated"
-  version: "1.0.2"
+  version: "1.1.0"
+  # v1.1.0 2020-11-27: Add citation.
   # v1.0.2 2020-07-05: Update size in bytes.
   description: |
     This dataset consists of 174 WSI ovary whole slide images (WSI): 158
@@ -76,9 +77,12 @@ datacite:
       "@type": "CreativeWork"
       abstract: "Free for use within AIDA with attribution."
   citation:
-    #- "@type": "CreativeWork"
-    #  "@id": "https://doi.org/..."
-    #  name: "Title of paper goes here"
+  - "@type": "Article"
+    "@id": "https://doi.org/10.1007/s10278-020-00384-4"
+    name: |
+      Stadler, C.B., Lindvall, M., Lundström, C. et al. Proactive Construction
+      of an Annotated Imaging Database for Artificial Intelligence Training.
+      J Digit Imaging (2020). https://doi.org/10.1007/s10278-020-00384-4
 other:
   shortName: "DROV"
   status: "Completed"
@@ -150,6 +154,10 @@ resulting from the use of this data cite the following works:
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{% for c in page.datacite.citation %}
+
+  [{{ c.name }}]({{c["@id"]}})
+{% endfor %}
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN

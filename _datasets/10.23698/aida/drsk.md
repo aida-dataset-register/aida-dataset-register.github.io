@@ -7,47 +7,48 @@ datacite:
   about: "Pathology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk"
   author:
-    - name: "Karin Lindman"
-      "@id": "https://orcid.org/0000-0003-1298-517X"
-      "@type": "Person"
-    - name: "Jerónimo F. Rose"
-      "@id": "https://orcid.org/0000-0003-3845-8546"
-      "@type": "Person"
-    - name: "Martin Lindvall"
-      "@id": "https://orcid.org/0000-0002-7014-8874"
-      "@type": "Person"
-    - name: "Caroline Bivik Stadler"
-      "@id": "https://orcid.org/0000-0001-7250-234X"
-      "@type": "Person"
+  - name: "Karin Lindman"
+    "@id": "https://orcid.org/0000-0003-1298-517X"
+    "@type": "Person"
+  - name: "Jerónimo F. Rose"
+    "@id": "https://orcid.org/0000-0003-3845-8546"
+    "@type": "Person"
+  - name: "Martin Lindvall"
+    "@id": "https://orcid.org/0000-0002-7014-8874"
+    "@type": "Person"
+  - name: "Caroline Bivik Stadler"
+    "@id": "https://orcid.org/0000-0001-7250-234X"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - name: "Linköping University"
-      url: "https://liu.se/"
-      "@type": "Organization"
-    - name: "Claes Lundström"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Linköping University"
+    url: "https://liu.se/"
+    "@type": "Organization"
+  - name: "Claes Lundström"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   provider:
-    - name: "Karin Lindman"
-      email: "Karin.Lindman@regionostergotland.se"
-      "@id": "https://orcid.org/0000-0003-1298-517X"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
+  - name: "Karin Lindman"
+    email: "Karin.Lindman@regionostergotland.se"
+    "@id": "https://orcid.org/0000-0003-1298-517X"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
-  dateModified: "2019-01-09"
+  dateModified: "2020-11-27"
   keywords: "Pathology, Skin, Cancer, Whole slide imaging, Annotated"
-  version: "1.0.3"
+  version: "1.1.0"
+  # v1.1.0 2020-11-27: Add citation.
   # v1.0.3 2020-07-05: Update size in bytes.
   description: |
     The dataset consists of 99 H&E-stained whole slide skin images (WSI) - 49
@@ -59,21 +60,24 @@ datacite:
     have been made to segment the different tissue structures and link them to
     ontological information.
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/drsk#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA BY license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk#aida-by-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/drsk#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA BY license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drsk#aida-by-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA with attribution."
   citation:
-    #- "@type": "CreativeWork"
-    #  "@id": "https://doi.org/..."
-    #  name: "Title of paper goes here"
+  - "@type": "Article"
+    "@id": "https://doi.org/10.1007/s10278-020-00384-4"
+    name: |
+      Stadler, C.B., Lindvall, M., Lundström, C. et al. Proactive Construction
+      of an Annotated Imaging Database for Artificial Intelligence Training.
+      J Digit Imaging (2020). https://doi.org/10.1007/s10278-020-00384-4
 other:
   shortName: "DRSK"
   status: "Completed"
@@ -100,42 +104,42 @@ other:
     tissue and surgical margins.
   download:
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
-    - "SE"
+  - "SE"
   organ:
-    - name: "Skin"
-      sctid: 39937001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Skin"
+    sctid: 39937001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "20-93 years"
   bytes: 32362326070 # 32 GB
   numberOfScans: 99
   numberOfAnnotations: 16741
   resolution: "20X single plane"
   modality:
-    - "SM"
+  - "SM"
   scanner:
-    - "Scanscope AT (Aperio, US)"
-    - "NanoZoomer XR (Hamamatsu, Japan)" # FIXME: is this same as "Hamamatsu NanoZoomer-XR C12000 series 2013"?
-    - "NanoZoomer XRL (Hamamatsu, Japan)" # FIXME: is this same as "Hamamatsu NanoZoomer 2.0 HT C9600 series 2013"
+  - "Scanscope AT (Aperio, US)"
+  - "NanoZoomer XR (Hamamatsu, Japan)" # FIXME: is this same as "Hamamatsu NanoZoomer-XR C12000 series 2013"?
+  - "NanoZoomer XRL (Hamamatsu, Japan)" # FIXME: is this same as "Hamamatsu NanoZoomer 2.0 HT C9600 series 2013"
   stain: "H&E (hematoxylin and eosin)"
   phase:
   exampleImage:
-    - title: "Overview of whole slide imaging."
-      url: "/assets/images/10.23698/aida/drsk/wsi.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/drsk/wsi-thumbnail.jpeg"
-    - title: "Overview of annotations."
-      url: "/assets/images/10.23698/aida/drsk/wsi-annotations.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/drsk/wsi-annotations-thumbnail.jpeg"
-    - title: "Detail view of abnormal findings."
-      url: "/assets/images/10.23698/aida/drsk/detail.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/drsk/detail-thumbnail.jpeg"
-    - title: "Detail view of annotations."
-      url: "/assets/images/10.23698/aida/drsk/detail-annotations.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/drsk/detail-annotations-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original whole slide imaging data."
-      url: "/assets/images/10.23698/aida/drsk/to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/drsk/to-scale-thumbnail.jpeg"
+  - title: "Overview of whole slide imaging."
+    url: "/assets/images/10.23698/aida/drsk/wsi.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/drsk/wsi-thumbnail.jpeg"
+  - title: "Overview of annotations."
+    url: "/assets/images/10.23698/aida/drsk/wsi-annotations.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/drsk/wsi-annotations-thumbnail.jpeg"
+  - title: "Detail view of abnormal findings."
+    url: "/assets/images/10.23698/aida/drsk/detail.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/drsk/detail-thumbnail.jpeg"
+  - title: "Detail view of annotations."
+    url: "/assets/images/10.23698/aida/drsk/detail-annotations.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/drsk/detail-annotations-thumbnail.jpeg"
+  - title: "To-scale view of pixel resolution in original whole slide imaging data."
+    url: "/assets/images/10.23698/aida/drsk/to-scale.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/drsk/to-scale-thumbnail.jpeg"
 ---
 ## License
 ### Controlled access
@@ -157,6 +161,10 @@ resulting from the use of this data cite the following works:
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{% for c in page.datacite.citation %}
+
+  [{{ c.name }}]({{c["@id"]}})
+{% endfor %}
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN

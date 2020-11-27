@@ -7,50 +7,51 @@ datacite:
   about: "Radiology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/drli"
   author:
-    - name: "Mischa Woisetschläger"
-      "@id": "https://orcid.org/0000-0003-0066-4985"
-      "@type": "Person"
-    - name: "Johan Blomma"
-      #"@id": "" # FIXME: missing info
-      "@type": "Person"
-    - name: "Nils Dahlström"
-      "@id": "https://orcid.org/0000-0002-4111-1693"
-      "@type": "Person"
-    - name: "Caroline Bivik Stadler"
-      "@id": "https://orcid.org/0000-0001-7250-234X"
-      "@type": "Person"
-    - name: "Daniel Forsberg"
-      "@id": "https://orcid.org/0000-0003-0908-9470"
-      "@type": "Person"      
+  - name: "Mischa Woisetschläger"
+    "@id": "https://orcid.org/0000-0003-0066-4985"
+    "@type": "Person"
+  - name: "Johan Blomma"
+    #"@id": "" # FIXME: missing info
+    "@type": "Person"
+  - name: "Nils Dahlström"
+    "@id": "https://orcid.org/0000-0002-4111-1693"
+    "@type": "Person"
+  - name: "Caroline Bivik Stadler"
+    "@id": "https://orcid.org/0000-0001-7250-234X"
+    "@type": "Person"
+  - name: "Daniel Forsberg"
+    "@id": "https://orcid.org/0000-0003-0908-9470"
+    "@type": "Person"      
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - name: "Linköping University"
-      url: "https://liu.se/"
-      "@type": "Organization"
-    - name: "Anders Persson"
-      "@id": "https://orcid.org/0000-0002-9446-6981"
-      "@type": "Person"
+  - name: "Linköping University"
+    url: "https://liu.se/"
+    "@type": "Organization"
+  - name: "Anders Persson"
+    "@id": "https://orcid.org/0000-0002-9446-6981"
+    "@type": "Person"
   provider:
-    - name: "Mischa Woisetschläger"
-      email: "Mischa.Woisetschlager@regionostergotland.se"
-      "@id": "https://orcid.org/0000-0003-0066-4985"
-      "@type": "Person"
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Anders Persson"
-      email: "anders.s.persson@liu.se"
-      "@id": "https://orcid.org/0000-0002-9446-6981"
-      "@type": "Person"
+  - name: "Mischa Woisetschläger"
+    email: "Mischa.Woisetschlager@regionostergotland.se"
+    "@id": "https://orcid.org/0000-0003-0066-4985"
+    "@type": "Person"
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Anders Persson"
+    email: "anders.s.persson@liu.se"
+    "@id": "https://orcid.org/0000-0002-9446-6981"
+    "@type": "Person"
   dateCreated: "2019-01-09"
   datePublished: "2019-01-09"
-  dateModified: "2019-01-09"
+  dateModified: "2020-11-27"
   keywords: "Radiology, Liver, Cancer, Computed tomography, Annotated"
-  version: "1.0.1"
+  version: "1.1.0"
+  # v1.1.0 2020-11-27: Add citation.
   description: |
     77 CT abdomen (computed tomography) examinations taken with contrast in
     venous phase. All cases showed liver malignancies. Manual oncological
@@ -59,21 +60,24 @@ datacite:
     segmented and assumed metastases (cysts excluded as defined by HU). 317
     lesions were annotated.
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drli#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/drli#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA BY license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/drli#aida-by-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drli#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/drli#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA BY license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/drli#aida-by-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA with attribution."
   citation:
-    #- "@type": "CreativeWork"
-    #  "@id": "https://doi.org/..."
-    #  name: "Title of paper goes here"
+  - "@type": "Article"
+    "@id": "https://doi.org/10.1007/s10278-020-00384-4"
+    name: |
+      Stadler, C.B., Lindvall, M., Lundström, C. et al. Proactive Construction
+      of an Annotated Imaging Database for Artificial Intelligence Training.
+      J Digit Imaging (2020). https://doi.org/10.1007/s10278-020-00384-4
 other:
   shortName: "DRLI"
   status: "Completed"
@@ -84,31 +88,31 @@ other:
     317 lesions were annotated.
   download:
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
-    - "SE"
+  - "SE"
   organ:
-    - name: "Liver"
-      sctid: 10200004 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Liver"
+    sctid: 10200004 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
   bytes: 33800000000
   numberOfScans: 77
   numberOfAnnotations: 317
   resolution:
   modality:
-    - "CT"
+  - "CT"
   scanner:
-    - "Siemens CT Scanners"
+  - "Siemens CT Scanners"
   stain:
   phase: Venuous (with contrast)
   exampleImage:
-    - title: "3D illustration of locations, sizes and distribution in liver metastasis (green)."
-      url: "/assets/images/10.23698/aida/drli/3d.png"
-      thumbnail-url: "/assets/images/10.23698/aida/drli/3d-thumbnail.png"
-    - title: "Slice from thorax CT stack with annotated liver metastases."
-      url: "/assets/images/10.23698/aida/drli/slice.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/drli/slice-thumbnail.jpeg"
+  - title: "3D illustration of locations, sizes and distribution in liver metastasis (green)."
+    url: "/assets/images/10.23698/aida/drli/3d.png"
+    thumbnail-url: "/assets/images/10.23698/aida/drli/3d-thumbnail.png"
+  - title: "Slice from thorax CT stack with annotated liver metastases."
+    url: "/assets/images/10.23698/aida/drli/slice.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/drli/slice-thumbnail.jpeg"
 ---
 ## License
 ### Controlled access
@@ -130,6 +134,10 @@ resulting from the use of this data cite the following works:
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
 [doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+{% for c in page.datacite.citation %}
+
+  [{{ c.name }}]({{c["@id"]}})
+{% endfor %}
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN
