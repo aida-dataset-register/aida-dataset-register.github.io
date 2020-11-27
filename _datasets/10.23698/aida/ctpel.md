@@ -8,36 +8,36 @@ datacite:
   about: "Radiology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel"
   author:
-    - name: "Bryan Connolly"
-      #"@id": "" # FIXME: missing info
-      "@type": "Person"
-    - name: "Chunliang Wang"
-      "@id": "https://orcid.org/0000-0002-0442-3524"
-      "@type": "Person"
+  - name: "Bryan Connolly"
+    #"@id": "" # FIXME: missing info
+    "@type": "Person"
+  - name: "Chunliang Wang"
+    "@id": "https://orcid.org/0000-0002-0442-3524"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - name: "KTH"
-      url: "https://kth.se/"
-      "@type": "Organization"
-    - name: "Chunliang Wang"
-      "@id": "https://orcid.org/0000-0002-0442-3524"
-      "@type": "Person"
+  - name: "KTH"
+    url: "https://kth.se/"
+    "@type": "Organization"
+  - name: "Chunliang Wang"
+    "@id": "https://orcid.org/0000-0002-0442-3524"
+    "@type": "Person"
   provider:
-    - name: "Chunliang Wang"
-      email: "chunwan@kth.se"
-      "@id": "https://orcid.org/0000-0002-0442-3524"
-      "@type": "Person"
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Chunliang Wang"
+    email: "chunwan@kth.se"
+    "@id": "https://orcid.org/0000-0002-0442-3524"
+    "@type": "Person"
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   dateCreated: "2019-05-03"
   datePublished: "2019-05-03"
   dateModified: "2019-05-06"
@@ -51,27 +51,27 @@ datacite:
     collections from the
     [The Cancer Imaging Archive](https://www.cancerimagingarchive.net/) (TCIA).
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#aida-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#aida-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA."
   citation:
-    - "@type": "Chapter"
-      "@id": "https://doi.org/10.1007/978-3-030-11166-3_5"
-      name: |
-        Wang C., Connolly B., de Oliveira Lopes P.F., Frangi A.F., Smedby Ö.
-        (2019) Pelvis Segmentation Using Multi-pass U-Net and Iterative Shape
-        Estimation. In: Vrtovec T., Yao J., Zheng G., Pozo J. (eds)
-        Computational Methods and Clinical Applications in Musculoskeletal
-        Imaging. MSKI 2018. Lecture Notes in Computer Science, vol 11404.
-        Springer, Cham
+  - "@type": "Chapter"
+    "@id": "https://doi.org/10.1007/978-3-030-11166-3_5"
+    name: |
+      Wang C., Connolly B., de Oliveira Lopes P.F., Frangi A.F., Smedby Ö.
+      (2019) Pelvis Segmentation Using Multi-pass U-Net and Iterative Shape
+      Estimation. In: Vrtovec T., Yao J., Zheng G., Pozo J. (eds)
+      Computational Methods and Clinical Applications in Musculoskeletal
+      Imaging. MSKI 2018. Lecture Notes in Computer Science, vol 11404.
+      Springer, Cham
 other:
   shortName: "CTPEL"
   status: "Ongoing"
@@ -83,37 +83,37 @@ other:
     trained radiologist.
   download:
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
-    - "CN"
-    - "DE"
-    - "ES"
-    - "GB"
-    - "KR"
-    - "RO"
-    - "SE"
+  - "CN"
+  - "DE"
+  - "ES"
+  - "GB"
+  - "KR"
+  - "RO"
+  - "SE"
   organ:
-    - name: "Pelvis"
-      sctid: 12921003 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Pelvis"
+    sctid: 12921003 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "" # FIXME: missing data
   bytes: 28000000000
   numberOfScans: 90
   numberOfAnnotations: 1800
   resolution:
   modality:
-    - "CT"
+  - "CT"
   scanner:
   stain:
   phase:
   image:
   exampleImage:
-    - title: "Anatomical landmarks of pelvis and femur indicated in a 3d volume rendered image."
-      url: "/assets/images/10.23698/aida/ctpel/landmarks.png"
-      thumbnail-url: "/assets/images/10.23698/aida/ctpel/landmarks-thumbnail.png"
-    - title: "Segmentation masks for femur, pelvis, and vertebra shown in a frontal plane CT image."
-      url: "/assets/images/10.23698/aida/ctpel/segmentations.png"
-      thumbnail-url: "/assets/images/10.23698/aida/ctpel/segmentations-thumbnail.png"
+  - title: "Anatomical landmarks of pelvis and femur indicated in a 3d volume rendered image."
+    url: "/assets/images/10.23698/aida/ctpel/landmarks.png"
+    thumbnail-url: "/assets/images/10.23698/aida/ctpel/landmarks-thumbnail.png"
+  - title: "Segmentation masks for femur, pelvis, and vertebra shown in a frontal plane CT image."
+    url: "/assets/images/10.23698/aida/ctpel/segmentations.png"
+    thumbnail-url: "/assets/images/10.23698/aida/ctpel/segmentations-thumbnail.png"
 ---
 ## License
 ### Controlled access

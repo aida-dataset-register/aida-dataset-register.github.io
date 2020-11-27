@@ -7,39 +7,39 @@ datacite:
   about: "Pathology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2"
   author:
-    - name: "Gordan Maras"
-      "@id": "https://orcid.org/0000-0002-0566-6739"
-      "@type": "Person"
-    - name: "Martin Lindvall"
-      "@id": "https://orcid.org/0000-0002-7014-8874"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Gordan Maras"
+    "@id": "https://orcid.org/0000-0002-0566-6739"
+    "@type": "Person"
+  - name: "Martin Lindvall"
+    "@id": "https://orcid.org/0000-0002-7014-8874"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2020
   copyrightHolder:
-    - name: "Linköping University"
-      url: "https://liu.se/"
-      "@type": "Organization"
-    - name: "Claes Lundström"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Linköping University"
+    url: "https://liu.se/"
+    "@type": "Organization"
+  - name: "Claes Lundström"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   provider:
-    - name: "Gordan Maras"
-      email: "gordan.maras@regiongavleborg.se"
-      "@id": "https://orcid.org/0000-0002-0566-6739"
-      "@type": "Person"        
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Gordan Maras"
+    email: "gordan.maras@regiongavleborg.se"
+    "@id": "https://orcid.org/0000-0002-0566-6739"
+    "@type": "Person"        
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   dateCreated: "2020-01-09"
   datePublished: "2020-01-09"
   dateModified: "2020-11-18"
@@ -57,17 +57,17 @@ datacite:
     <a href="lnco">LNCO dataset</a> using different collection and annotation
     parameters.
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA BY license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#aida-by-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA BY license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco2#aida-by-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA with attribution."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -80,39 +80,39 @@ other:
     using region-of-interest boxes (positive, negative, unassested). A few detailed polygons of tumor exist. See details below.
   download:
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
-    - "SE"
+  - "SE"
   organ:
-    - name: "Colon"
-      sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Colon"
+    sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
   bytes: 651761287168 # 607 GiB.
   numberOfScans: 1245
   numberOfAnnotations: 2598
   resolution: "20x and 40x"
   modality:
-    - "SM"
+  - "SM"
   scanner:
-    - "Aperio Scanscope (20x)"
-    - "Hamamatsu NanoZoomer (40x)"
+  - "Aperio Scanscope (20x)"
+  - "Hamamatsu NanoZoomer (40x)"
   stain: "Hematoxylin and eosin."
   phase:
   image:
   exampleImage:
-    - title: "Overview of lymph node whole slide imaging with hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco2/lymph-nodes.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original lymph node whole slide imaging data from hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-to-scale-thumbnail.jpeg"
-    - title: "Overview of primary tumor whole slide imaging with hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco2/primary-tumor.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco2/primary-tumor-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original primary tumor whole slide imaging data from hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale-thumbnail.jpeg"
+  - title: "Overview of lymph node whole slide imaging with hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/lnco2/lymph-nodes.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-thumbnail.jpeg"
+  - title: "To-scale view of pixel resolution in original lymph node whole slide imaging data from hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-to-scale.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/lnco2/lymph-nodes-to-scale-thumbnail.jpeg"
+  - title: "Overview of primary tumor whole slide imaging with hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/lnco2/primary-tumor.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/lnco2/primary-tumor-thumbnail.jpeg"
+  - title: "To-scale view of pixel resolution in original primary tumor whole slide imaging data from hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/lnco2/primary-tumor-to-scale-thumbnail.jpeg"
 ---
 ## Annotation details
 

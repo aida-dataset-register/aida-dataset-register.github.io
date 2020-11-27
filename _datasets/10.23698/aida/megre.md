@@ -8,33 +8,33 @@ datacite:
   about: "Radiology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/megre"
   author:
-    - name: "Christian Jamtheim Gustafsson"
-      "@id": "https://orcid.org/0000-0003-2931-5615"
-      "@type": "Person"
+  - name: "Christian Jamtheim Gustafsson"
+    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2020
   copyrightHolder:
-    - name: "Skånes Universitetssjukhus"
-      url: "https://vard.skane.se/skanes-universitetssjukhus-sus/"
-      "@type": "Organization"
-    - name: "Christian Jamtheim Gustafsson"
-      "@id": "https://orcid.org/0000-0003-2931-5615"
-      "@type": "Person"
+  - name: "Skånes Universitetssjukhus"
+    url: "https://vard.skane.se/skanes-universitetssjukhus-sus/"
+    "@type": "Organization"
+  - name: "Christian Jamtheim Gustafsson"
+    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@type": "Person"
   provider:
-    - name: "Christian Jamtheim Gustafsson"
-      email: "Christian.JamtheimGustafsson@skane.se"
-      "@id": "https://orcid.org/0000-0003-2931-5615"
-      "@type": "Person"
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Christian Jamtheim Gustafsson"
+    email: "Christian.JamtheimGustafsson@skane.se"
+    "@id": "https://orcid.org/0000-0003-2931-5615"
+    "@type": "Person"
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   dateCreated: "2020-04-27"
   datePublished: "2020-04-30"
   dateModified: "2020-04-30"
@@ -56,35 +56,32 @@ datacite:
     spherical objects with a radius of 1-12 mm, inserted in the center of mass
     defined locations. Method in the paper uses 9 mm radius.
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/megre#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA BY license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#aida-by-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/megre#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA BY license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/megre#aida-by-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA with attribution."
   citation:
-    #- "@type": "CreativeWork"
-    #  "@id": "https://doi.org/..."
-    #  name: "Title of paper goes here"
-    - "@type": "Article"
-      "@id": "https://doi.org/10.1088/1361-6560/abb0f9"
-      name: |
-        Jamtheim Gustafsson et al (2020), Development and evaluation of a deep
-        learning based artificial intelligence for automatic identification of
-        gold fiducial markers in an MRI-only prostate radiotherapy workflow.
-        Phys. Med. Biol. doi:10.1088/1361-6560/abb0f9
-    - "@type": "Article"
-      "@id": "https://doi.org/10.1002/mp.12516"
-      name: |
-        Gustafsson, C., Korhonen, J., Persson, E., Gunnlaugsson, A., Nyholm, T.
-        and Olsson, L.E. (2017), Registration free automatic identification of
-        gold fiducial markers in MRI target delineation images for prostate
-        radiotherapy. Med. Phys., 44: 5563-5574. doi:10.1002/mp.12516
+  - "@type": "Article"
+    "@id": "https://doi.org/10.1088/1361-6560/abb0f9"
+    name: |
+      Jamtheim Gustafsson et al (2020), Development and evaluation of a deep
+      learning based artificial intelligence for automatic identification of
+      gold fiducial markers in an MRI-only prostate radiotherapy workflow.
+      Phys. Med. Biol. doi:10.1088/1361-6560/abb0f9
+  - "@type": "Article"
+    "@id": "https://doi.org/10.1002/mp.12516"
+    name: |
+      Gustafsson, C., Korhonen, J., Persson, E., Gunnlaugsson, A., Nyholm, T.
+      and Olsson, L.E. (2017), Registration free automatic identification of
+      gold fiducial markers in MRI target delineation images for prostate
+      radiotherapy. Med. Phys., 44: 5563-5574. doi:10.1002/mp.12516
 other:
   shortName: "MEGRE"
   status: "Completed"
@@ -102,35 +99,35 @@ other:
     images.
   download: # Fixme: insert link to paper in annotation text above when published.
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
-    - "SE"
+  - "SE"
   organ:
-    - name: "Prostate"
-      sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Prostate"
+    sctid: 41216001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "49-85"
   bytes: 160305002394 # ~160 GB
   numberOfScans: 366 # 326 patients, augmented to a total of 652 subjects (x8 echo times) for train/validation dataset. 40 additional patients for a test dataset (x8 echo times).
   numberOfAnnotations: 692 # 652 (x8 echo times) + 40 (x8 echo times)
   resolution: "Scan resolution 2.8x1.46x1.46 mm, reconstructed to 0.47x0.47x2.8 mm. Each patient has 28-34 slices with 512x512 image matrix." # 2.8 mm scan slice thickness and an in-plane scan resolution of 1.46 mm x 1.46 mm (reconstructed to 0.47 mm x 0.47 mm), yielding an image matrix size of 512x512 with 28 to 34 slices for each patient and each echo.
   modality:
-    - "MR"
+  - "MR"
   scanner:
-    - "GE Discovery 750w 3T" # software versions DV25.0R02-1549b and DV26.0R03-1831b
+  - "GE Discovery 750w 3T" # software versions DV25.0R02-1549b and DV26.0R03-1831b
   stain:
   phase:
   image: "/assets/images/10.23698/aida/megre/image3-thumbnail.png"
   exampleImage:
-    - title: "Pelvic transversal MEGRE image displaying an example of the first echo."
-      url: "/assets/images/10.23698/aida/megre/image1.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/megre/image1-thumbnail.png"
-    - title: "MEGRE images obtained using eight echo times, from 2.38 to 23.6 ms, for two different patients."
-      url: "/assets/images/10.23698/aida/megre/image2.png"
-      thumbnail-url: "/assets/images/10.23698/aida/megre/image2-thumbnail.png"
-    - title: "The 3D binary mask viewed as an image segmentation overlaid on the MEGRE images, seen in orthogonal views for echo 1."
-      url: "/assets/images/10.23698/aida/megre/image3.png"
-      thumbnail-url: "/assets/images/10.23698/aida/megre/image3-thumbnail.png"
+  - title: "Pelvic transversal MEGRE image displaying an example of the first echo."
+    url: "/assets/images/10.23698/aida/megre/image1.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/megre/image1-thumbnail.png"
+  - title: "MEGRE images obtained using eight echo times, from 2.38 to 23.6 ms, for two different patients."
+    url: "/assets/images/10.23698/aida/megre/image2.png"
+    thumbnail-url: "/assets/images/10.23698/aida/megre/image2-thumbnail.png"
+  - title: "The 3D binary mask viewed as an image segmentation overlaid on the MEGRE images, seen in orthogonal views for echo 1."
+    url: "/assets/images/10.23698/aida/megre/image3.png"
+    thumbnail-url: "/assets/images/10.23698/aida/megre/image3-thumbnail.png"
 ---
 ## Kernels
 See github repository for pre-processing and method source code

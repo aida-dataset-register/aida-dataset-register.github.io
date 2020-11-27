@@ -8,48 +8,48 @@ datacite:
   about: "Pathology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/brln"
   author:
-    - name: "Sofia Jarkman"
-      #"@id": # FIXME: missing info
-      "@type": "Person"
-    - name: "Martin Lindvall"
-      "@id": "https://orcid.org/0000-0002-7014-8874"
-      "@type": "Person"
-    - name: "Joel Hedlund"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Darren Treanor"
-      "@id": "https://orcid.org/0000-0002-4579-484X"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
-    - name: "Jeroen van der Laak"
-      "@id": "https://orcid.org/0000-0001-7982-0754"
-      "@type": "Person"
+  - name: "Sofia Jarkman"
+    #"@id": # FIXME: missing info
+    "@type": "Person"
+  - name: "Martin Lindvall"
+    "@id": "https://orcid.org/0000-0002-7014-8874"
+    "@type": "Person"
+  - name: "Joel Hedlund"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Darren Treanor"
+    "@id": "https://orcid.org/0000-0002-4579-484X"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
+  - name: "Jeroen van der Laak"
+    "@id": "https://orcid.org/0000-0001-7982-0754"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - name: "Linköping University"
-      url: "https://liu.se/"
-      "@type": "Organization"
-    - name: "Claes Lundström"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Linköping University"
+    url: "https://liu.se/"
+    "@type": "Organization"
+  - name: "Claes Lundström"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   provider:
-    - name: "Sofia Jarkman"
-      email: "sofia.jarkman@regionostergotland.se"
-      #"@id": "" # FIXME: missing info
-      "@type": "Person"        
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Sofia Jarkman"
+    email: "sofia.jarkman@regionostergotland.se"
+    #"@id": "" # FIXME: missing info
+    "@type": "Person"        
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   dateCreated: "2019-11-19"
   datePublished: "2019-11-19"
   dateModified: "2019-11-21"
@@ -68,17 +68,17 @@ datacite:
     the Department of Clinical Pathology in Linköping, Region Östergötland.
     Included are both positive and negative cases.
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/brln#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA BY CA license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#aida-by-ca-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution and co-authorship."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/brln#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA BY CA license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#aida-by-ca-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA with attribution and co-authorship."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -91,41 +91,41 @@ other:
     available on request.
   download:
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
     - "SE"
   organ:
-    - name: "Breast"
-      sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Breast"
+    sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "-"
   bytes: 2363159897649  # 2.4 TB
   numberOfScans: 4462
   numberOfAnnotations: 0
   resolution: "20x"
   modality:
-    - "SM"
+  - "SM"
   scanner:
-    - Aperio ScanScope AT
-    - Hamamatsu NanoZoomer XR
-    - Hamamatsu NanoZoomer S360
-    - Hamamatsu NanoZoomer S60
+  - Aperio ScanScope AT
+  - Hamamatsu NanoZoomer XR
+  - Hamamatsu NanoZoomer S360
+  - Hamamatsu NanoZoomer S60
   stain: "Hematoxylin and eosin. In sentinel node cases also immunohistochemical stain  for cytokeratin AE1/AE3."
   phase:
   image: "/assets/images/10.23698/aida/brln/ckae-metastasis-thumbnail.jpeg"
   exampleImage:
-    - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/brln/he-overview.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/brln/he-overview-thumbnail.jpeg"
-    - title: "Overview of whole slide imaging with cytokeratin immunostaining."
-      url: "/assets/images/10.23698/aida/brln/ckae-overview.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"
-    - title: "Detail view of metastasis with hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/brln/he-metastasis.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/brln/he-metastasis-thumbnail.jpeg"
-    - title: "Detail view of metastasis with cytokeratin immunostaining."
-      url: "/assets/images/10.23698/aida/brln/ckae-metastasis.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-metastasis-thumbnail.jpeg"
+  - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/brln/he-overview.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/brln/he-overview-thumbnail.jpeg"
+  - title: "Overview of whole slide imaging with cytokeratin immunostaining."
+    url: "/assets/images/10.23698/aida/brln/ckae-overview.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-overview-thumbnail.jpeg"
+  - title: "Detail view of metastasis with hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/brln/he-metastasis.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/brln/he-metastasis-thumbnail.jpeg"
+  - title: "Detail view of metastasis with cytokeratin immunostaining."
+    url: "/assets/images/10.23698/aida/brln/ckae-metastasis.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/brln/ckae-metastasis-thumbnail.jpeg"
 ---
 ## License
 ### Controlled access

@@ -7,39 +7,39 @@ datacite:
   about: "Pathology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco"
   author:
-    - name: "Gordan Maras"
-      "@id": "https://orcid.org/0000-0002-0566-6739"
-      "@type": "Person"
-    - name: "Martin Lindvall"
-      "@id": "https://orcid.org/0000-0002-7014-8874"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Gordan Maras"
+    "@id": "https://orcid.org/0000-0002-0566-6739"
+    "@type": "Person"
+  - name: "Martin Lindvall"
+    "@id": "https://orcid.org/0000-0002-7014-8874"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - name: "Linköping University"
-      url: "https://liu.se/"
-      "@type": "Organization"
-    - name: "Claes Lundström"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Linköping University"
+    url: "https://liu.se/"
+    "@type": "Organization"
+  - name: "Claes Lundström"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   provider:
-    - name: "Gordan Maras"
-      email: "gordan.maras@regiongavleborg.se"
-      "@id": "https://orcid.org/0000-0002-0566-6739"
-      "@type": "Person"        
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Gordan Maras"
+    email: "gordan.maras@regiongavleborg.se"
+    "@id": "https://orcid.org/0000-0002-0566-6739"
+    "@type": "Person"        
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   dateCreated: "2019-08-13"
   datePublished: "2019-08-13"
   dateModified: "2020-11-18"
@@ -59,17 +59,17 @@ datacite:
     <a href="lnco2">LNCO2 dataset</a> using different collection and annotation
     parameters.
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/lnco#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA BY license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#aida-by-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/lnco#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA BY license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/lnco#aida-by-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA with attribution."
   citation:
     #- "@type": "CreativeWork"
     #  "@id": "https://doi.org/..."
@@ -83,33 +83,33 @@ other:
     See details below.
   download:
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
-    - "SE"
+  - "SE"
   organ:
-    - name: "Colon"
-      sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Colon"
+    sctid: 71854001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span:
   bytes: 373662154752 # 348 GiB
   numberOfScans: 977
   numberOfAnnotations: 7379
   resolution: "20x and 40x"
   modality:
-    - "SM"
+  - "SM"
   scanner:
-    - "Aperio Scanscope (20x)"
-    - "Hamamatsu NanoZoomer (40x)"
+  - "Aperio Scanscope (20x)"
+  - "Hamamatsu NanoZoomer (40x)"
   stain: "Hematoxylin and eosin."
   phase:
   image:
   exampleImage:
-    - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco/he-overview.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco/he-overview-thumbnail.jpeg"
-    - title: "To-scale view of pixel resolution in original whole slide imaging data from hematoxylin and eosin staining."
-      url: "/assets/images/10.23698/aida/lnco/he-to-scale.jpeg"
-      thumbnail-url: "/assets/images/10.23698/aida/lnco/he-to-scale-thumbnail.jpeg"
+  - title: "Overview of whole slide imaging with hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/lnco/he-overview.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/lnco/he-overview-thumbnail.jpeg"
+  - title: "To-scale view of pixel resolution in original whole slide imaging data from hematoxylin and eosin staining."
+    url: "/assets/images/10.23698/aida/lnco/he-to-scale.jpeg"
+    thumbnail-url: "/assets/images/10.23698/aida/lnco/he-to-scale-thumbnail.jpeg"
 ---
 ## Annotation details
 

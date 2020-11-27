@@ -8,39 +8,39 @@ datacite:
   about: "Radiology"
   url: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm"
   author:
-    - name: "Victor Dahlblom"
-      "@id": "https://orcid.org/0000-0002-4330-5387"
-      "@type": "Person"
-    - name: "Magnus Dustler"
-      "@id": "https://orcid.org/0000-0002-5699-9664"
-      "@type": "Person"
-    - name: "Sophia Zackrisson"
-      "@id": "https://orcid.org/0000-0001-5678-3882"
-      "@type": "Person"
+  - name: "Victor Dahlblom"
+    "@id": "https://orcid.org/0000-0002-4330-5387"
+    "@type": "Person"
+  - name: "Magnus Dustler"
+    "@id": "https://orcid.org/0000-0002-5699-9664"
+    "@type": "Person"
+  - name: "Sophia Zackrisson"
+    "@id": "https://orcid.org/0000-0001-5678-3882"
+    "@type": "Person"
   publisher:
     "@type": "Organization"
     name: "AIDA"
   copyrightYear: 2019
   copyrightHolder:
-    - name: "Lund University"
-      url: "https://lu.se/"
-      "@type": "Organization"
-    - name: "Sophia Zackrisson"
-      "@id": "https://orcid.org/0000-0001-5678-3882"
-      "@type": "Person"
+  - name: "Lund University"
+    url: "https://lu.se/"
+    "@type": "Organization"
+  - name: "Sophia Zackrisson"
+    "@id": "https://orcid.org/0000-0001-5678-3882"
+    "@type": "Person"
   provider:
-    - name: "Victor Dahlblom"
-      email: "victor.dahlblom@med.lu.se"
-      "@id": "https://orcid.org/0000-0002-4330-5387"
-      "@type": "Person"
-    - name: "Joel Hedlund"
-      email: "joel.hedlund@liu.se"
-      "@id": "https://orcid.org/0000-0001-6443-3604"
-      "@type": "Person"
-    - name: "Claes Lundstrom"
-      email: "claes.lundstrom@liu.se"
-      "@id": "https://orcid.org/0000-0002-9368-0177"
-      "@type": "Person"
+  - name: "Victor Dahlblom"
+    email: "victor.dahlblom@med.lu.se"
+    "@id": "https://orcid.org/0000-0002-4330-5387"
+    "@type": "Person"
+  - name: "Joel Hedlund"
+    email: "joel.hedlund@liu.se"
+    "@id": "https://orcid.org/0000-0001-6443-3604"
+    "@type": "Person"
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   dateCreated: "2019-09-12"
   datePublished: "2019-09-12"
   dateModified: "2019-09-12"
@@ -59,27 +59,27 @@ datacite:
     data, collected in a research project which is still ongoing. The authors
     welcome proposals for new impactful research collaborations.
   license:
-    - name: "Controlled access"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#controlled-access"
-      "@type": "CreativeWork"
-      abstract: |
-        Free for use in legal and ethical medical diagnostics research. <br/> Please
-        <a href="https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#download">contact</a>
-        the copyright holder for terms of access.
-    - name: "AIDA BY license"
-      id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#aida-by-license"
-      "@type": "CreativeWork"
-      abstract: "Free for use within AIDA with attribution."
+  - name: "Controlled access"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#controlled-access"
+    "@type": "CreativeWork"
+    abstract: |
+      Free for use in legal and ethical medical diagnostics research. <br/> Please
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#download">contact</a>
+      the copyright holder for terms of access.
+  - name: "AIDA BY license"
+    id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#aida-by-license"
+    "@type": "CreativeWork"
+    abstract: "Free for use within AIDA with attribution."
   citation:
-    - "@type": "Article"
-      "@id": "https://doi.org/10.1016/S1470-2045(18)30521-7"
-      name: |
-        Zackrisson S, Lång K, Rosso A, Johnson K, Dustler M, Förnvik D, Förnvik
-        H, Sartor H, Tingberg A, Andersson I. One-view breast tomosynthesis
-        versus two-view mammography in the Malmö Breast Tomosynthesis Screening
-        Trial (MBTST): a prospective, population-based, diagnostic accuracy
-        study. The Lancet Oncology. October 2018.
-        doi:10.1016/S1470-2045(18)30521-7
+  - "@type": "Article"
+    "@id": "https://doi.org/10.1016/S1470-2045(18)30521-7"
+    name: |
+      Zackrisson S, Lång K, Rosso A, Johnson K, Dustler M, Förnvik D, Förnvik
+      H, Sartor H, Tingberg A, Andersson I. One-view breast tomosynthesis
+      versus two-view mammography in the Malmö Breast Tomosynthesis Screening
+      Trial (MBTST): a prospective, population-based, diagnostic accuracy
+      study. The Lancet Oncology. October 2018.
+      doi:10.1016/S1470-2045(18)30521-7
 other:
   shortName: "MBTST-DM"
   status: "Ongoing"
@@ -93,38 +93,38 @@ other:
     were verified with biopsy.
   download:
     links:
-      - text: ""
-        url: ""
+    - text: ""
+      url: ""
   countries-shared:
-    - "SE"
+  - "SE"
   organ:
-    - name: "Breast"
-      sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
+  - name: "Breast"
+    sctid: 76752008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "40-74"
   bytes: 889058230272 # 889 GB, or 828 GiB.
   numberOfScans: 14711
   numberOfAnnotations: 0
   resolution: "Various, e.g. 2800 x 3500 px"
   modality:
-    - "MG"
+  - "MG"
   scanner:
-    - "Siemens Mammomat Inspiration"
+  - "Siemens Mammomat Inspiration"
   stain:
   phase:
   image:
   exampleImage:
-    - title: "Mediolateral oblique view of right breast."
-      url: "/assets/images/10.23698/aida/mbtst-dm/1rmlo.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/1rmlo-thumbnail.jpg"
-    - title: "Mediolateral oblique view of left breast."
-      url: "/assets/images/10.23698/aida/mbtst-dm/2lmlo.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/2lmlo-thumbnail.jpg"
-    - title: "Craniocaudal view of right breast."
-      url: "/assets/images/10.23698/aida/mbtst-dm/3rcc.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/3rcc-thumbnail.jpg"
-    - title: "Craniocaudal view of left breast."
-      url: "/assets/images/10.23698/aida/mbtst-dm/4lcc.jpg"
-      thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/4lcc-thumbnail.jpg"
+  - title: "Mediolateral oblique view of right breast."
+    url: "/assets/images/10.23698/aida/mbtst-dm/1rmlo.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/1rmlo-thumbnail.jpg"
+  - title: "Mediolateral oblique view of left breast."
+    url: "/assets/images/10.23698/aida/mbtst-dm/2lmlo.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/2lmlo-thumbnail.jpg"
+  - title: "Craniocaudal view of right breast."
+    url: "/assets/images/10.23698/aida/mbtst-dm/3rcc.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/3rcc-thumbnail.jpg"
+  - title: "Craniocaudal view of left breast."
+    url: "/assets/images/10.23698/aida/mbtst-dm/4lcc.jpg"
+    thumbnail-url: "/assets/images/10.23698/aida/mbtst-dm/4lcc-thumbnail.jpg"
 ---
 ## License
 ### Controlled access
