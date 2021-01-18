@@ -91,6 +91,7 @@ other:
       url: ""
   countries-shared:
   - "GB"
+  - "PL"
   - "SE"
   organ:
   - name: "Breast"
