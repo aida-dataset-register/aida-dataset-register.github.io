@@ -90,6 +90,7 @@ other:
   - "DE"
   - "ES"
   - "GB"
+  - "IN"
   - "KR"
   - "RO"
   - "SE"
