@@ -27,9 +27,7 @@ AIDA is a collaboration between partners in healthcare, academia and industry. A
 
 ## Personal data and legal basis
 
-AIDA engages in research and innovation using data mainly from medical imaging, and thus has an obligation under the general data protection regulation (GDPR) to adequately safeguard the privacy of the individuals concerned. For this reason -and to protect against for example mistakes in large scale anonymization- AIDA engages in data sharing for research only when it is ethically approved, and when a contractual agreement is in place that includes non-disclosure of data, such as AIDA partner contracts. More details including the [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) can be found in the [AIDA GDPR policy 1.0](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit).
-
-AIDA can presently only host anonymous data due to terms in the data processing agreement for the present AIDA platform. At the time of writing AIDA is reworking its platform to be sufficiently secure also for sensitive personal data, at which point AIDA will be able to support further modes of data sharing.
+AIDA engages in research and innovation using data mainly from medical imaging, and thus has an obligation under the general data protection regulation (GDPR) to adequately safeguard the privacy of the individuals concerned. For this reason -and to protect against for example mistakes in large scale anonymization- AIDA engages in data sharing for research only when it is ethically approved, and when a contractual agreement is in place that includes non-disclosure of data, such as AIDA partner contracts. More details including the [AIDA definition of anonymous data](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit#heading=h.i639kmr8va6o) can be found in the [AIDA GDPR policy 1.0](https://docs.google.com/document/d/1TvjTeoUiqaafnBQGaJDjHcFCUBfhiKmUTWJG_bkGIWs/edit). For research activities where it is not possible to use anonymous data, AIDA also provides secure services for processing sensitive personal data, as specified in data processing agreements.
 
 ## Roles
 
@@ -41,6 +39,12 @@ AIDA uses the following roles in relation to sharing datasets:
 
 ## Tools
 
+### AIDA DGX-2 service
+
+AIDA operates a [DGX-2](https://www.nvidia.com/en-us/data-center/dgx-2/) system as a secure service for leading edge researchers in AIDA. It can be used for AI training and [data hub sharing](#aida-data-hub-sharing).
+
+The AIDA DGX-2 service can be used with medical personal data for research using a data processing agreement, or with anonymous data using a service agreement.
+
 ### AIDA PACS
 
 The AIDA Picture Archive and Communication System (PACS) is available here:
@@ -51,6 +55,8 @@ The AIDA PACS is the primary tool for data storage, visualization, interaction a
 
 AIDA has chosen a PACS as its main tool for interacting with data, since a PACS is what medical imaging diagnostics professionals use as their main tool for their everyday work in the clinic, and is therefore what imaging diagnostics AI products must integrate well with in order to feasibly add value to clinical practice. Using a PACS in this way ensures that clinicians can easily remain involved throughout any AIDA supported development activity, so that requirements can be actively driven by clinical perspective, from research idea, through implementation in a CE-marked medical device, to clinical evaluation and procurement for use in diagnosis of patients. We believe that engaging across the full value chain and connecting it in every step to as unfalsifiable needs and consequences as possible, will contribute to more relevant research and innovation, and higher impact from more reproducible science, as well as better outcomes for patients.
 
+The AIDA PACS can presently be used only with anonymous data.
+
 ### File sharing
 
 The AIDA OwnCloud service for self-service file sharing is available here:
@@ -58,6 +64,8 @@ The AIDA OwnCloud service for self-service file sharing is available here:
 [https://owncloud.aida.medtech4health.se/](https://owncloud.aida.medtech4health.se/)
 
 AIDA members can use the AIDA OwnCloud file sharing service to store and share data with other AIDA members. OwnCloud is quite intuitive to use, so AIDA members can use it for straightforward basic sharing without system administrator assistance.
+
+The AIDA OwnCloud service can presently be used only with anonymous data.
 
 ### Tools for large-scale data exports
 
@@ -90,7 +98,7 @@ The AIDA dataset register is used to advertise shared datasets, and to make shar
 
 AIDA members can visually inspect and interact with the data that they have access to through the [AIDA PACS](#aida-pacs). For use in more advanced analyses within the dataset's sharing license, a working copy can be obtained on request to an [AIDA system administrator](mailto:aida-data-director@medtech4health.se). Copyright holders will be notified of the use, but will be asked to approve the use if they have expressly requested this.
 
-Data shared on the AIDA data hub is by default available either in full or in part on the [AIDA PACS](#aida-pacs), and shall in the interest of OpenScience be made available in full on request to the copyright holder.
+Data shared on the AIDA data hub is by default available either in full or in part, and shall in the interest of OpenScience be made available in full on request to the copyright holder.
 
 ### Scope and priorities
 
@@ -112,7 +120,7 @@ AIDA has its own [DOI prefix](https://search.datacite.org/works?query=snd.aida) 
 
 ### AIDA data sharing licenses
 
-For data hub sharing AIDA recommends using one of the license types that are enumerated in decreasing preference here and further described below:
+For data hub sharing of anonymous data, AIDA recommends using one of the license types that are enumerated in decreasing preference here and further described below:
 
 1.  AIDA BY license.
 2.  AIDA license.
@@ -204,7 +212,7 @@ AIDA also offers advice and shares tools to support exports to other destination
 
 ## Selective sharing
 
-AIDA members can upload private data to the AIDA platform, and can choose to share data selectively with other specified research groups in AIDA at own cost. This can be done either through the [AIDA PACS](#aida-pacs) by request to an [AIDA system administrator](mailto:aida-data-director@medtech4health.se), or by using the AIDA self-service [file sharing](#file-sharing) service.
+AIDA members can upload anonymous data to the AIDA platform, and can choose to share data selectively with other specified research groups in AIDA at own cost. This can be done either through the [AIDA PACS](#aida-pacs) by request to an [AIDA system administrator](mailto:aida-data-director@medtech4health.se), or by using the AIDA self-service [file sharing](#file-sharing) service.
 
 ## Support to ethical review applications in research
 
@@ -219,3 +227,5 @@ AIDA can support researchers who as copyright holders wish to share their resear
 AIDA can facilitate data transfers from AIDA systems to recipients based on instructions from the copyright holder. AIDA can also advise and share tools for data sharing.
 
 AIDA also provides lightweight [template license agreements](../templates/) that can be used as a starting point by copyright holders looking to set up agreements for legal and ethical sharing outside of AIDA.
+
+Copyright holders may also choose to delegate handling of access requests to AIDA, by signing a data transfer agreement with AIDA to specify how sharing is to be carried out.

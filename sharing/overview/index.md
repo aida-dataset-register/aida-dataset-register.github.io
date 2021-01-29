@@ -41,7 +41,8 @@ AIDA can offer some support to non-members in steps 2-5 below <span class="aida-
     In the interest of OpenScience, you should make full data available <a href="../policy/#modes-of-access">on request</a>.
 </td></tr>
 <tr><td></td><td id="share-outside-of-aida"><b>Share outside of AIDA</b><br/>  
-     AIDA will notify you of access requests, and can <a href="../policy/#facilitating-data-sharing-outside-of-aida">facilitate contacts</a> with requesters for data sharing options outside of AIDA, and can facilitate transfers to recipients outside AIDA based on your instructions. You can use AIDA <a href="../templates/">templates</a> as a starting point for setting up agreements for legal data sharing outside of AIDA
+    You can either handle access requests yourself, or delegate handling to AIDA.
+    AIDA will notify you of access requests, can <a href="../policy/#facilitating-data-sharing-outside-of-aida">facilitate contacts</a> with requesters, and can facilitate transfers based on your instructions. You can use AIDA <a href="../templates/">templates</a> as a starting point for setting up data sharing agreements outside of AIDA. If you prefer to delegate handling to AIDA, you can sign a Data Transfer Agreement with AIDA to specify how sharing is to be carried out.
 </td></tr>
 </table>
 
