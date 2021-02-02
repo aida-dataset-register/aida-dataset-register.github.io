@@ -26,3 +26,4 @@ Approved: 2019-11-06
 3. Lymph nodes. Radiology and pathology.
 4. Basal cell cancer whole-slide imaging, eg for identifying nonradical excisions.
 5. Prostate. MRI and pathology.
+6. Knee and foot fracture CT and CR.
