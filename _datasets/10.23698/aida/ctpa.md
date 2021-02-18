@@ -91,6 +91,8 @@ other:
       url: ""
   countries-shared:
     - "SE"
+    - "US"
+    - "LK"
   organ:
   - name: "Lung"
     sctid: 39607008 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
