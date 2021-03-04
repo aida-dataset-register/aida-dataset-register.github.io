@@ -27,3 +27,5 @@ Approved: 2019-11-06
 4. Basal cell cancer whole-slide imaging, eg for identifying nonradical excisions.
 5. Prostate. MRI and pathology.
 6. Knee and foot fracture CT and CR.
+7. PD-L1 pathology data in non-small-cell lung cancer (NSCLC).
+8. Radiography data for AI classification of atypical femoral fractures.
