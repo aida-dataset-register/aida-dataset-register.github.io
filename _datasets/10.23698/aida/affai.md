@@ -99,7 +99,7 @@ other:
   - name: "Femur"
     sctid: 71341001 # SNOMED-CT https://termbrowser.nhs.uk/?perspective=full&conceptId1=%s
   age-span: "" # FIXME: missing data
-  bytes: 0 # FIXME: missing data
+  bytes: 3881258996 # zip compressed 3.9 GB (3.7 GiB).
   numberOfScans: 981
   numberOfAnnotations: 981
   resolution:
