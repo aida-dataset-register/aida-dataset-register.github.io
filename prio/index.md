@@ -19,7 +19,7 @@ acquisition topics.
 
 ## Priorities
 
-Approved: 2019-11-06
+Approved: 2021-03-19
 
 1. CT bulk examinations of brain, thorax, abdomen.
 2. PET-CT bulk examinations of thorax and abdomen with <sup>18</sup>F-FDG tracer.
@@ -29,3 +29,4 @@ Approved: 2019-11-06
 6. Knee and foot fracture CT and CR.
 7. PD-L1 pathology data in non-small-cell lung cancer (NSCLC).
 8. Radiography data for AI classification of atypical femoral fractures.
+9. Head CT.
