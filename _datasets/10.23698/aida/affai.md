@@ -49,8 +49,8 @@ datacite:
     "@id": "https://orcid.org/0000-0002-9368-0177"
     "@type": "Person"
   dateCreated: "2021-03-04"
-  datePublished: "2021-03-04"
-  dateModified: "2021-03-04"
+  datePublished: "2021-03-23"
+  dateModified: "2021-03-23"
   keywords: "Radiology, X-ray, Annotated, Femur, AFF, Atypical femoral fracture"
   version: "1.0"
   description: |
