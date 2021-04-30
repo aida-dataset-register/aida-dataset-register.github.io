@@ -94,6 +94,7 @@ other:
     - text: ""
       url: ""
   countries-shared:
+    - "NO"
     - "SE"
   organ:
   - name: "Breast"

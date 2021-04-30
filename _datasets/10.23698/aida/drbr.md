@@ -92,6 +92,7 @@ other:
   countries-shared:
   - "GB"
   - "NL"
+  - "NO"
   - "PL"
   - "SE"
   - "US"

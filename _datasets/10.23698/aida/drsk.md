@@ -108,6 +108,7 @@ other:
       url: ""
   countries-shared:
   - "NL"
+  - "NO"
   - "SE"
   organ:
   - name: "Skin"
