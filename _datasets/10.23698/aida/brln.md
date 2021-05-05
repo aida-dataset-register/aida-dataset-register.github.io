@@ -134,16 +134,19 @@ Free for use in legal and ethical medical diagnostics research.
 Please [contact](#contact) the copyright holder for terms of access.
 
 ### AIDA BY CA license
+v1.2.1
+
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute this data within Analytic
-Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for any
-purpose with or without fee is hereby granted, provided that the above copyright
-notice and this permission notice appear in all copies, and that publications
-resulting from the use of this data include the authors of this dataset Sofia
-Jarkman and Martin Lindvall in the author list and cite the following works:
+Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for the
+purpose of medical imaging research with or without fee is hereby granted,
+provided that the above copyright notice and this permission notice appear in
+all copies, and that publications resulting from the use of this data include
+the authors of this dataset Sofia Jarkman and Martin Lindvall in the author list
+and cite the following works:
 
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})

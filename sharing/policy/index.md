@@ -130,13 +130,13 @@ If the terms of these licenses are not suitable for a specific case of sharing, 
 
 #### AIDA license
 
-The AIDA license is adapted from the succinct, understandable and permissive [ISC license](https://opensource.org/licenses/ISC) commonly used in open source software, but modified here to disallow use outside of AIDA. This restriction is a safeguard against mistakes, for example in large scale anonymization, which may otherwise lead to privacy breach.
+The AIDA license is adapted from the succinct, understandable and permissive [ISC license](https://opensource.org/licenses/ISC) commonly used in open source software, but modified here to allow use only for medical imaging research and only within AIDA. This restriction is a safeguard against mistakes, for example in large scale anonymization, which may otherwise lead to privacy breach.
 
 Example:
 
 Copyright \<Year> \<Copyright holder>
 
-Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for the purpose of medical imaging research with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS DATA.
 
@@ -150,7 +150,7 @@ Example:
 
 Copyright \<Year> \<Copyright holder>
 
-Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and that publications resulting from the use of this data \<OPTIONAL: include the following acknowledgement text “...” and> cite the following publications:
+Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for the purpose of medical imaging research with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and that publications resulting from the use of this data \<OPTIONAL: include the following acknowledgement text “...” and> cite the following publications:
 
 \<This dataset>
 
@@ -172,7 +172,7 @@ Example:
 
 Copyright \<Year> \<Copyright holder>
 
-Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and that publications resulting from the use of this data include the authors of this dataset \<optional: NN, NN, and NN> in the author list.
+Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for the purpose of medical imaging research with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and that publications resulting from the use of this data include the authors of this dataset \<optional: NN, NN, and NN> in the author list.
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR CHARACTERISTICS OF THIS DATA.
 
@@ -186,7 +186,7 @@ Example:
 
 Copyright \<Year> \<Copyright holder>
 
-Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and that publications resulting from the use of this data include the authors of this dataset \<optional: NN, NN, and NN> in the author list and \<optional: include the following acknowledgement text “...” and> \<optional: cite the following publications:
+Permission to use, copy, modify, and/or distribute this data within AIDA (Analytic Imaging Diagnostics Arena [https://medtech4health.se/aida](https://medtech4health.se/aida)) for the purpose of medical imaging research with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies, and that publications resulting from the use of this data include the authors of this dataset \<optional: NN, NN, and NN> in the author list and \<optional: include the following acknowledgement text “...” and> \<optional: cite the following publications:
 
 \<This dataset>
 
