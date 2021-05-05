@@ -125,7 +125,7 @@ Please [contact](#contact) the copyright holder for terms of access.
 
 ### AIDA BY license
 #### Segmentation masks and anatomical landmark annotations
-License v1.0
+License v1.2.1
 
 Copyright
 {{ page.datacite.copyrightYear }}
