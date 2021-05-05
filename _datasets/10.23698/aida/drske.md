@@ -123,6 +123,8 @@ Free for use in legal and ethical medical diagnostics research.
 Please [contact](#contact) the copyright holder for terms of access.
 
 ### AIDA BY license
+License v1.0
+
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}

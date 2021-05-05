@@ -134,7 +134,7 @@ Free for use in legal and ethical medical diagnostics research.
 Please [contact](#contact) the copyright holder for terms of access.
 
 ### AIDA BY CA license
-v1.2.1
+License v1.2.1
 
 Copyright
 {{ page.datacite.copyrightYear }}
