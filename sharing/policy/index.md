@@ -59,13 +59,13 @@ The AIDA PACS can presently be used only with anonymous data.
 
 ### File sharing
 
-The AIDA OwnCloud service for self-service file sharing is available here:
+The AIDA Nextcloud service for self-service file sharing is available here:
 
-[https://owncloud.aida.medtech4health.se/](https://owncloud.aida.medtech4health.se/)
+[https://nextcloud.aida.scilifelab.se/](https://nextcloud.aida.scilifelab.se/)
 
-AIDA members can use the AIDA OwnCloud file sharing service to store and share data with other AIDA members. OwnCloud is quite intuitive to use, so AIDA members can use it for straightforward basic sharing without system administrator assistance.
+AIDA members can use the AIDA Nextcloud file sharing service to store and share data with other AIDA members and with the world.
 
-The AIDA OwnCloud service can presently be used only with anonymous data.
+The AIDA Nextcloud service can presently be used only with anonymous data.
 
 ### Tools for large-scale data exports
 
