@@ -86,6 +86,7 @@ other:
     - text: ""
       url: ""
   countries-shared:
+  - "BE"
   - "CN"
   - "DE"
   - "ES"
