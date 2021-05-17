@@ -55,10 +55,10 @@ datacite:
   version: "1.0"
   description: |
     Atypical femoral fracture is a well-documented adverse reaction to
-    bisphosphonates, but may also have other causes. This dataset contains 433
-    radiographs from 94 patients with complete AFF,  and 548 radiographs from
-    106 patients with normal femur fractures. There are no diagnoses of cancer,
-    to reduce the possibility of confounding by indication.
+    bisphosphonate treatment, but may also have other causes. This dataset contains 433
+    radiographs from 149 patients with complete AFF, and 549 radiographs from
+    224 patients with normal femur fractures. There are no diagnoses of cancer,
+    to reduce the risk of confounding by indication.
   license:
   - name: "Controlled access"
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/affai#controlled-access"
