@@ -119,6 +119,10 @@ other:
     url: "/assets/images/10.23698/aida/ctpel/segmentations.png"
     thumbnail-url: "/assets/images/10.23698/aida/ctpel/segmentations-thumbnail.png"
 ---
+## File formats
+### Importing binary masks to numpy
+The dataset contains a DICOM SEG file, which can be converted to an ITK image file (mha, nifti, etc) by using [dcmqi](https://github.com/QIICR/dcmqi) and the command line tool [segimage2itkimage](https://qiicr.gitbook.io/dcmqi-guide/opening/cmd_tools/seg/segimage2itkimage), which is straightforward to read into a numpy array.
+
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
