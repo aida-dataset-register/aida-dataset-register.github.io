@@ -21,7 +21,7 @@ In brief, the common practice is that [caregivers](../legal/#caregiver) [disclos
 
 ## Legal bases
 
-The general data protection regulation ([GDPR](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/#A5)) regulates all processing of personal data in Europe, and allows countries to adopt national legislation in specific well-defined areas. Healthcare and research are two such areas.
+The general data protection regulation ([GDPR](https://www.imy.se/verksamhet/dataskydd/det-har-galler-enligt-gdpr/introduktion-till-gdpr/dataskyddsforordningen-i-fulltext/)) regulates all processing of personal data in Europe, and allows countries to adopt national legislation in specific well-defined areas. Healthcare and research are two such areas.
 
 Clinical imaging data is typically collected to provide care for patients. However, Swedish patient data law ([PDL](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355#K2P4)) allows caregivers to also use it for other legally specified purposes if needed, for example for improving quality and safety of care, administration, planning, follow-up, evaluation, overseeing, and to produce healthcare statistics.
 
