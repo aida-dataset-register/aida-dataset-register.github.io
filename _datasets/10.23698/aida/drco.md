@@ -113,6 +113,7 @@ other:
     - text: ""
       url: ""
   countries-shared:
+    - "CH"
     - "NO"
     - "SE"
   organ:
