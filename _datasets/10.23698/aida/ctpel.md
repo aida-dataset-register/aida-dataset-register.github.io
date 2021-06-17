@@ -55,9 +55,9 @@ datacite:
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#controlled-access"
     "@type": "CreativeWork"
     abstract: |
-      Free for use in legal and ethical medical diagnostics research. <br/> Please
-      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">contact</a>
-      the copyright holder for terms of access.
+      Free for use in research or education. Please contact
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">AIDA</a>
+      for terms of access.
   - name: "AIDA license"
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#aida-license"
     "@type": "CreativeWork"
@@ -125,8 +125,9 @@ The dataset contains a DICOM SEG file, which can be converted to an ITK image fi
 
 ## License
 ### Controlled access
-Free for use in legal and ethical medical diagnostics research.
-Please [contact](#contact) the copyright holder for terms of access.
+Free for use in research or education. Please contact
+<a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">AIDA</a>
+for terms of access.
 
 ### AIDA BY license
 #### Segmentation masks and anatomical landmark annotations

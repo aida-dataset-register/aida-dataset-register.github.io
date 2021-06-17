@@ -67,9 +67,9 @@ datacite:
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#controlled-access"
     "@type": "CreativeWork"
     abstract: |
-      Free for use in legal and ethical medical diagnostics research. <br/> Please
-      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#download">contact</a>
-      the copyright holder for terms of access.
+      Free for use in legal and ethical medical diagnostics research. <br/> Please contact
+      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#download">AIDA</a>
+      for terms of access.
   - name: "AIDA BY CA license"
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#aida-by-ca-license"
     "@type": "CreativeWork"
@@ -124,8 +124,9 @@ other:
 ---
 ## License
 ### Controlled access
-Free for use in legal and ethical medical diagnostics research.
-Please [contact](#contact) the copyright holder for terms of access.
+Free for use in legal and ethical medical diagnostics research. Please contact
+<a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#download">AIDA</a>
+for terms of access.
 
 ### AIDA BY CA license
 Copyright
