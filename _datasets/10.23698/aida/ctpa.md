@@ -40,18 +40,14 @@ datacite:
     "@id": "https://orcid.org/0000-0002-4053-4301"
     "@type": "Person"        
   provider:
+  - name: "AIDA Data Hub"
+    email: "aida@nbis.se"
+    "@id": "https://datasets.aida.medtech4health.se"
+    "@type": "Organization"
   - name: "Tomas Fröding"
     email: "tomaskjfroding@gmail.com"
     "@id": "https://orcid.org/0000-0002-4053-4301"
     "@type": "Person"        
-  - name: "Joel Hedlund"
-    email: "joel.hedlund@liu.se"
-    "@id": "https://orcid.org/0000-0001-6443-3604"
-    "@type": "Person"
-  - name: "Claes Lundstrom"
-    email: "claes.lundstrom@liu.se"
-    "@id": "https://orcid.org/0000-0002-9368-0177"
-    "@type": "Person"
   dateCreated: "2019-04-08"
   datePublished: "2019-04-08"
   dateModified: "2019-04-00"
@@ -67,9 +63,7 @@ datacite:
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#controlled-access"
     "@type": "CreativeWork"
     abstract: |
-      Free for use in legal and ethical medical diagnostics research. <br/> Please contact
-      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#download">AIDA</a>
-      for terms of access.
+      Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY CA license"
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#aida-by-ca-license"
     "@type": "CreativeWork"
@@ -85,10 +79,6 @@ other:
     All pulmonary emboli have been delineated by an experienced radiologist - in
     an image by image process (in axial view 1 or 0,625mm images) using MITK
     Workbench. 1 283 annotations were made, in a total of 38 emboli.
-  download:
-    links:
-    - text: ""
-      url: ""
   countries-shared:
     - "SE"
     - "IN"
@@ -124,9 +114,14 @@ other:
 ---
 ## License
 ### Controlled access
-Free for use in legal and ethical medical diagnostics research. Please contact
-<a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpa#download">AIDA</a>
-for terms of access.
+Free for use in legal and ethical medical diagnostics research.
+Please contact AIDA for terms of access.
+
+{% assign to = page.datacite.provider[0].email -%}
+{%- assign cc = page.datacite.provider | slice: 1, 100 | map: "email" | join: "," -%}
+{%- assign doi = page.datacite['@id'] | remove: "https://doi.org/" -%}
+{%- assign agreement_template_url = "https://docs.google.com/document/d/1a020Mukn9cjJF88vEYW9OUUDIc2E3dHbSBQi_jb8Yd0" -%}
+{%- include access-request-blurb-research.md to=to cc=cc doi=doi dataset_url=page.datacite.url agreement_template_url=agreement_template_url %}
 
 ### AIDA BY CA license
 Copyright
@@ -143,7 +138,7 @@ the authors of this dataset in the author list and cite the following works:
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
-[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
+[doi:{{ doi }}]({{ page.datacite["@id"] }}).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN

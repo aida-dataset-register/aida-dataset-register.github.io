@@ -29,18 +29,18 @@ datacite:
     "@id": "https://orcid.org/0000-0001-5678-3882"
     "@type": "Person"
   provider:
+  - name: "Magnus Dustler"
+    email: "magnus.dustler@med.lu.se"
+    "@id": "https://orcid.org/0000-0002-5699-9664"
+    "@type": "Person"
   - name: "Victor Dahlblom"
     email: "victor.dahlblom@med.lu.se"
     "@id": "https://orcid.org/0000-0002-4330-5387"
     "@type": "Person"
-  - name: "Joel Hedlund"
-    email: "joel.hedlund@liu.se"
-    "@id": "https://orcid.org/0000-0001-6443-3604"
-    "@type": "Person"
-  - name: "Claes Lundstrom"
-    email: "claes.lundstrom@liu.se"
-    "@id": "https://orcid.org/0000-0002-9368-0177"
-    "@type": "Person"
+  - name: "AIDA Data Hub"
+    email: "aida@nbis.se"
+    "@id": "https://datasets.aida.medtech4health.se"
+    "@type": "Organization"
   dateCreated: "2019-09-12"
   datePublished: "2019-09-12"
   dateModified: "2019-09-12"
@@ -63,9 +63,7 @@ datacite:
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#controlled-access"
     "@type": "CreativeWork"
     abstract: |
-      Free for use in legal and ethical medical diagnostics research. <br/> Please
-      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#download">contact</a>
-      the copyright holder for terms of access.
+      Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY license"
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/mbtst-dm#aida-by-license"
     "@type": "CreativeWork"
@@ -91,10 +89,6 @@ other:
     results from the mammography reading arm. Presence of cancer was determined
     by an experienced radiologist and verified by a second radiologist. Cancers
     were verified with biopsy.
-  download:
-    links:
-    - text: ""
-      url: ""
   countries-shared:
   - "SE"
   organ:
@@ -129,18 +123,21 @@ other:
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please [contact](#contact) the copyright holder for terms of access.
+Please contact the dataset provider for terms of access.
+
+{% assign to = page.datacite.provider[0].email -%}
+{%- assign cc = page.datacite.provider | slice: 1, 100 | map: "email" | join: "," -%}
+{%- assign doi = page.datacite['@id'] | remove: "https://doi.org/" -%}
+{%- include access-request-blurb-research.md to=to cc=cc doi=doi dataset_url=page.datacite.url %}
 
 ### AIDA BY license
-License v1.2.1
-
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute the data within AIDA
 (Analytic Imaging Diagnostics Arena https://medtech4health.se/aida) for the
-purpose of medical imaging research with or without fee is hereby granted,
+purpose of medical diagnostics research with or without fee is hereby granted,
 provided that the above copyright notice and this permission notice appear in
 all copies, and that publications resulting from the use of this data cite the
 following publications:

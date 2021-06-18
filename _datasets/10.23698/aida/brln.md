@@ -38,6 +38,10 @@ datacite:
     "@id": "https://orcid.org/0000-0002-9368-0177"
     "@type": "Person"
   provider:
+  - name: "Claes Lundstrom"
+    email: "claes.lundstrom@liu.se"
+    "@id": "https://orcid.org/0000-0002-9368-0177"
+    "@type": "Person"
   - name: "Sofia Jarkman"
     email: "sofia.jarkman@regionostergotland.se"
     #"@id": "" # FIXME: missing info
@@ -46,10 +50,10 @@ datacite:
     email: "joel.hedlund@liu.se"
     "@id": "https://orcid.org/0000-0001-6443-3604"
     "@type": "Person"
-  - name: "Claes Lundstrom"
-    email: "claes.lundstrom@liu.se"
-    "@id": "https://orcid.org/0000-0002-9368-0177"
-    "@type": "Person"
+  - name: "AIDA Data Hub"
+    email: "aida@nbis.se"
+    "@id": "https://datasets.aida.medtech4health.se"
+    "@type": "Organization"
   dateCreated: "2019-11-19"
   datePublished: "2019-11-19"
   dateModified: "2019-11-21"
@@ -72,9 +76,7 @@ datacite:
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#controlled-access"
     "@type": "CreativeWork"
     abstract: |
-      Free for use in legal and ethical medical diagnostics research. <br/> Please
-      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/brln#download">contact</a>
-      the copyright holder for terms of access.
+      Free for use in legal and ethical medical diagnostics research.
   - name: "AIDA BY CA license"
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/brln#aida-by-ca-license"
     "@type": "CreativeWork"
@@ -89,10 +91,6 @@ other:
   annotation: |
     No in-image annotations available. Additional information at case level
     available on request.
-  download:
-    links:
-    - text: ""
-      url: ""
   countries-shared:
     - "NO"
     - "SE"
@@ -131,18 +129,21 @@ other:
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
-Please [contact](#contact) the copyright holder for terms of access.
+Please contact the dataset provider for terms of access.
+
+{% assign to = page.datacite.provider[0].email -%}
+{%- assign cc = page.datacite.provider | slice: 1, 100 | map: "email" | join: "," -%}
+{%- assign doi = page.datacite['@id'] | remove: "https://doi.org/" -%}
+{%- include access-request-blurb-research.md to=to cc=cc doi=doi dataset_url=page.datacite.url coauthorship="yes" %}
 
 ### AIDA BY CA license
-License v1.2.1
-
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute this data within Analytic
 Imaging Diagnostics Arena ([AIDA](https://medtech4health.se/aida)) for the
-purpose of medical imaging research with or without fee is hereby granted,
+purpose of medical diagnostics research with or without fee is hereby granted,
 provided that the above copyright notice and this permission notice appear in
 all copies, and that publications resulting from the use of this data include
 the authors of this dataset Sofia Jarkman and Martin Lindvall in the author list

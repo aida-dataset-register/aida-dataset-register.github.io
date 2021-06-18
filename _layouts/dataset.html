@@ -167,31 +167,21 @@
             </td>
           </tr>
           <tr>
-            <th>Access <br/> constraints</th>
-            <td>
-              {% for rights in page.datacite.license %}
-                <p>
-                  <a href="{{ rights.id }}">{{ rights.name }}</a>
-                  {% if rights.abstract %}<br/>{{ rights.abstract }}{% endif %}
-                </p>
-              {% endfor %}
-            </td>
-          </tr>
-          <tr>
             <th>Copyright</th>
             <td>
               Copyright {{ page.datacite.copyrightYear }} {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
             </td>
           </tr>
           <tr>
-            <th>Download</th>
+            <th>Access</th>
             <td>
-              Please contact
-              {% for contact in page.datacite.provider %}
-                {% if forloop.last and forloop.index > 1 %} or {% endif %}
-                <a href="mailto:{{ contact.email }}?subject=Requesting access to dataset doi:{{ doi }}">{{ contact.name }}</a>{% unless forloop.last %}, {% endunless %}
+              <p>Available under the following licenses, described in the <a href="#license">License</a> section below.</p>
+              {% for rights in page.datacite.license %}
+                <p>
+                  <a href="{{ rights.id }}">{{ rights.name }}</a>
+                  {% if rights.abstract %}<br/>{{ rights.abstract }}{% endif %}
+                </p>
               {% endfor %}
-              to request access.
             </td>
           </tr>
         </table>

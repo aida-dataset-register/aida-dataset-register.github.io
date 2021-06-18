@@ -26,17 +26,13 @@ datacite:
     "@id": "https://orcid.org/0000-0002-0442-3524"
     "@type": "Person"
   provider:
+  - name: "AIDA Data Hub"
+    email: "aida@nbis.se"
+    "@id": "https://datasets.aida.medtech4health.se"
+    "@type": "Organization"
   - name: "Chunliang Wang"
     email: "chunwan@kth.se"
     "@id": "https://orcid.org/0000-0002-0442-3524"
-    "@type": "Person"
-  - name: "Joel Hedlund"
-    email: "joel.hedlund@liu.se"
-    "@id": "https://orcid.org/0000-0001-6443-3604"
-    "@type": "Person"
-  - name: "Claes Lundstrom"
-    email: "claes.lundstrom@liu.se"
-    "@id": "https://orcid.org/0000-0002-9368-0177"
     "@type": "Person"
   dateCreated: "2019-05-03"
   datePublished: "2019-05-03"
@@ -55,9 +51,7 @@ datacite:
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#controlled-access"
     "@type": "CreativeWork"
     abstract: |
-      Free for use in research or education. Please contact
-      <a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">AIDA</a>
-      for terms of access.
+      Free for use in research or education.
   - name: "AIDA license"
     id: "https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#aida-license"
     "@type": "CreativeWork"
@@ -81,10 +75,6 @@ other:
     based on fuzzy connectedness followed by level set method. Both the
     segmentation mask and annotated anatomical landmarks were created by a
     trained radiologist.
-  download:
-    links:
-    - text: ""
-      url: ""
   countries-shared:
   - "BE"
   - "CN"
@@ -125,21 +115,23 @@ The dataset contains a DICOM SEG file, which can be converted to an ITK image fi
 
 ## License
 ### Controlled access
-Free for use in research or education. Please contact
-<a href="https://datasets.aida.medtech4health.se/10.23698/aida/ctpel#download">AIDA</a>
-for terms of access.
+Free for use in research or education.
+Please contact AIDA for terms of access.
+
+{% assign to = page.datacite.provider[0].email -%}
+{%- assign cc = page.datacite.provider | slice: 1, 100 | map: "email" | join: "," -%}
+{%- assign doi = page.datacite['@id'] | remove: "https://doi.org/" -%}
+{%- include access-request-blurb-research-or-education.md to=to cc=cc doi=doi dataset_url=page.datacite.url %}
 
 ### AIDA BY license
 #### Segmentation masks and anatomical landmark annotations
-License v1.2.1
-
 Copyright
 {{ page.datacite.copyrightYear }}
 {{ page.datacite.copyrightHolder | map: "name" |  join: ", " }}
 
 Permission to use, copy, modify, and/or distribute the data within AIDA
 (Analytic Imaging Diagnostics Arena https://medtech4health.se/aida) for the
-purpose of medical imaging research with or without fee is hereby granted,
+purpose of research or education with or without fee is hereby granted,
 provided that the above copyright notice and this permission notice appear in
 all copies.
 
