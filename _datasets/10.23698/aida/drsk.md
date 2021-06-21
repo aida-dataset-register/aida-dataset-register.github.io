@@ -137,6 +137,12 @@ other:
     url: "/assets/images/10.23698/aida/drsk/to-scale.jpeg"
     thumbnail-url: "/assets/images/10.23698/aida/drsk/to-scale-thumbnail.jpeg"
 ---
+## File formats
+### Pixel position scaling
+Coordinates given are relative to the image *width*. To get the correct pixel
+position, X coordinates (and Y coordinates!) should therefore be multiplied with
+the image *width*.
+
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.

@@ -156,6 +156,11 @@ LNCO1
       which are unassessed 525
     images with at least one detailed tumor annotation: 165
 ```
+## File formats
+### Pixel position scaling
+Coordinates given are relative to the image *width*. To get the correct pixel
+position, X coordinates (and Y coordinates!) should therefore be multiplied with
+the image *width*.
 
 ## License
 ### Controlled access
