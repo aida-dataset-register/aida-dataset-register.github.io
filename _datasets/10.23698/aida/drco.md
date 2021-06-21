@@ -117,7 +117,7 @@ other:
   bytes: 49227373916 # 49 GB
   numberOfScans: 101
   numberOfAnnotations: 756
-  resolution: "40X single plane"
+  resolution: "20X and 40X single plane"
   modality:
   - "SM"
   scanner:
@@ -143,6 +143,12 @@ other:
     url: "/assets/images/10.23698/aida/drco/to-scale.jpeg"
     thumbnail-url: "/assets/images/10.23698/aida/drco/to-scale-thumbnail.jpeg"
 ---
+## File formats
+### Pixel position scaling
+Coordinates given are relative to the image *width*. To get the correct pixel
+position, X coordinates (and Y coordinates!) should therefore be multiplied with
+the image *width*.
+
 ## License
 ### Controlled access
 Free for use in legal and ethical medical diagnostics research.
