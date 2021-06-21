@@ -1,4 +1,3 @@
-{%- capture body -%}
 Hi!
 
 I work at INSTITUTION in COUNTRY, emailing from my institutional account.
@@ -36,11 +35,3 @@ which AIDA uses to demonstrate its utility to the global research community.
 (If "not", then only the institution/department information will be included. This choice of personal participation is not weighed into the access request eligibility evaluation.)
 
 /MY_NAME
-{%- endcapture -%}
-You are invited to send an
-<a href="mailto:{{ include.to }}?cc={{ include.cc }}&subject=Requesting access to dataset doi:{{ include.doi }}&body={{ body | url_encode | replace: '+','%20' }}">access request email</a>
-from your institutional account.
-
-Clicking the access request email link above should open a draft email message
-in a new window, to help you provide relevant information for efficient request
-evaluation.

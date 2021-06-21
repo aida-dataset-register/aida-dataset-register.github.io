@@ -163,10 +163,7 @@ LNCO2
 Free for use in legal and ethical medical diagnostics research.
 Please contact the dataset provider for terms of access.
 
-{% assign to = page.datacite.provider[0].email -%}
-{%- assign cc = page.datacite.provider | slice: 1, 100 | map: "email" | join: "," -%}
-{%- assign doi = page.datacite['@id'] | remove: "https://doi.org/" -%}
-{%- include access-request-blurb-research.md to=to cc=cc doi=doi dataset_url=page.datacite.url %}
+{% include access-request-blurb.md %}
 
 ### AIDA BY license
 Copyright

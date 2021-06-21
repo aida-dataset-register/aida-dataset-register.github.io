@@ -117,11 +117,9 @@ other:
 Free for use in legal and ethical medical diagnostics research.
 Please contact AIDA for terms of access.
 
-{% assign to = page.datacite.provider[0].email -%}
-{%- assign cc = page.datacite.provider | slice: 1, 100 | map: "email" | join: "," -%}
-{%- assign doi = page.datacite['@id'] | remove: "https://doi.org/" -%}
-{%- assign agreement_template_url = "https://docs.google.com/document/d/1a020Mukn9cjJF88vEYW9OUUDIc2E3dHbSBQi_jb8Yd0" -%}
-{%- include access-request-blurb-research.md to=to cc=cc doi=doi dataset_url=page.datacite.url agreement_template_url=agreement_template_url %}
+{% include access-request-blurb.md
+  agreement_template_url="https://docs.google.com/document/d/1a020Mukn9cjJF88vEYW9OUUDIc2E3dHbSBQi_jb8Yd0"
+  coauthorship="yes" %}
 
 ### AIDA BY CA license
 Copyright
@@ -138,7 +136,7 @@ the authors of this dataset in the author list and cite the following works:
 {{ page.datacite.author | map: "name" | array_to_sentence_string }}
 ({{ page.datacite.datePublished | date: "%Y" }})
 {{ page.datacite.name }}
-[doi:{{ doi }}]({{ page.datacite["@id"] }}).
+[doi:{{ page.datacite['@id'] | remove: "https://doi.org/" }}]({{ page.datacite["@id"] }}).
 
 THE DATA IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
 TO THIS DATA INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN

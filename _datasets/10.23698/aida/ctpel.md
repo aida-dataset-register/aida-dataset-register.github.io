@@ -118,10 +118,7 @@ The dataset contains a DICOM SEG file, which can be converted to an ITK image fi
 Free for use in research or education.
 Please contact AIDA for terms of access.
 
-{% assign to = page.datacite.provider[0].email -%}
-{%- assign cc = page.datacite.provider | slice: 1, 100 | map: "email" | join: "," -%}
-{%- assign doi = page.datacite['@id'] | remove: "https://doi.org/" -%}
-{%- include access-request-blurb-research-or-education.md to=to cc=cc doi=doi dataset_url=page.datacite.url %}
+{% include access-request-blurb.md email_template="access-request-email-research-or-education.md" %}
 
 ### AIDA BY license
 #### Segmentation masks and anatomical landmark annotations
