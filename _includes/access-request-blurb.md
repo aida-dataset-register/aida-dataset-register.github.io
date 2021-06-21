@@ -6,8 +6,7 @@ from your institutional account.
 
 Clicking the access request email link above should open a draft email message
 in a new window, to help you provide relevant information for efficient request
-evaluation. If the above link does not work for you, then check your
-default/preferred applications, or click to view the
+evaluation. If the above link does not work for you, then please click to view the
 <a id="request-email-toggle">suggested email text</a>.
 
 <div id="request-email" class="hidden revealable small">
