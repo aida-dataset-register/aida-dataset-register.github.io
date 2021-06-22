@@ -54,9 +54,6 @@ AIDA is a collaboration arena for academia, industry and healthcare and supports
 
 Please see the [AIDA data sharing policy](../sharing/) for more details.
 
-### Anonymous vs identifiable data
-Currently, AIDA exclusively uses anonymized data. However to facilitate export and work with larger amounts of data, AIDA is planning to establish a platform that is secure enough to store, share and process also identifiable data.
-
 ## Acknowledgements
 This site uses the following free and open services and technologies:
 
