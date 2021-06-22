@@ -15,7 +15,7 @@ or submit a [pull request](https://github.com/aida-doi-repository/aida-doi-repos
 For questions regarding data or the AIDA data hub please contact the
 [AIDA data director](mailto:aida-data-director@medtech4health.se).
 
-For all other inquiries about please contact [AIDA](mailto:aida-director@medtech4health.se).
+For all other inquiries please contact [AIDA](mailto:aida@nbis.se).
 
 ## What are DOIs and dataset registers?
 The AIDA data hub facilitates sharing datasets for machine learning in medical
