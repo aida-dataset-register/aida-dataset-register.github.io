@@ -30,7 +30,7 @@ Also, I would like to ALTERNATIVELY_WOULD_NOT_LIKE_TO be included in the public 
 
 https://docs.google.com/spreadsheets/d/1fl2BwZJ4rivOKzOCy5pAnxU8N1CyoF86BTCnH-rBV04
 
-which AIDA uses to demonstrate its utility to the global research community.
+which is used to facilitate scientific disussion, and to show what good AIDA has been to the global research community.
 
 (If "not", then only the institution/department information will be included.)
 
